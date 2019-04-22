@@ -1,0 +1,80 @@
+﻿*{padding:0;margin:0;}
+a:link,a:visited{text-decoration: none;color:#333;}
+ul{list-style: none;}
+.fr{float: right;}
+.fl{float: left;}
+body{font:12px/1.5em "Microsoft Yahei";}
+.preview_top{position: relative; z-index:2000; width:100%;height:50px;font-size:16px;line-height:50px;color:#fff;background: #0cf; cursor: pointer;}
+.p_pof{position:fixed;top:0;left:0;z-index:2000;}
+.preview_content{margin:0 auto;position: relative; min-width:1000px;}
+.preview_content p span{margin:0 20px 0 0;}
+.preview_content input{float: left;width:214px;height:50px;text-align: center;color:#fff;line-height:50px;background: #474a4e url(../images/copytem.png) no-repeat 30px center;font-size:16px;border:none;outline:0;  cursor: pointer;}
+.preview_content input:hover{background-color: #f80;}
+.headtop{width:100%;height:50px;display:none;}
+.preview_top .versions_icons{position: absolute;top:0px;right:0;height:50px;background: #fff;}
+.preview_top .versions_icons a{position:relative;float:left;width:68px;height:50px;margin:0 2px 0 0;}
+.preview_top .versions_icons a b{position:absolute;top:0;right:0;left:0;bottom:0;margin:auto;display: block;width:30px;height:30px;background: url(../images/top_icons.png) no-repeat;}
+.preview_top .versions_icons .pc_icon{background-color:#d84a38;margin-left:2px;}
+.preview_top .versions_icons .pc_icon b{background-position:4px 4px;}
+.preview_top .versions_icons .phone_icon{background-color: #0cf;}
+.preview_top .versions_icons .phone_icon b{background-position:5px -31px;}
+.preview_top .versions_icons a span{display:none;position:absolute;top:50px;left:-21px;padding:5px 0 0 0;background:url(../images/bottom_arrow.png) no-repeat center top;}
+.preview_top .versions_icons a i{display:block;width:84px;text-align:center;background:#333 ;padding:0 9px;line-height:26px;border-radius:2px;font-size: 12px;color:#fff;}
+.preview_top .versions_icons a:hover{background-color:#f80;}
+.preview_top .versions_icons a:hover span{display:block;}
+.preview_top .versions_icons .version_current{background-color:#f80;}
+.preview_top .industry_detail {margin:0 520px 0 0;}
+.preview_top .industry_hd{padding:0 0 0 164px;}
+.preview_top .versions_icons .select-use{width: 79px;background:#0cf;margin-right:0;margin-left:2px;color:#fff;text-indent:31px;}
+.preview_top .versions_icons .select-use b{margin:auto 0;background-position:-306px -340px;}
+
+/*下拉框行业*/
+.more_modules{width:100%;background:#fff;height:230px;position: absolute;top:-100%;z-index:200;overflow: hidden;  border-bottom: 1px solid #e3e3e3;
+  box-shadow: 0 3px 4px 0 rgba(0,0,0,0.15);display: none;}
+.more_modules .select_content{width:1000px;margin:0 auto;height:228px;overflow: hidden;position: relative;}
+.more_modules ul{width:200000px;position: absolute;top:50px;left:0;height:180px;z-index:20;}
+.more_modules li a{float: left; width:154px; height:130px;margin:0 21px;border:2px solid #fff;position: relative;overflow:hidden;}
+.more_modules li a span{display: none;width:43px;height:42px;position: absolute;top:-2px;right:-2px;background:url(../images/preview_icons.png) no-repeat 0px 0px;}
+.more_modules li a.a_checked,.more_modules li a:hover{border:2px solid #ee8100;}
+.more_modules li a.a_checked span{display: block;}
+.more_modules li img{width:100%;}
+.modules_content{width:1000px;margin:0 auto;}
+.preview_buts{width:1000px;height:53px;position: absolute;top:86px;z-index:10;}
+.preview_buts a{display: block;width:27px;height:53px;background:url(../images/preview_icons.png) no-repeat -8px -244px;position: absolute;top:0;}
+.preview_buts a.rightbut{background-position: -8px -244px;right:-66px;}
+.preview_buts a.leftbut{left:-64px;background-position: -8px -397px;}
+.preview_buts a.rightbut.unclick{background-position: -8px -169px;}
+.preview_buts a.leftbut.unclick{background-position: -8px -322px;}
+.preview_close{display: block;width:19px;height:21px;background:url(../images/preview_icons.png) no-repeat -8px -113px ;position: absolute;top:10px;right:20px;}
+/*手机*/
+.preview_phone{position:absolute;top:50%;left:50%;margin-top:-254px;margin-left:-260px;display:none;width:360px;height:554px;background: url(../images/smallphone.png) no-repeat; /*position: fixed;bottom:10px;right:20px;z-index:1800;cursor:move;*/
+}
+.preview_phone.screen1920{width:295px;height:592px; background-size:100% 100%;}
+.preview_phone.screen1024{width:;height:; background-size:100% 100%;}
+.preview_phone.screen1366{width:;height:; background-size:100% 100%;}
+.preview_phone.screen800{width:;height:; background-size:100% 100%;}
+.gray_body{width:100%;height:100%;background: #000;opacity: 0.6;position: absolute;z-index:1700;top:0;left:0;display: none;}
+#mobiReviewPageFrame{margin-top: 55px;margin-left: 21px;}
+.phone_code{position: absolute;top:156px;right: -286px;}
+#PhoneCode{position:relative;padding:0px 0px 46px;background: #fff;}
+#PhoneCode img{border:1px solid #ddd;padding:7px;}
+.code_tip{position:absolute;width: 100%;bottom:12px;font-size: 14px;color:#999;text-align: center;}
+/*#mobiReviewPageFrame{position: absolute; top: 42px;left: 15px;}*/
+#mobiReviewPageFrame body{font-size:14px!important;}
+/*悬浮图标*/
+.float_button{position: absolute; top:0px; right:5px; z-index:1900; width:32px; height:32px;    }
+.float_button a{position: relative; display: block; width:100%; height:100%; /*border:1px solid transparent; */border-radius:20px; transition:all ease 0.3s; background-color: rgba(54,54,54,.85);}
+.float_button span{position: absolute; top:9px; left:9px; display: inline-block; width:4px; height:4px; border:1px solid #fff; border-radius:2px;}
+.float_button .co1{ border-color:#91DE87; background: #91DE87; border-bottom-right-radius:0;}
+.float_button .co2{left:17px; border-color:#F6CB4C; background: #F6CB4C; border-bottom-left-radius:0;}
+.float_button .co3{top:17px;border-color:#61BDED; background: #61BDED; border-top-right-radius:0;}
+.float_button .co4{top:17px; left:17px; border-color:#E69D9E; background: #E69D9E; border-top-left-radius:0;}
+.float_button a.ahover{color: #3A92D9;}
+.float_button a.ahover .co1{border-color:#61BDED; background: #61BDED;transition-delay: 100ms;}
+.float_button a.ahover .co2{border-color:#91DE87; background: #91DE87;transition-delay: 200ms;}
+.float_button a.ahover .co3{ border-color:#E69D9E; background: #E69D9E; transition-delay: 300ms;}
+.float_button a.ahover .co4{ border-color:#F6CB4C; background: #F6CB4C; transition-delay: 400ms;}
+.float_button a.aout .co4{border-color:#E69D9E; background: #E69D9E; transition-delay: 100ms;}
+.float_button a.aout .co3{border-color:#61BDED; background: #61BDED; transition-delay: 200ms;}
+.float_button a.aout .co2{ border-color:#F6CB4C; background: #F6CB4C; transition-delay: 300ms;}
+.float_button a.aout .co1{border-color:#91DE87; background: #91DE87; transition-delay: 400ms;}
