@@ -253,8 +253,8 @@
                                 <!-- banner图 -->
                                 <div id="show_banner" class="swiper-wrapper" index="110886">
                                     <div id="banner5ad5ce62a310c794cd2d7118" class="swiper-slide swiper-no-swiping "
-                                         style="background: url(/home/static/images/wkgbs1rgyxmafq5aaabajdcdha4321.jpg) center center no-repeat; width:100%; height:650px;"
-                                         img_src="/home/static/images/wkgbs1rgyxmafq5aaabajdcdha4321.jpg"
+                                         style="background: url(/home/static/images/wkgbtfrgye2ar9r5aagyexnymce049.jpg) center center no-repeat; width:100%; height:650px;"
+                                         img_src="/home/static/images/wkgbtfrgye2ar9r5aagyexnymce049.jpg"
                                          banner_id="5ad5ce62a310c794cd2d7118" advertising_id="35293" custom_flg="1"
                                          onclick="tiaozhuan(&#39;&#39;)"></div>
                                 </div>
