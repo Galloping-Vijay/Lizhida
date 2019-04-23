@@ -43,7 +43,7 @@
             <div id="logoPictureContainer" class="mousetest">
                 <div id="logo_picture" style="display:block">
                     <a href="/"><img id="logoimg"
-                                                                 src="/home/static//picture/wKgBS1rgySSASTXdAAAUZPrhyls314.jpg"
+                                                                 src="/home/static//picture/wkgbs1rgyssastxdaaauzprhyls314.jpg"
                                                                  title="励致达"></a>
                 </div>
                 <!-- 购物车 -->
@@ -389,7 +389,7 @@
 
                                         <a href="javascript:void(0);">
 
-                                            <img src="/home/static//picture/wKgBTFrgyTaAQ5QUAAANpnwioSw123.png"
+                                            <img src="/home/static//picture/wkgbtfrgytaaq5quaaanpnwiosw123.png"
                                                  id="111221preImg1" width="100%" height="100%">
 
 
