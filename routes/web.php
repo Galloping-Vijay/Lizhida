@@ -18,11 +18,11 @@ Route::get('/', 'Home\IndexController@index');
 //产品中心
 Route::get('/product', 'Home\ProductController@index');
 //产品详情
-Route::get('/product/show', 'Home\ProductController@show');
+Route::get('/product/show/{id}', 'Home\ProductController@show');
 //新闻中心
 Route::get('/news', 'Home\NewsController@index');
 //新闻详情
-Route::get('/news/show', 'Home\NewsController@show');
+Route::get('/news/show/{id}', 'Home\NewsController@show');
 //关于我们
 Route::get('/about', 'Home\IndexController@about');
 //联系我们

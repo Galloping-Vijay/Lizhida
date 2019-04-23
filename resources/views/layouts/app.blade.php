@@ -1,263 +1,39 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title>App Name - @yield('title')</title>
+    <title> @yield('title')</title>
     @section('head')
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
         <meta name="keywords" content=""/>
         <meta name="description" content=""/>
-        <link href="home/static/css/enterprise.css" rel="stylesheet" type="text/css"/>
-        <link href="home/static/css/front.css" rel="stylesheet" type="text/css"/>
-        <link href="home/static/css/nav.css" rel="stylesheet" type="text/css"/>
-        <link href="home/static/css/border.css" rel="stylesheet" type="text/css"/>
-        <link href="home/static/css/module.css" rel="stylesheet" type="text/css"/>
-        <link href="home/static/css/tabstyle.css" rel="stylesheet" type="text/css"/>
-        <link href="home/static/css/styledesign.css" rel="stylesheet" type="text/css"/>
-        <link href="home/static/css/bootstrap-combined.min.css" rel="stylesheet" type="text/css"/>
-        <link href="home/static/css/layoutit.css" rel="stylesheet" type="text/css"/>
-        <link href="home/static/css/contentstyle.css" rel="stylesheet" type="text/css"/>
-        <link href="home/static/css/channletree.css" rel="stylesheet" type="text/css"/>
-        <link href="home/static/css/product.css" rel="stylesheet" type="text/css"/>
-        <link href="home/static/css/photo.min.css" rel="stylesheet" type="text/css"/>
-        <link href="home/static/css/jquery.alerts.css" rel="stylesheet" type="text/css"/>
-        <link href="home/static/css/jquery.icolor.css" rel="stylesheet" type="text/css"/>
-        <!-- <link href="home/static/css/jrf.dialog.css" rel="stylesheet" type="text/css"/>-->
-        <link href="home/static/css/searchboxstyle1.min.css" rel="stylesheet" type="text/css"/>
-        <link href="home/static/css/member.css" rel="stylesheet" type="text/css"/>
-        <link type="text/css" href="home/static/css/icommon.css" rel="stylesheet" />
-        <link rel="stylesheet" href="home/static/css/slider8-111.css">
-        <link href="home/static/css/logopreiew.css" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="home/static/css/preview.css" type="text/css"></link>
-        <link rel="stylesheet" href="home/static/css/animate.min.css" />
-        <script src="home/static/js/jquery-core.min.js" type="text/javascript"></script>
-        <script type="text/javascript" src="home/static/js/layer.js"></script>
-        <style id="stylemodule" type="text/css">
-            #module111221 {width:200px ;}
-            #module111221 {z-index:502;}
-            #module111221 .formBanner111221{display:none;}
-            #module111215 {z-index:501;}
-            #modulenav228a00001 .itemSelected .itemName0{color:rgba(57,57,160,1);}
-            #modulenav228a00001 .itemHover .itemName0{color:rgba(57,57,160,1);}
-            #modulenav228a00001 .itemName0{font-size:16px;}
-            #modulenav228a00001 .mainnav{height:80px;}
-            #modulenav228a00001 .navCenterContent{height:80px;}
-            #modulenav228a00001 .navCenter{height:80px;}
-            #modulenav228a00001 .itemContainer{height:80px;}
-            #modulenav228a00001 {height:px;}
-            #modulenav228a00001 .navCenter a{line-height:80px;}
-            #webBannerbk{height:80px;}
-            #logo_picture img{width:100%;}
-            #logo_picture img{height:100%;}
-            #logo_picture{width:115.26829268292683px;}
-            #logo_picture{height:34px;}
-            #navigationBox1181{width:1000px;}
-            #modulenav228a00001 {width:0px;}
-            #modulenav228a00001 .navContent{width:0px;}
-            #modulenav228a00001 .navCenter{width:0;}
-            #logo_picture{left:0px;}
-            #logo_picture{position:absolute;}
-            #webFooterbk{background:rgba(57,57,160,1);}
-            #webFooterbk #design_foot{font-family:微软雅黑;}
-            #webFooterbk #design_foot{font-size:14px;}
-            #webFooterbk #design_foot{color:rgba(255, 255, 255,1);}
-            #webFooterbk #design_foot a{font-family:微软雅黑;}
-            #webFooterbk #design_foot a{font-size:14px;}
-            #webFooterbk #design_foot a{color:rgba(255, 255, 255,1);}
-            #webFooterbk #design_foot a:hover{color:rgba(255, 255, 255,1);}
-            #webFooterbk #design_foot{padding-top:200px;}
-            #webFooterbk #design_foot{padding-bottom:0px;}
-            #webFooterbk #design_foot{padding-left:0px;}
-            #webFooterbk #design_foot{padding-right:0px;}
-            #module111215 .formBanner111215{display:none;}
-            #module111215 {width:233px ;}
-            #module111215 .formMiddle111215{background:none;}
-            #module111215 .formMiddle111215 .formMiddleCenter111215{background:none;}
-            #module111215 .formMiddleContent111215{background:none;}
-            #modulenav228a00001 {left:430px;}
-            #modulenav228a00001 {top:-79px;}
-            #multilanguage{left:984px;}
-            #multilanguage{position:absolute;}
-            #multilanguage{top:22px;}
-            #undefined {height:300px;}
-            #module111201 .formMiddle111201{padding-bottom:30px;}
-            #module111201 .formMiddle111201{padding-top:20px;}
-            #module111201 .formMiddle111201{padding-left:0px;}
-            #module111201 .formMiddle111201{padding-right:0px;}
-            #module111201 {padding-bottom:0px;}
-            #module111201 {padding-top:0px;}
-            #module111201 {padding-left:0px;}
-            #module111201 {padding-right:0px;}
-            #module111201 {margin-bottom:0px;}
-            #module111201 {margin-top:0px;}
-            #module111201 {margin-left:0px;}
-            #module111201 {margin-right:0px;}
-            #module111201 {height:100%;}
-            #module111201 .formBanner111201{display:none;}
-            #module111200 .formMiddle111200{padding-bottom:10px;}
-            #module111200 .formMiddle111200{padding-top:50px;}
-            #module111200 .formMiddle111200{padding-left:0px;}
-            #module111200 .formMiddle111200{padding-right:0px;}
-            #module111200 {background:rgba(0, 0, 0,0) url(home/static/images/wkgbs1s7b4cawutdaaakhnkqsw4079.png)  no-repeat center center ;}
-            #module111200 .formMiddleContent111200{background:none;}
-            #module111200 .formMiddle111200 .formMiddleCenter111200{background:none;}
-            #module111200 .formMiddle111200{background:none;}
-            #module111200 {width:1098px ;}
-            #module111200 .formBanner111200{display:none;}
-            #module111188 {z-index:509;}
-            #module111093 .formMiddle111093{padding-bottom:10px;}
-            #module111093 .formMiddle111093{padding-top:50px;}
-            #module111093 .formMiddle111093{padding-left:0px;}
-            #module111093 .formMiddle111093{padding-right:0px;}
-            #module111093 {background:rgba(0, 0, 0,0) url(home/static/images/wkgbs1s7b2yaaellaaanrjrcbim495.png)  no-repeat center center ;}
-            #module111093 .formMiddleContent111093{background:none;}
-            #module111093 .formMiddle111093 .formMiddleCenter111093{background:none;}
-            #module111093 .formMiddle111093{background:none;}
-            #module111093 .formBanner111093{display:none;}
-            #module110887 .formBanner110887{display:none;}
-            #module110887 .formMiddle110887{padding-right:0px;}
-            #module110887 .formMiddle110887{padding-left:0px;}
-            #module110887 .formMiddle110887{padding-top:50px;}
-            #module110887 .formMiddle110887{padding-bottom:10px;}
-            #module110976 .formBanner110976{display:none;}
-            #module110976 {margin-right:0px;}
-            #module110976 {margin-left:0px;}
-            #module110976 {margin-top:0px;}
-            #module110976 {margin-bottom:0px;}
-            #module110976 {padding-right:0px;}
-            #module110976 {padding-left:0px;}
-            #module110976 {padding-top:0px;}
-            #module110976 {padding-bottom:0px;}
-            #module110976 .formMiddle110976{padding-right:0px;}
-            #module110976 .formMiddle110976{padding-left:0px;}
-            #module110976 .formMiddle110976{padding-top:30px;}#module110976 .formMiddle110976{padding-bottom:0px;}
-            #module111101 .formBanner111101{display:none;}
-            #module111101 {width:1901px ;}
-            #module111101 {z-index:501;}
-            #module111102 .formBanner111102{display:none;}
-            #module111102 {width:1901px ;}
-            #module111102 {z-index:502;}
-            #module111103 .formBanner111103{display:none;}
-            #module111103 {width:1901px ;}
-            #module111103 {z-index:503;}
-            #module111104 .formBanner111104{display:none;}
-            #module111104 {width:1901px ;}
-            #module111104 {z-index:504;}
-            #module111105 .formBanner111105{display:none;}
-            #module111105 {width:1901px ;}
-            #module111105 {z-index:505;}
-            #module111106 .formBanner111106{display:none;}
-            #module111106 {width:1901px ;}
-            #module111106 {z-index:506;}
-            #module111093 {width:1098px ;}
-            #module111108 .formBanner111108{display:none;}
-            #module111108 {width:1098px ;}
-            #module111108 .formMiddle111108{background:none;}
-            #module111108 .formMiddle111108 .formMiddleCenter111108{background:none;}
-            #module111108 .formMiddleContent111108{background:none;}
-            #module111108 {background:#fff url(home/static/images/wkgbs1s7b4camfftaaanogrineg513.png)  no-repeat center center ;}
-            #module111108 .formMiddle111108{padding-right:0px;}
-            #module111108 .formMiddle111108{padding-left:0px;}
-            #module111108 .formMiddle111108{padding-top:50px;}
-            #module111108 .formMiddle111108{padding-bottom:10px;}
-            #module111113 .formBanner111113{display:none;}
-            #module111113 {border-right-width:5px;}
-            #module111113 {border-left-width:5px;}
-            #module111113 {border-top-width:5px;}
-            #module111113 {border-bottom-width:5px;}
-            #module111113 {border-color:rgba(57,57,160,1);}
-            #module111113 {border-style:solid;}
-            #module111113 {height:384px;}
-            #module111113 {width:190px ;}
-            #module111115 .formBanner111115{display:none;}
-            #module111115 {height:394px;}
-            #module111115 .formMiddle111115{background:none;}
-            #module111115 .formMiddle111115 .formMiddleCenter111115{background:none;}
-            #module111115 .formMiddleContent111115{background:none;}
-            #module111115 {background:rgba(57,57,160,1);}
-            #module111115 {width:350px ;}
-            #module111113 {z-index:100;}
-            #module111115 {z-index:501;}
-            #module111116 .formBanner111116{display:none;}
-            #module111116 {width:548px ;}
-            #module111116 {z-index:502;}
-            #module111120 .formBanner111120{display:none;}
-            #module111120 {width:570px ;}
-            #module111121 {width:160px ;}
-            #module111121 {z-index:503;}
-            #module111126 .formBanner111126{display:none;}
-            #module111126 {width:1901px ;}
-            #module111126 .formMiddle111126{background:none;}
-            #module111126 .formMiddle111126 .formMiddleCenter111126{background:none;}
-            #module111126 .formMiddleContent111126{background:none;}
-            #module111126 {background:rgba(0, 0, 0,0) url(home/static/images/wkgbs1s7b2yaaw-qaaanrmfkibs925.png)  no-repeat center center ;}
-            #module111126 .formMiddle111126{padding-right:0px;}
-            #module111126 .formMiddle111126{padding-left:0px;}
-            #module111126 .formMiddle111126{padding-top:50px;}
-            #module111126 .formMiddle111126{padding-bottom:10px;}
-            #module111185 .formBanner111185{display:none;}
-            #module111185 {z-index:501;}
-            #module111186 .formBanner111186{display:none;}
-            #module111186 {z-index:502;}
-            #module111187 .formBanner111187{display:none;}
-            #module111187 {z-index:503;}
-            #module111188 .formBanner111188{display:none;}
-            #module111185 {width:100px ;}
-            #module111186 {width:100px ;}
-            #module111187 {width:100px ;}
-            #module111188 {width:100px ;}
-            #module111190 .formBanner111190{display:none;}
-            #module111190 {z-index:505;}
-            #module111190 {width:257px ;}
-            #module111194 .formBanner111194{display:none;}
-            #module111194 {width:1901px ;}
-            #module111194 {z-index:506;}
-            #module111195 .formBanner111195{display:none;}
-            #module111195 {width:1901px ;}
-            #module111195 {z-index:507;}
-            #module111196 .formBanner111196{display:none;}
-            #module111196 {width:1901px ;}
-            #module111196 {z-index:508;}
-            #module110887 {width:1098px ;}
-            #module111104 .formMiddle111104{background:none;}
-            #module111104 .formMiddle111104 .formMiddleCenter111104{background:none;}
-            #module111104 .formMiddleContent111104{background:none;}
-            #module111106 .formMiddle111106{background:none;}
-            #module111106 .formMiddle111106 .formMiddleCenter111106{background:none;}
-            #module111106 .formMiddleContent111106{background:none;}
-            #module111105 .formMiddle111105{background:none;}
-            #module111105 .formMiddle111105 .formMiddleCenter111105{background:none;}
-            #module111105 .formMiddleContent111105{background:none;}
-            #module111113 .formMiddle111113{background:none;}
-            #module111113 .formMiddle111113 .formMiddleCenter111113{background:none;}
-            #module111113 .formMiddleContent111113{background:none;}
-            #module111190 .formMiddle111190{background:none;}
-            #module111190 .formMiddle111190 .formMiddleCenter111190{background:none;}
-            #module111190 .formMiddleContent111190{background:none;}
-            #module111195 .formMiddle111195{background:none;}
-            #module111195 .formMiddle111195 .formMiddleCenter111195{background:none;}
-            #module111195 .formMiddleContent111195{background:none;}
-            #module111196 .formMiddle111196{background:none;}
-            #module111196 .formMiddle111196 .formMiddleCenter111196{background:none;}
-            #module111196 .formMiddleContent111196{background:none;}
-            #module111194 .formMiddle111194{background:none;}
-            #module111194 .formMiddle111194 .formMiddleCenter111194{background:none;}
-            #module111194 .formMiddleContent111194{background:none;}
-            #row7801 {background-image:url(home/static/images/wkgbs1s7b22avtwiaaopfnxnujm766.jpg);}
-            #row7801 {background-position:center center;}
-            #row7801 {background-repeat:no-repeat;}
-            #row32613 {height:300px;}
-            #row76590 {background-repeat:no-repeat;}
-            #row76590 {background-position:center center;}
-            #row76590 {background-image:url(home/static/images/wkgbs1s7b22alskxaaalp8mgg-0853.png);}
-            #row7801 {height:402px;}
-            #row92 >div[class^='span']:nth-child(1){width:52%;}
-            #row92 >div[class^='span']:nth-child(2){width:48%;}
-            #row92 {height:471px;}
-            #row44085 {background-repeat:no-repeat;}
-            #row44085 {background-position:center center;}
-            #row44085 {background-image:url(home/static/images/wkgbs1s7b22afxbeaaiqszs2qfw225.jpg);}
-            #row44085 {height:561px;}</style>
+        <link href="/home/static//css/enterprise.css" rel="stylesheet" type="text/css"/>
+        <link href="/home/static//css/front.css" rel="stylesheet" type="text/css"/>
+        <link href="/home/static//css/nav.css" rel="stylesheet" type="text/css"/>
+        <link href="/home/static//css/border.css" rel="stylesheet" type="text/css"/>
+        <link href="/home/static//css/module.css" rel="stylesheet" type="text/css"/>
+        <link href="/home/static//css/tabstyle.css" rel="stylesheet" type="text/css"/>
+        <link href="/home/static//css/styledesign.css" rel="stylesheet" type="text/css"/>
+        <link href="/home/static//css/bootstrap-combined.min.css" rel="stylesheet" type="text/css"/>
+        <link href="/home/static//css/layoutit.css" rel="stylesheet" type="text/css"/>
+        <link href="/home/static//css/contentstyle.css" rel="stylesheet" type="text/css"/>
+        <link href="/home/static//css/channletree.css" rel="stylesheet" type="text/css"/>
+        <link href="/home/static//css/product.css" rel="stylesheet" type="text/css"/>
+        <link href="/home/static//css/photo.min.css" rel="stylesheet" type="text/css"/>
+        <link href="/home/static//css/jquery.alerts.css" rel="stylesheet" type="text/css"/>
+        <link href="/home/static//css/jquery.icolor.css" rel="stylesheet" type="text/css"/>
+        <!-- <link href="/home/static//css/jrf.dialog.css" rel="stylesheet" type="text/css"/>-->
+        <link href="/home/static//css/searchboxstyle1.min.css" rel="stylesheet" type="text/css"/>
+        <link href="/home/static//css/member.css" rel="stylesheet" type="text/css"/>
+        <link type="text/css" href="/home/static//css/icommon.css" rel="stylesheet" />
+        <link rel="stylesheet" href="/home/static//css/slider8-111.css">
+        <link href="/home/static//css/logopreiew.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="/home/static//css/preview.css" type="text/css"></link>
+        <link rel="stylesheet" href="/home/static//css/animate.min.css" />
+        <script src="/home/static//js/jquery-core.min.js" type="text/javascript"></script>
+        <script type="text/javascript" src="/home/static//js/layer.js"></script>
+
     @show
+    @yield('style')
 </head>
 <body id="bodyDesign" style="height: 245px;">
 @section('nav')
@@ -267,7 +43,7 @@
             <div id="logoPictureContainer" class="mousetest">
                 <div id="logo_picture" style="display:block">
                     <a href="/"><img id="logoimg"
-                                                                 src="home/static/picture/wKgBS1rgySSASTXdAAAUZPrhyls314.jpg"
+                                                                 src="/home/static//picture/wKgBS1rgySSASTXdAAAUZPrhyls314.jpg"
                                                                  title="励致达"></a>
                 </div>
                 <!-- 购物车 -->
@@ -613,7 +389,7 @@
 
                                         <a href="javascript:void(0);">
 
-                                            <img src="home/static/picture/wKgBTFrgyTaAQ5QUAAANpnwioSw123.png"
+                                            <img src="/home/static//picture/wKgBTFrgyTaAQ5QUAAANpnwioSw123.png"
                                                  id="111221preImg1" width="100%" height="100%">
 
 
