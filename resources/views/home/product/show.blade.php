@@ -95,7 +95,7 @@
                                             <div id="preview">
                                                 <div class="big_pro_img jqzoom" id="spec-n1">
                                                     <img width="400" height="400"
-                                                         src="/home/static/picture/wKgBS1rgyXmAGValAAA0jER4LzY993.jpg"
+                                                         src="/home/static/picture/wkgbs1rgyxmagvalaaa0jer4lzy993.jpg"
                                                          jqimg="/">
                                                 </div>
                                                 <div id="spec-n5" class="thumb_img">
@@ -110,11 +110,11 @@
                                                             </li>
                                                             <li onclick="showThumb(this);" class=""><img
                                                                         alt="生活污水处理设备"
-                                                                        src="/home/static/picture/wKgBS1rgyXmAf0hEAACI79ZN6NQ539.jpg">
+                                                                        src="/home/static/picture/wkgbs1rgyxmaf0heaaci79zn6nq539.jpg">
                                                             </li>
                                                             <li onclick="showThumb(this);" class=""><img
                                                                         alt="生活污水处理设备"
-                                                                        src="/home/static/picture/wKgBS1rgyXmAFq5AAABaJDcdHA4321.jpg">
+                                                                        src="/home/static/picture/wkgbs1rgyxmafq5aaabajdcdha4321.jpg">
                                                             </li>
                                                             <li onclick="showThumb(this);" class=""><img
                                                                         alt="生活污水处理设备"
@@ -122,7 +122,7 @@
                                                             </li>
                                                             <li onclick="showThumb(this);" class="current"><img
                                                                         alt="生活污水处理设备"
-                                                                        src="/home/static/picture/wKgBS1rgyXmAGValAAA0jER4LzY993.jpg">
+                                                                        src="/home/static/picture/wkgbs1rgyxmagvalaaa0jer4lzy993.jpg">
                                                             </li>
                                                         </ul>
                                                     </div>

@@ -253,8 +253,8 @@
                                 <!-- banner图 -->
                                 <div id="show_banner" class="swiper-wrapper" index="110886">
                                     <div id="banner5ad5ce62a310c794cd2d7118" class="swiper-slide swiper-no-swiping "
-                                         style="background: url(/home/static/images/wKgBTFrgyE2AR9R5AAGyEXnyMcE049.jpg) center center no-repeat; width:100%; height:650px;"
-                                         img_src="/home/static/images/wKgBTFrgyE2AR9R5AAGyEXnyMcE049.jpg"
+                                         style="background: url(/home/static/images/wkgbs1rgyxmafq5aaabajdcdha4321.jpg) center center no-repeat; width:100%; height:650px;"
+                                         img_src="/home/static/images/wkgbs1rgyxmafq5aaabajdcdha4321.jpg"
                                          banner_id="5ad5ce62a310c794cd2d7118" advertising_id="35293" custom_flg="1"
                                          onclick="tiaozhuan(&#39;&#39;)"></div>
                                 </div>
@@ -500,7 +500,7 @@
                                         <a href="">
                                             <div class="c-img">
                                                 <img alt="厂家直销EDI高纯水设备"
-                                                     src="home/static/picture/wKgBS1rgyXmAf0hEAACI79ZN6NQ539.jpg"
+                                                     src="home/static/picture/wkgbs1rgyxmaf0heaaci79zn6nq539.jpg"
                                                      title="厂家直销EDI高纯水设备">
                                             </div>
                                             <div class="c-probottom">
@@ -520,7 +520,7 @@
                                         <a href="/">
                                             <div class="c-img">
                                                 <img alt="电脑全自动数控弹簧机"
-                                                     src="home/static/picture/wKgBS1rgyXmAFq5AAABaJDcdHA4321.jpg"
+                                                     src="home/static/picture/wkgbs1rgyxmafq5aaabajdcdha4321.jpg"
                                                      title="电脑全自动数控弹簧机">
                                             </div>
                                             <div class="c-probottom">
@@ -540,7 +540,7 @@
                                         <a href="/">
                                             <div class="c-img">
                                                 <img alt="化工原料水包装机肥料水包装机，液包机"
-                                                     src="home/static/picture/wKgBS1rgyXiAdTuiAAAySorsaR0766.jpg"
+                                                     src="home/static/picture/wkgbs1rgyxiadtuiaaaysorsar0766.jpg"
                                                      title="化工原料水包装机肥料水包装机，液包机">
                                             </div>
                                             <div class="c-probottom">
@@ -560,7 +560,7 @@
                                         <a href="/">
                                             <div class="c-img">
                                                 <img alt="金属导体行业反渗透设备、去离子水设备"
-                                                     src="home/static/picture/wKgBS1rgyXmAGValAAA0jER4LzY993.jpg"
+                                                     src="home/static/picture/wkgbs1rgyxmagvalaaa0jer4lzy993.jpg"
                                                      title="金属导体行业反渗透设备、去离子水设备">
                                             </div>
                                             <div class="c-probottom">
@@ -580,7 +580,7 @@
                                         <a href="/">
                                             <div class="c-img">
                                                 <img alt="木屑颗粒包装机饲料包装秤"
-                                                     src="home/static/picture/wKgBS1rgyXiAeiHtAABx6lG0CRU686.jpg"
+                                                     src="home/static/picture/wkgbs1rgyxiaeihtaabx6lg0cru686.jpg"
                                                      title="木屑颗粒包装机饲料包装秤">
                                             </div>
                                             <div class="c-probottom">
@@ -600,7 +600,7 @@
                                         <a href="/">
                                             <div class="c-img">
                                                 <img alt="全自动颗粒包装机、灌装机"
-                                                     src="home/static/picture/wKgBS1rgyXiAP7wxAABXzueXef8842.jpg"
+                                                     src="home/static/picture/wkgbs1rgyxiap7wxaabxzuexef8842.jpg"
                                                      title="全自动颗粒包装机、灌装机">
                                             </div>
                                             <div class="c-probottom">
@@ -910,7 +910,7 @@
 
                                         <a href="javascript:void(0);">
 
-                                            <img src="home/static/picture/wKgBTFrgyTOAJtrAAAAhLV4jrhA845.png"
+                                            <img src="home/static/picture/wkgbtfrgytoajtraaaahlv4jrha845.png"
                                                  id="111103preImg1" width="100%" height="100%">
 
 
@@ -976,7 +976,7 @@
 
                                         <a href="javascript:void(0);">
 
-                                            <img src="home/static/picture/wKgBTFrgyTOAHnVDAAAaaZ5ZFCA187.png"
+                                            <img src="home/static/picture/wkgbtfrgytoahnvdaaaaaz5zfca187.png"
                                                  id="111102preImg1" width="100%" height="100%">
 
 
@@ -1165,7 +1165,7 @@
 
                                         <a href="javascript:void(0);">
 
-                                            <img src="home/static/picture/wKgBTFrgyTOASN7jAAAcz_GnWzw812.png"
+                                            <img src="home/static/picture/wkgbtfrgytoasn7jaaacz_gnwzw812.png"
                                                  id="111101preImg1" width="100%" height="100%">
 
 
@@ -1726,7 +1726,7 @@
 
                                         <a href="javascript:void(0);">
 
-                                            <img src="home/static/picture/wKgBS1rgyS-ASVZaAAB9EEp2D4w119.jpg"
+                                            <img src="home/static/picture/wkgbs1rgys-asvzaaab9eep2d4w119.jpg"
                                                  id="111116preImg1" width="100%" height="100%">
 
 
@@ -2161,7 +2161,7 @@
 
                                         <a href="javascript:void(0);">
 
-                                            <img src="home/static/picture/wKgBTFrgyQWADTI3AAAH-KVkwhY450.png"
+                                            <img src="home/static/picture/wkgbtfrgyqwadti3aaah-kvkwhy450.png"
                                                  id="111188preImg1" width="100%" height="100%">
 
 
@@ -2364,7 +2364,7 @@
 
                                         <a href="javascript:void(0);">
 
-                                            <img src="home/static/picture/wKgBTFrgyQWAP2NxAAAIGDgkqEw660.png"
+                                            <img src="home/static/picture/wkgbtfrgyqwap2nxaaaigdgkqew660.png"
                                                  id="111186preImg1" width="100%" height="100%">
 
 
@@ -2430,7 +2430,7 @@
 
                                         <a href="javascript:void(0);">
 
-                                            <img src="home/static/picture/wKgBS1rgyUyAUzjvAAAK8gv22hY713.png"
+                                            <img src="home/static/picture/wkgbs1rgyuyauzjvaaak8gv22hy713.png"
                                                  id="111187preImg1" width="100%" height="100%">
 
 
@@ -2496,7 +2496,7 @@
 
                                         <a href="javascript:void(0);">
 
-                                            <img src="home/static/picture/wKgBS1rgyUyAIT-2AAAQZ_lYDYU554.png"
+                                            <img src="home/static/picture/wkgbs1rgyuyait-2aaaqz_lydyu554.png"
                                                  id="111185preImg1" width="100%" height="100%">
 
 
@@ -3190,7 +3190,7 @@
                                                 <a href="/"
                                                    class="style03_botl" title="箱体式低噪音发电机参数" target="_blank">
 
-                                                    <img src="home/static/picture/wKgBTFrgyFqARJPXAABbXyQljEM136.jpg">
+                                                    <img src="home/static/picture/wkgbtfrgyfqarjpxaabbxyqljem136.jpg">
                                                 </a>
                                             </div>
                                             <div class="c-listcontent">
@@ -3230,7 +3230,7 @@
                                                 <a href="/"
                                                    class="style03_botl" title="体积小20KW汽油发电机使用" target="_blank">
 
-                                                    <img src="home/static/picture/wKgBTFrgyGOAHJGFAABVSJM6IPY222.jpg">
+                                                    <img src="home/static/picture/wkgbtfrgygoahjgfaabvsjm6ipy222.jpg">
                                                 </a>
                                             </div>
                                             <div class="c-listcontent">
@@ -3270,7 +3270,7 @@
                                                 <a href="/"
                                                    class="style03_botl" title="2018上海国际橡胶工业展览会" target="_blank">
 
-                                                    <img src="home/static/picture/wKgBS1rgyKGAIWhnAABhC1q4bcQ765.jpg">
+                                                    <img src="home/static/picture/wkgbs1rgykgaiwhnaabhc1q4bcq765.jpg">
                                                 </a>
                                             </div>
                                             <div class="c-listcontent">
@@ -3311,7 +3311,7 @@
                                                 <a href="/"
                                                    class="style03_botl" title="低压开关柜哪个品牌好" target="_blank">
 
-                                                    <img src="home/static/picture/wKgBTFrgyGOAAU_LAAAlcgxuyrM624.jpg">
+                                                    <img src="home/static/picture/wkgbtfrgygoaau_laaalcgxuyrm624.jpg">
                                                 </a>
                                             </div>
                                             <div class="c-listcontent">
@@ -3351,7 +3351,7 @@
                                                 <a href="/"
                                                    class="style03_botl" title="居然因高压开关柜这一举动，企业损失重大" target="_blank">
 
-                                                    <img src="home/static/picture/wKgBTFrgyGOAJrmcAAAaJsAmCBs643.jpg">
+                                                    <img src="home/static/picture/wkgbtfrgygoajrmcaaaajsamcbs643.jpg">
                                                 </a>
                                             </div>
                                             <div class="c-listcontent">
@@ -3391,7 +3391,7 @@
                                                 <a href=""
                                                    class="style03_botl" title="仿威图机柜的行业定义及特点" target="_blank">
 
-                                                    <img src="home/static/picture/wKgBS1rgyKCAU-xZAAAk2ekceHg599.jpg">
+                                                    <img src="home/static/picture/wkgbs1rgykcau-xzaaak2ekcehg599.jpg">
                                                 </a>
                                             </div>
                                             <div class="c-listcontent">

@@ -946,7 +946,7 @@
                                         <a href="/product/show/1">
                                             <div class="c-img">
                                                 <img alt="化工原料水包装机肥料水包装机，液包机"
-                                                     src="home/static/picture/wKgBS1rgyXiAdTuiAAAySorsaR0766.jpg"
+                                                     src="home/static/picture/wkgbs1rgyxiadtuiaaaysorsar0766.jpg"
                                                      title="化工原料水包装机肥料水包装机，液包机">
                                             </div>
                                             <div class="c-probottom">
@@ -966,7 +966,7 @@
                                         <a href="/product/show/1">
                                             <div class="c-img">
                                                 <img alt="木屑颗粒包装机饲料包装秤"
-                                                     src="home/static/picture/wKgBS1rgyXiAeiHtAABx6lG0CRU686.jpg"
+                                                     src="home/static/picture/wkgbs1rgyxiaeihtaabx6lg0cru686.jpg"
                                                      title="木屑颗粒包装机饲料包装秤">
                                             </div>
                                             <div class="c-probottom">
@@ -986,7 +986,7 @@
                                         <a href="/product/show/1">
                                             <div class="c-img">
                                                 <img alt="全自动颗粒包装机、灌装机"
-                                                     src="home/static/picture/wKgBS1rgyXiAP7wxAABXzueXef8842.jpg"
+                                                     src="home/static/picture/wkgbs1rgyxiap7wxaabxzuexef8842.jpg"
                                                      title="全自动颗粒包装机、灌装机">
                                             </div>
                                             <div class="c-probottom">
@@ -1026,7 +1026,7 @@
                                         <a href="/product/show/1">
                                             <div class="c-img">
                                                 <img alt="厂家直销EDI高纯水设备"
-                                                     src="home/static/picture/wKgBS1rgyXmAf0hEAACI79ZN6NQ539.jpg"
+                                                     src="home/static/picture/wkgbs1rgyxmaf0heaaci79zn6nq539.jpg"
                                                      title="厂家直销EDI高纯水设备">
                                             </div>
                                             <div class="c-probottom">
@@ -1046,7 +1046,7 @@
                                         <a href="/product/show/1">
                                             <div class="c-img">
                                                 <img alt="电脑全自动数控弹簧机"
-                                                     src="home/static/picture/wKgBS1rgyXmAFq5AAABaJDcdHA4321.jpg"
+                                                     src="home/static/picture/wkgbs1rgyxmafq5aaabajdcdha4321.jpg"
                                                      title="电脑全自动数控弹簧机">
                                             </div>
                                             <div class="c-probottom">
