@@ -7,9 +7,9 @@
  */
 
 return [
-    'name' => "My Blog",
-    'title' => "My Blog",
-    'subtitle' => 'http://lizhidasz.com',
+    'name' => "励致达",
+    'title' => "励致达后台管理系统",
+    'subtitle' => 'http://www.lizhidasz.com',
     'description' => '优质硬件提供商',
     'author' => '励致达',
     'page_image' => 'home-bg.jpg',

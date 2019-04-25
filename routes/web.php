@@ -32,10 +32,15 @@ Route::get('/blog', 'BlogController@index')->name('blog.home');
 Route::get('/blog/{slug}', 'BlogController@showPost')->name('blog.detail');
 
 // 后台路由
-Route::get('/admin', function () {
-    return redirect('/admin/post');
+Route::namespace('Admin')->group(function () {
+    Route::get('admin','IndexController@index');
 });
+
 Route::middleware('auth')->namespace('Admin')->group(function () {
+    Route::resource('admin/system', 'SystemController', ['except' => 'show']);
+    Route::resource('admin/news', 'NewsController', ['except' => 'show']);
+    Route::resource('admin/product', 'ProductController', ['except' => 'show']);
+
     Route::resource('admin/post', 'PostController', ['except' => 'show']);
     Route::resource('admin/tag', 'TagController', ['except' => 'show']);
     Route::get('admin/upload', 'UploadController@index');
