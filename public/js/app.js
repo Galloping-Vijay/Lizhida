@@ -64930,8 +64930,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! D:\wwwroot\dev.lizhida.net\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! D:\wwwroot\dev.lizhida.net\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /www/wwwroot/www.lizhidasz.com/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /www/wwwroot/www.lizhidasz.com/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
