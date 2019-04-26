@@ -13,6 +13,9 @@
 
 use Illuminate\Support\Facades\Route;
 
+//访问
+Route::get('/test', 'Home\IndexController@test');
+
 //首页
 Route::get('/', 'Home\IndexController@index');
 //产品中心

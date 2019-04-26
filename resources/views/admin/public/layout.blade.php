@@ -9,6 +9,7 @@
     <title>{{ config('blog.title') }} 管理后台</title>
 
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="/layui/css/layui.css" rel="stylesheet">
     @yield('styles')
 
 </head>
@@ -32,7 +33,7 @@
     @yield('content')
 </main>
 <script src="{{ asset('js/app.js') }}"></script>
-
+<script src="/layui/layui.js"></script>
 @yield('scripts')
 </body>
 </html>
