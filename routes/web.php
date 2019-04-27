@@ -16,6 +16,8 @@ use Illuminate\Support\Facades\Route;
 //访问
 Route::get('/test', 'Home\IndexController@test');
 
+Route::any('/update','Home\UploadController@update');
+
 //首页
 Route::get('/', 'Home\IndexController@index');
 //产品中心
@@ -40,7 +42,9 @@ Route::namespace('Admin')->group(function () {
 });
 
 Route::middleware('auth')->namespace('Admin')->group(function () {
-    Route::resource('admin/system', 'SystemController', ['except' => 'show']);
+    Route::any('admin/system', 'SystemController@index');
+    Route::any('admin/system/store', 'SystemController@store');
+
     Route::resource('admin/news', 'NewsController', ['except' => 'show']);
     Route::resource('admin/product', 'ProductController', ['except' => 'show']);
 
