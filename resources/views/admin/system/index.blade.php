@@ -88,15 +88,9 @@
                     , data: obj.field
                     , method: 'POST'
                     , done: function (res) {
-                        if (res.code === 0) {
+                        if (res.code == 0) {
                             //登入成功的提示与跳转
-                            layer.msg('操作成功', {
-                                offset: '15px'
-                                , icon: 1
-                                , time: 1000
-                            }, function () {
-
-                            });
+                            layer.msg('操作成功');
                         } else {
                             layer.msg('操作失败');
                         }
