@@ -12,30 +12,50 @@ class NewsController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(Request $request)
     {
+        if ($request->isMethod('post')) {
+            $data = [];
+            $json = ['code' => 0, 'msg' => '操作成功', 'data' => $data];
+            return response()->json($json);
+        }
         return view('admin.news.index', [
 
         ]);
     }
+
+
+    /* public function upload(Request $request){
+         $data = $request->input();
+         $data['file']=$request->file('file');
+         $json = ['code' => 0, 'msg' => '操作成功', 'data' => $data];
+         return response()->json($json);
+     }*/
 
     /**
      * Show the form for creating a new resource.
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
+    public function create(Request $request)
     {
-        //
+        if ($request->isMethod('post')) {
+            $path = $request->file('file')->store('public/news');
+            // str_replace("/storage", "/public", $path)]
+            $data = ['code' => 0, 'msg' => '', 'data' => ['src' => $path]];
+            return response()->json($data);
+        }
+        return view('admin.news.create', []);
     }
 
     /**
      * Store a newly created resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
+     * @param  \Illuminate\Http\Request $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public
+    function store(Request $request)
     {
         //
     }
@@ -43,10 +63,11 @@ class NewsController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  int  $id
+     * @param  int $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public
+    function show($id)
     {
         //
     }
@@ -54,10 +75,11 @@ class NewsController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  int  $id
+     * @param  int $id
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
+    public
+    function edit($id)
     {
         //
     }
@@ -65,11 +87,12 @@ class NewsController extends Controller
     /**
      * Update the specified resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
+     * @param  \Illuminate\Http\Request $request
+     * @param  int $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public
+    function update(Request $request, $id)
     {
         //
     }
@@ -77,10 +100,11 @@ class NewsController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  int  $id
+     * @param  int $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public
+    function destroy($id)
     {
         //
     }

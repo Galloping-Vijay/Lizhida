@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Route;
 //访问
 Route::get('/test', 'Home\IndexController@test');
 
-Route::any('/update','Home\UploadController@update');
+Route::any('/update', 'Home\UploadController@update');
 
 //首页
 Route::get('/', 'Home\IndexController@index');
@@ -38,14 +38,17 @@ Route::get('/blog/{slug}', 'BlogController@showPost')->name('blog.detail');
 
 // 后台路由
 Route::namespace('Admin')->group(function () {
-    Route::get('admin','IndexController@index');
+    Route::get('admin', 'IndexController@index');
 });
 
 Route::middleware('auth')->namespace('Admin')->group(function () {
     Route::any('admin/system', 'SystemController@index');
     Route::any('admin/system/store', 'SystemController@store');
 
-    Route::resource('admin/news', 'NewsController', ['except' => 'show']);
+    Route::any('/admin/news', 'NewsController@index');
+    Route::any('/admin/news/create', 'NewsController@create');
+    Route::post('/admin/store', 'NewsController@store');
+
     Route::resource('admin/product', 'ProductController', ['except' => 'show']);
 
     Route::resource('admin/post', 'PostController', ['except' => 'show']);
