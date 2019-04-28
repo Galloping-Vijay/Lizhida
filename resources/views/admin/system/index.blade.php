@@ -87,7 +87,7 @@
                     url: '/admin/system/store'
                     , data: obj.field
                     , method: 'POST'
-                    , done: function (res) {
+                    , success: function (res) {
                         if (res.code == 0) {
                             //登入成功的提示与跳转
                             layer.msg('操作成功');
