@@ -43,7 +43,7 @@ class NewsController extends Controller
             $path = $request->file('file')->store('public/news');
             // str_replace("/storage", "/public", $path)]
             //$data = ['code' => 0, 'msg' => '', 'data' => ['src' => $path]];
-            $data = ['code' => 0, 'msg' => '', 'data' => ['src' => str_replace("public", "../../public", $path)]];
+            $data = ['code' => 0, 'msg' => '', 'data' => ['src' => str_replace("public", "/storage", $path)]];
             return response()->json($data);
         }
         return view('admin.news.create', []);
