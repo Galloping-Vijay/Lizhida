@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Home;
 
 use App\Models\Setting;
+use http\Url;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\DB;
@@ -24,8 +25,9 @@ class IndexController extends Controller
         return view('home.index.contact');
     }
 
-    public function test()
+    public function test(Request $request)
     {
-        dd(111);
+        url()->current();
+        dd( url()->previous(false));
     }
 }

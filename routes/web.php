@@ -46,8 +46,20 @@ Route::middleware('auth')->namespace('Admin')->group(function () {
     Route::any('admin/system/store', 'SystemController@store');
 
     Route::any('/admin/news', 'NewsController@index');
+    Route::any('/admin/news/index', 'NewsController@index');
     Route::any('/admin/news/create', 'NewsController@create');
-    Route::post('/admin/store', 'NewsController@store');
+    Route::post('/admin/news/store', 'NewsController@store');
+    Route::any('/admin/news/destroy', 'NewsController@destroy');
+    Route::any('/admin/news/edit', 'NewsController@edit');
+    Route::any('/admin/news/update', 'NewsController@update');
+
+    Route::any('/admin/article', 'ArticleController@index');
+    Route::any('/admin/article/index', 'ArticleController@index');
+    Route::any('/admin/article/create', 'ArticleController@create');
+    Route::post('/admin/article/store', 'ArticleController@store');
+    Route::any('/admin/article/destroy', 'ArticleController@destroy');
+    Route::any('/admin/article/edit', 'ArticleController@edit');
+    Route::any('/admin/article/update', 'ArticleController@update');
 
     Route::resource('admin/product', 'ProductController', ['except' => 'show']);
 

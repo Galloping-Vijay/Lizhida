@@ -6,7 +6,7 @@
             <div class="layui-row layui-col-space15">
                 <div class="layui-col-md12">
                     <div class="layui-card">
-                        <div class="layui-card-header">添加文章</div>
+                        <div class="layui-card-header">添加系统文章</div>
                         <div class="layui-card-body" pad15>
 
                             <div class="layui-form" wid100 lay-filter="">
@@ -15,7 +15,7 @@
                                     <div class="layui-input-block">
                                         <input type="text" name="title" value="" class="layui-input">
                                         {{ csrf_field() }}
-                                        <input type="hidden" name="type" value="0">
+                                        <input type="hidden" name="type" value="1">
                                         <input type="hidden" name="author" value="励致达">
                                     </div>
                                 </div>
@@ -79,7 +79,7 @@
             var layer = layui.layer;
             layedit.set({
                 uploadImage: {
-                    url: '/admin/news/create' //接口url
+                    url: '/admin/article/create' //接口url
                     , type: 'post' //默认post
                 }
             });
@@ -91,7 +91,7 @@
                 var data = obj.field;
                 data.content = content;
                 $.ajax({
-                    url: '/admin/news/store'
+                    url: '/admin/article/store'
                     , data: obj.field
                     , method: 'POST'
                     , success: function (res) {
@@ -99,7 +99,7 @@
                         if (res.code == 0) {
                             //登入成功的提示与跳转
                             layer.msg('操作成功');
-                            location.href = '/admin/news/index';
+                            location.href = '/admin/article/index';
                         } else {
                             layer.msg('操作失败');
                         }

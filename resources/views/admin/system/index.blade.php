@@ -110,7 +110,7 @@
                 , acceptMime: 'image/*'
                 ,exts: 'jpg|png|gif' //设置一些后缀，用于演示前端验证和后端的验证
                 , multiple: true
-                ,data:{'_token':tag_token}
+                ,data:{'_token':tag_token,dir:'logo'}
                 ,before: function(obj){
                     //预读本地文件示例，不支持ie8
                     obj.preview(function(index, file, result){

@@ -16,7 +16,8 @@ class UploadController extends Controller
      */
     public function update(Request $request)
     {
-        $path = $request->file('file')->store('public/logo');
+        $dir = $request->input('dir');
+        $path = $request->file('file')->store('public/' . $dir);
         $data = ['code' => 0, 'msg' => '', 'data' => ['file' => str_replace("public", "/storage", $path)]];
         return response()->json($data);
     }

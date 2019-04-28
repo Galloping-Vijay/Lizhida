@@ -2,11 +2,11 @@
 
 @section('content')
     <div id="apps" class="container">
-        <table class="layui-hide" id="news" lay-filter="news"></table>
+        <table class="layui-hide" id="article" lay-filter="article"></table>
         {{ csrf_field() }}
         <script type="text/html" id="toolbarDemo">
             <div class="layui-btn-container">
-                <button class="layui-btn layui-btn-sm" lay-event="add">添加文章</button>
+                <button class="layui-btn layui-btn-sm" lay-event="add">添加系统文章</button>
             </div>
         </script>
         <script type="text/html" id="barDemo">
@@ -22,11 +22,11 @@
         layui.use(['table'], function () {
             var table = layui.table;
             var tag_token = $("input[name='_token']").val();
-            var filter = 'news';
+            var filter = 'article';
             var layer =  layui.layer;
             table.render({
                 elem: '#' + filter
-                , url: '/admin/news'
+                , url: '/admin/article'
                 , toolbar: '#toolbarDemo'
                 , method: 'post'
                 , where: {'_token': tag_token}
@@ -51,7 +51,7 @@
                 if (obj.event === 'del') {
                     layer.confirm('确定删除此包厢？', function (index) {
                         $.ajax({
-                            url: '/admin/news/destroy'
+                            url: '/admin/article/destroy'
                             , data:{id:data.id,_token: tag_token}
                             , method: 'POST'
                             , success: function (res) {
@@ -70,7 +70,7 @@
 
                     });
                 } else if (obj.event === 'edit') {
-                    location.href = '/admin/news/edit?id='+data.id;
+                    location.href = '/admin/article/edit?id='+data.id;
                 }
             });
 
@@ -79,7 +79,7 @@
                 var checkStatus = table.checkStatus(obj.config.id);
                 switch (obj.event) {
                     case 'add':
-                        location.href = '/admin/news/create';
+                        location.href = '/admin/article/create';
                         break;
                 }
                 ;

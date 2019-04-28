@@ -6,23 +6,23 @@
             <div class="layui-row layui-col-space15">
                 <div class="layui-col-md12">
                     <div class="layui-card">
-                        <div class="layui-card-header">添加文章</div>
+                        <div class="layui-card-header">编辑文章</div>
                         <div class="layui-card-body" pad15>
 
                             <div class="layui-form" wid100 lay-filter="">
                                 <div class="layui-form-item">
                                     <label class="layui-form-label">文章标题</label>
                                     <div class="layui-input-block">
-                                        <input type="text" name="title" value="" class="layui-input">
+                                        <input type="text" name="title" value="{{$info->title}}" class="layui-input">
                                         {{ csrf_field() }}
-                                        <input type="hidden" name="type" value="0">
-                                        <input type="hidden" name="author" value="励致达">
+                                        <input type="hidden" name="id" value="{{$info->id}}">
                                     </div>
                                 </div>
                                 <div class="layui-form-item">
                                     <label class="layui-form-label">副标题</label>
                                     <div class="layui-input-block">
-                                        <input type="text" name="subtitle" class="layui-input">
+                                        <input type="text" name="subtitle" class="layui-input"
+                                               value="{{$info->subtitle}}">
                                     </div>
                                 </div>
                                 <div class="layui-form-item">
@@ -33,9 +33,11 @@
                                         </div>
                                         <div class="layui-input-inline">
                                             <div class="layui-upload-list" style="height: 80px">
-                                                <img class="layui-upload-img" id="upimg" style="height: 100%" src="">
+                                                <img class="layui-upload-img" id="upimg" style="height: 100%"
+                                                     src="{{$info->image}}">
                                                 <p id="demoText"></p>
-                                                <input type="hidden" name="image" value="" id="logo_url">
+                                                <input type="hidden" name="image" value="{{$info->image}}"
+                                                       id="logo_url">
                                             </div>
                                         </div>
                                     </div>
@@ -44,13 +46,15 @@
                                 <div class="layui-form-item">
                                     <label class="layui-form-label">简介</label>
                                     <div class="layui-input-block">
-                                        <textarea name="description" class="layui-textarea"></textarea>
+                                        <textarea name="description"
+                                                  class="layui-textarea">{{$info->description}}</textarea>
                                     </div>
                                 </div>
                                 <div class="layui-form-item layui-form-text">
                                     <label class="layui-form-label">内容</label>
                                     <div class="layui-input-block">
-                                        <textarea name="content" id="content" style="display: none;"></textarea>
+                                        <textarea name="content" id="content"
+                                                  style="display: none;">{{$info->content}}</textarea>
                                     </div>
                                 </div>
                                 <div class="layui-form-item">
@@ -91,11 +95,10 @@
                 var data = obj.field;
                 data.content = content;
                 $.ajax({
-                    url: '/admin/news/store'
+                    url: '/admin/news/update'
                     , data: obj.field
                     , method: 'POST'
                     , success: function (res) {
-                        console.log(res);
                         if (res.code == 0) {
                             //登入成功的提示与跳转
                             layer.msg('操作成功');

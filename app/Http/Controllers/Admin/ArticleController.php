@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\DB;
 
-class NewsController extends Controller
+class ArticleController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -20,7 +20,7 @@ class NewsController extends Controller
             $page = $request->input('page', 1);
             $limit = $request->input('limit', 20);
             $fristRow = ($page - 1) * $limit;
-            $where = ' type=0';
+            $where = ' type=1';
             $sql = "select * from news where $where order by `id` limit $fristRow,$limit";
             $conutSql = "select count(`id`) as num FROM news WHERE $where";
             $data = DB::select($sql);
@@ -28,7 +28,7 @@ class NewsController extends Controller
             $json = ['code' => 0, 'msg' => '操作成功', 'data' => $data, 'count' => $count[0]->num];
             return response()->json($json);
         }
-        return view('admin.news.index', [
+        return view('admin.article.index', [
 
         ]);
     }
@@ -45,7 +45,7 @@ class NewsController extends Controller
             $data = ['code' => 0, 'msg' => '', 'data' => ['src' => str_replace("public", "/storage", $path)]];
             return response()->json($data);
         }
-        return view('admin.news.create', []);
+        return view('admin.article.create', []);
     }
 
     /**
@@ -63,7 +63,7 @@ class NewsController extends Controller
         $model->description = $parem['description'];
         $model->content = $parem['content'];
         $model->image = empty($_SERVER['HTTPS']) ? 'http://' : 'https://' . $_SERVER["HTTP_HOST"] . $parem['image'];
-        $model->type = $parem['type'] ?? 0;
+        $model->type = $parem['type'] ?? 1;
 
         $res = $model->save();
         if ($res == true) {
@@ -95,7 +95,7 @@ class NewsController extends Controller
     {
         $id = $request->input('id');
         $info = News::find($id);
-        return view('admin.news.edit', ['info' => $info]);
+        return view('admin.article.edit', ['info' => $info]);
     }
 
     /**
@@ -118,7 +118,7 @@ class NewsController extends Controller
         } else {
             $info->image = empty($_SERVER['HTTPS']) ? 'http://' : 'https://' . $_SERVER["HTTP_HOST"] . $parem['image'];
         }
-        $info->type = $parem['type'] ?? 0;
+        $info->type = $parem['type'] ?? 1;
         $res = $info->save();
         if ($res == true) {
             $data = ['code' => 0, 'msg' => '操作成功'];
