@@ -62,7 +62,7 @@ class NewsController extends Controller
         $model->subtitle = $parem['subtitle'];
         $model->description = $parem['description'];
         $model->content = $parem['content'];
-        $model->image = empty($_SERVER['HTTPS']) ? 'http://' : 'https://' . $_SERVER["HTTP_HOST"] . $parem['image'];
+        $model->image = empty($_SERVER['HTTPS']) ? 'http://'. $_SERVER["HTTP_HOST"] . $parem['image'] : 'https://' . $_SERVER["HTTP_HOST"] . $parem['image'];
         $model->type = $parem['type'] ?? 0;
 
         $res = $model->save();
@@ -116,7 +116,7 @@ class NewsController extends Controller
         if (strpos($parem['image'], 'http') !== false) {
             $info->image = $parem['image'];
         } else {
-            $info->image = empty($_SERVER['HTTPS']) ? 'http://' : 'https://' . $_SERVER["HTTP_HOST"] . $parem['image'];
+            $info->image = empty($_SERVER['HTTPS']) ? 'http://'. $_SERVER["HTTP_HOST"] . $parem['image'] : 'https://' . $_SERVER["HTTP_HOST"] . $parem['image'];
         }
         $info->type = $parem['type'] ?? 0;
         $res = $info->save();

@@ -61,7 +61,13 @@ Route::middleware('auth')->namespace('Admin')->group(function () {
     Route::any('/admin/article/edit', 'ArticleController@edit');
     Route::any('/admin/article/update', 'ArticleController@update');
 
-    Route::resource('admin/product', 'ProductController', ['except' => 'show']);
+    Route::any('/admin/product', 'ProductController@index');
+    Route::any('/admin/product/index', 'ProductController@index');
+    Route::any('/admin/product/create', 'ProductController@create');
+    Route::post('/admin/product/store', 'ProductController@store');
+    Route::any('/admin/product/destroy', 'ProductController@destroy');
+    Route::any('/admin/product/edit', 'ProductController@edit');
+    Route::any('/admin/product/update', 'ProductController@update');
 
     Route::resource('admin/post', 'PostController', ['except' => 'show']);
     Route::resource('admin/tag', 'TagController', ['except' => 'show']);
