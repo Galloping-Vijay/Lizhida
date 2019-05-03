@@ -20,7 +20,7 @@
                     @switch($item->type)
                         @case(1)
                         <div class="layui-input-inline">
-                            <textarea placeholder="请输入{{$item->name}}" class="layui-textarea">
+                            <textarea  name="{{$item->keys}}"  placeholder="请输入{{$item->name}}" class="layui-textarea">
                                 {{$item->values}}
                             </textarea>
                         </div>
