@@ -18,7 +18,8 @@ class UploadController extends Controller
     {
         $dir = $request->input('dir');
         $path = $request->file('file')->store('public/' . $dir);
-        $data = ['code' => 0, 'msg' => '', 'data' => ['file' => str_replace("public", "/storage", $path)]];
+        $path = empty($_SERVER['HTTPS']) ? 'http://' . $_SERVER["HTTP_HOST"] . '/' . $path : 'https://' . $_SERVER["HTTP_HOST"] . '/' . $path;
+        $data = ['code' => 0, 'msg' => '', 'data' => ['file' => str_replace("public", "storage", $path)]];
         return response()->json($data);
     }
 }

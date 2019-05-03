@@ -4,8 +4,8 @@
     <title> @yield('title')</title>
     @section('head')
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-        <meta name="keywords" content=""/>
-        <meta name="description" content=""/>
+        <meta name="keywords" content="{{ $site_seo_keywords }}"/>
+        <meta name="description" content="{{ $site_seo_description }}"/>
         <link href="/home/static//css/enterprise.css" rel="stylesheet" type="text/css"/>
         <link href="/home/static//css/front.css" rel="stylesheet" type="text/css"/>
         <link href="/home/static//css/nav.css" rel="stylesheet" type="text/css"/>
@@ -43,7 +43,7 @@
             <div id="logoPictureContainer" class="mousetest">
                 <div id="logo_picture" style="display:block">
                     <a href="/"><img id="logoimg"
-                                                                 src="/home/static//picture/wkgbs1rgyssastxdaaauzprhyls314.jpg"
+                                                                 src="{{ $site_logo }}"
                                                                  title="励致达"></a>
                 </div>
                 <!-- 购物车 -->
