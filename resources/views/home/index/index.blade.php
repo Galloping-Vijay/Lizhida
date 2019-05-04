@@ -1475,7 +1475,7 @@
 
                                         <div style="text-align: center;"><span style="color:#ffffff;"><span
                                                         style="font-family:微软雅黑;"><span style="font-size:21px;"><span
-                                                                style="font-variant-numeric: normal; font-variant-east-asian: normal; line-height: 21px;">产品开发</span></span></span></span>
+                                                                style="font-variant-numeric: normal; font-variant-east-asian: normal; line-height: 21px;">{{$development->title}}</span></span></span></span>
                                         </div>
 
 
@@ -1513,59 +1513,14 @@
 
                                         <a href="javascript:void(0);">
 
-                                            <img src="home/static/picture/wkgbtfrgytoajtraaaahlv4jrha845.png"
+                                            <img src="{{ $service->image }}"
                                                  id="111103preImg1" width="100%" height="100%">
 
 
                                         </a>
-                                        <form id="jvForm111103"
-                                              action="/"
-                                              labelwidth="12">
-                                            <input type="hidden" name="attr_styleList" value="608-23">
-                                            <input type="hidden" name="attr_name" value="图片模块">
-                                            <input type="hidden" name="attr_radius" value="">
-                                            <input type="hidden" name="mcId" value="111103">
-                                            <input type="hidden" name="moduleId" value="351">
-                                            <input type="hidden" name="attr_imageLink" value="">
-                                            <input type="hidden" name="attr_linkTarget" value="1">
-                                            <input type="hidden" name="attr_urlType" value="">
-                                            <input type="hidden" name="attr_shapetype" value="">
-                                            <input type="hidden" name="attr_imageWidth" value="150" id="attrImageWidht">
-                                            <input type="hidden" name="attr_imageHeight" value="150"
-                                                   id="attrImageHeight">
-
-                                            <input type="hidden" name="attr_imageInitialWidth" value="400"
-                                                   id="attrImageInitialWidht">
-                                            <input type="hidden" name="attr_imageInitialHeight" value="400"
-                                                   id="attrImageInitialHeight">
-
-                                            <input type="hidden" name="attr_imageUrl"
-                                                   value="/home/static/images/wKgBTFrgyTOAJtrAAAAhLV4jrhA845.png"
-                                                   id="uploadImgPath111103">
-                                            <input type="hidden" name="attr_hoverEffect" value="0">
-                                        </form>
                                     </div>
                                 </div>
                             </div>
-                            <form id="jvForm111103"
-                                  action="/">
-                                <!-- 模块动画名称 -->
-                                <input type="hidden" name="attr_bananima" id="bananima111103" value="0">
-                                <!-- 模块动画方向 -->
-                                <input type="hidden" name="attr_checkvalue" id="checkvalue111103" value="">
-                                <!-- 模块动画单次/多次播放 -->
-                                <input type="hidden" name="attr_trigger" id="atrigger111103" value="1">
-                                <!-- 模块动画速度 -->
-                                <input type="hidden" name="attr_Animatespeed" id="speed111103" value="0.5">
-                                <!-- 模块透明度 -->
-                                <input type="hidden" name="attr_clarity" id="clarity111103" value="0">
-                                <!-- 图文动画名称 -->
-                                <input type="hidden" name="attr_textanima" id="textanima111103" value="0">
-                                <!-- 图文动画方向 -->
-                                <input type="hidden" name="attr_checkTextvalue" id="checkTextvalue111103" value="">
-                                <!-- 图文动画单次/多次播放 -->
-                                <input type="hidden" name="attr_triggerText" id="atriggerText111103" value="1">
-                            </form>
 
                         </div>
                         <div id="module111102" _float="1"
@@ -1579,7 +1534,7 @@
 
                                         <a href="javascript:void(0);">
 
-                                            <img src="home/static/picture/wkgbtfrgytoahnvdaaaaaz5zfca187.png"
+                                            <img src="{{ $market->image }}"
                                                  id="111102preImg1" width="100%" height="100%">
 
 
@@ -1606,7 +1561,7 @@
                                                    id="attrImageInitialHeight">
 
                                             <input type="hidden" name="attr_imageUrl"
-                                                   value="/home/static/images/wKgBTFrgyTOAHnVDAAAaaZ5ZFCA187.png"
+                                                   value="{{$market->image}}"
                                                    id="uploadImgPath111102">
                                             <input type="hidden" name="attr_hoverEffect" value="0">
                                         </form>
@@ -1730,7 +1685,7 @@
 
                                         <div style="text-align: center;"><span style="color:#ffffff;"><span
                                                         style="font-size:21px;"><span style="font-family:微软雅黑;"><span
-                                                                style="font-variant-numeric: normal; font-variant-east-asian: normal; line-height: 21px;">支持服务</span></span></span></span>
+                                                                style="font-variant-numeric: normal; font-variant-east-asian: normal; line-height: 21px;">{{$service->title}}</span></span></span></span>
                                         </div>
 
 
@@ -1768,7 +1723,7 @@
 
                                         <a href="javascript:void(0);">
 
-                                            <img src="home/static/picture/wkgbtfrgytoasn7jaaacz_gnwzw812.png"
+                                            <img src="{{$development->image}}"
                                                  id="111101preImg1" width="100%" height="100%">
 
 
@@ -1795,7 +1750,7 @@
                                                    id="attrImageInitialHeight">
 
                                             <input type="hidden" name="attr_imageUrl"
-                                                   value="/home/static/images/wKgBTFrgyTOASN7jAAAcz_GnWzw812.png"
+                                                   value="{{$development->image}}"
                                                    id="uploadImgPath111101">
                                             <input type="hidden" name="attr_hoverEffect" value="0">
                                         </form>
@@ -1919,7 +1874,7 @@
 
                                         <div style="text-align: center;"><span style="color:#ffffff;"><span
                                                         style="font-size:21px;"><span style="font-family:微软雅黑;"><span
-                                                                style="font-variant-numeric: normal; font-variant-east-asian: normal; line-height: 21px;">市场扩展</span></span></span></span>
+                                                                style="font-variant-numeric: normal; font-variant-east-asian: normal; line-height: 21px;">{{$market->title}}</span></span></span></span>
                                         </div>
 
 
@@ -2758,7 +2713,7 @@
 
                                         <a href="javascript:void(0);">
 
-                                            <img src="home/static/picture/wkgbtfrgyqwadti3aaah-kvkwhy450.png"
+                                            <img src="{{ $vision->image }}"
                                                  id="111188preImg1" width="100%" height="100%">
 
 
@@ -2785,7 +2740,7 @@
                                                    id="attrImageInitialHeight">
 
                                             <input type="hidden" name="attr_imageUrl"
-                                                   value="/home/static/images/wKgBTFrgyQWADTI3AAAH-KVkwhY450.png"
+                                                   value="{{ $vision->image }}"
                                                    id="uploadImgPath111188">
                                             <input type="hidden" name="attr_hoverEffect" value="0">
                                         </form>
@@ -2912,24 +2867,15 @@
                                             <span style="color:#ffffff;"><span style="font-family:微软雅黑;"><span
                                                             data-v-3c4f858a="" data-group="0"
                                                             style="box-sizing: border-box;"><span
-                                                                style="font-size:24px;">专注</span><br></span></span></span>
+                                                                style="font-size:24px;">{{ $focus->title }}</span><br></span></span></span>
                                         </p>
                                         <p data-v-3c4f858a="" class="_tgt"
                                            style="box-sizing: border-box; margin: 0px; padding: 0px; font-size: 14px; line-height: 26px; font-family: Arial, &quot;Microsoft YaHei&quot;, &quot;\\5FAE软雅黑&quot;, &quot;\\5B8B体&quot;, &quot;Malgun Gothic&quot;, Meiryo, sans-serif; font-variant-numeric: normal; font-variant-east-asian: normal;">
                                             <span style="color:#ffffff;"><span style="font-family:微软雅黑;"><span
                                                             data-v-3c4f858a="" data-group="0"
                                                             style="box-sizing: border-box;"><span
-                                                                style="font-size:14px;"><br>-重点关注德国高端车型的热系统产品。</span></span></span></span>
+                                                                style="font-size:14px;"><br>{{ $focus->description }}</span></span></span></span>
                                         </p>
-                                        <p data-v-3c4f858a="" class="_tgt"
-                                           style="box-sizing: border-box; margin: 0px; padding: 0px; font-size: 14px; line-height: 26px; font-family: Arial, &quot;Microsoft YaHei&quot;, &quot;\\5FAE软雅黑&quot;, &quot;\\5B8B体&quot;, &quot;Malgun Gothic&quot;, Meiryo, sans-serif; font-variant-numeric: normal; font-variant-east-asian: normal;">
-                                            <span style="color:#ffffff;"><span style="font-size:14px;"><span
-                                                            style="font-family:微软雅黑;"><span data-v-3c4f858a=""
-                                                                                            data-group="1"
-                                                                                            style="box-sizing: border-box;">-专注于提供优质的产品和专业的服务。</span></span></span></span>
-                                        </p>
-
-
                                     </div>
                                 </div>
                             </div>
@@ -2964,7 +2910,7 @@
 
                                         <a href="javascript:void(0);">
 
-                                            <img src="home/static/picture/wkgbtfrgyqwap2nxaaaigdgkqew660.png"
+                                            <img src="{{ $experience->image }}"
                                                  id="111186preImg1" width="100%" height="100%">
 
 
@@ -2991,7 +2937,7 @@
                                                    id="attrImageInitialHeight">
 
                                             <input type="hidden" name="attr_imageUrl"
-                                                   value="/home/static/images/wKgBTFrgyQWAP2NxAAAIGDgkqEw660.png"
+                                                   value="{{ $experience->image }}"
                                                    id="uploadImgPath111186">
                                             <input type="hidden" name="attr_hoverEffect" value="0">
                                         </form>
@@ -3030,7 +2976,7 @@
 
                                         <a href="javascript:void(0);">
 
-                                            <img src="home/static/picture/wkgbs1rgyuyauzjvaaak8gv22hy713.png"
+                                            <img src="{{ $ability->image }}"
                                                  id="111187preImg1" width="100%" height="100%">
 
 
@@ -3057,7 +3003,7 @@
                                                    id="attrImageInitialHeight">
 
                                             <input type="hidden" name="attr_imageUrl"
-                                                   value="/home/static/images/wKgBS1rgyUyAUzjvAAAK8gv22hY713.png"
+                                                   value="{{ $ability->image }}"
                                                    id="uploadImgPath111187">
                                             <input type="hidden" name="attr_hoverEffect" value="0">
                                         </form>
@@ -3096,7 +3042,7 @@
 
                                         <a href="javascript:void(0);">
 
-                                            <img src="home/static/picture/wkgbs1rgyuyait-2aaaqz_lydyu554.png"
+                                            <img src="{{ $focus->image }}"
                                                  id="111185preImg1" width="100%" height="100%">
 
 
@@ -3123,7 +3069,7 @@
                                                    id="attrImageInitialHeight">
 
                                             <input type="hidden" name="attr_imageUrl"
-                                                   value="/home/static/images/wKgBS1rgyUyAIT-2AAAQZ_lYDYU554.png"
+                                                   value="{{ $focus->image }}"
                                                    id="uploadImgPath111185">
                                             <input type="hidden" name="attr_hoverEffect" value="0">
                                         </form>
@@ -3250,22 +3196,14 @@
                                             <span style="color:#ffffff;"><span style="font-family:微软雅黑;"><span
                                                             data-v-3c4f858a="" data-group="0"
                                                             style="box-sizing: border-box;"><span
-                                                                style="font-size:24px;">能力<br></span></span></span></span>
+                                                                style="font-size:24px;">{{ $ability->title }}<br></span></span></span></span>
                                         </p>
                                         <p data-v-3c4f858a="" class="_tgt"
                                            style="box-sizing: border-box; margin: 0px; padding: 0px; font-size: 14px; line-height: 26px; font-family: Arial, &quot;Microsoft YaHei&quot;, &quot;\\5FAE软雅黑&quot;, &quot;\\5B8B体&quot;, &quot;Malgun Gothic&quot;, Meiryo, sans-serif; font-variant-numeric: normal; font-variant-east-asian: normal;">
                                             <span style="color:#ffffff;"><span style="font-family:微软雅黑;"><span
                                                             data-v-3c4f858a="" data-group="0"
-                                                            style="box-sizing: border-box;"><br>-一些OE项目和公司运作的成功经验。</span></span></span>
+                                                            style="box-sizing: border-box;">{{ $ability->description }}</span></span></span>
                                         </p>
-                                        <p data-v-3c4f858a="" class="_tgt"
-                                           style="box-sizing: border-box; margin: 0px; padding: 0px; font-size: 14px; line-height: 26px; font-family: Arial, &quot;Microsoft YaHei&quot;, &quot;\\5FAE软雅黑&quot;, &quot;\\5B8B体&quot;, &quot;Malgun Gothic&quot;, Meiryo, sans-serif; font-variant-numeric: normal; font-variant-east-asian: normal;">
-                                            <span style="color:#ffffff;"><span style="font-family:微软雅黑;"><span
-                                                            data-v-3c4f858a="" data-group="1"
-                                                            style="box-sizing: border-box;">-可以通过与OE制造公司以及在热产品行业的售后市场参与者建立良好的联系来实现这个目标。</span></span></span>
-                                        </p>
-
-
                                     </div>
                                 </div>
                             </div>
@@ -3388,21 +3326,16 @@
                                             <span style="color:#ffffff;"><span style="font-family:微软雅黑;"><span
                                                             data-v-3c4f858a="" data-group="0"
                                                             style="box-sizing: border-box;"><span
-                                                                style="font-size:24px;">远见<br></span></span></span></span>
+                                                                style="font-size:24px;">{{ $vision->title }}<br></span></span></span></span>
                                         </p>
                                         <p data-v-3c4f858a="" class="_tgt"
                                            style="box-sizing: border-box; margin: 0px; padding: 0px; font-size: 14px; line-height: 26px; font-family: Arial, &quot;Microsoft YaHei&quot;, &quot;\\5FAE软雅黑&quot;, &quot;\\5B8B体&quot;, &quot;Malgun Gothic&quot;, Meiryo, sans-serif; font-variant-numeric: normal; font-variant-east-asian: normal;">
                                             <span style="color:#ffffff;"><span style="font-family:微软雅黑;"><span
                                                             data-v-3c4f858a="" data-group="0"
                                                             style="box-sizing: border-box;"><br><span
-                                                                style="font-size: 14px;">-</span>为中国市场提供战略眼光。</span></span></span>
+                                                                style="font-size: 14px;">-</span>{{ $vision->description }}</span></span></span>
                                         </p>
-                                        <p data-v-3c4f858a="" class="_tgt"
-                                           style="box-sizing: border-box; margin: 0px; padding: 0px; font-size: 14px; line-height: 26px; font-family: Arial, &quot;Microsoft YaHei&quot;, &quot;\\5FAE软雅黑&quot;, &quot;\\5B8B体&quot;, &quot;Malgun Gothic&quot;, Meiryo, sans-serif; font-variant-numeric: normal; font-variant-east-asian: normal;">
-                                            <span style="color:#ffffff;"><span style="font-family:微软雅黑;"><span
-                                                            data-v-3c4f858a="" data-group="1"
-                                                            style="box-sizing: border-box;">-寻找在中国市场拓展良好关系甚至组织的可能性。</span></span></span>
-                                        </p>
+
 
 
                                     </div>
@@ -3524,22 +3457,16 @@
 
                                         <div style="text-align: center;"><span style="color:#ffffff;"><span
                                                         style="font-family:微软雅黑;"><span
-                                                            style="font-size:24px;">经验<br></span><br></span></span>
+                                                            style="font-size:24px;">{{ $experience->title }}<br></span><br></span></span>
                                         </div>
                                         <p data-v-3c4f858a="" class="_tgt"
                                            style="box-sizing: border-box; margin: 0px; padding: 0px; font-size: 14px; line-height: 26px; font-family: Arial, &quot;Microsoft YaHei&quot;, &quot;\\5FAE软雅黑&quot;, &quot;\\5B8B体&quot;, &quot;Malgun Gothic&quot;, Meiryo, sans-serif; font-variant-numeric: normal; font-variant-east-asian: normal;">
                                             <span style="color:#ffffff;"><span style="font-size:14px;"><span
                                                             style="font-family:微软雅黑;"><span data-v-3c4f858a=""
                                                                                             data-group="0"
-                                                                                            style="box-sizing: border-box;">-在热产品行业从业13年以上。</span></span></span></span>
+                                                                                            style="box-sizing: border-box;">{{ $experience->description }}</span></span></span></span>
                                         </p>
-                                        <p data-v-3c4f858a="" class="_tgt"
-                                           style="box-sizing: border-box; margin: 0px; padding: 0px; font-size: 14px; line-height: 26px; font-family: Arial, &quot;Microsoft YaHei&quot;, &quot;\\5FAE软雅黑&quot;, &quot;\\5B8B体&quot;, &quot;Malgun Gothic&quot;, Meiryo, sans-serif; font-variant-numeric: normal; font-variant-east-asian: normal;">
-                                            <span style="color:#ffffff;"><span style="font-size:14px;"><span
-                                                            style="font-family:微软雅黑;"><span data-v-3c4f858a=""
-                                                                                            data-group="1"
-                                                                                            style="box-sizing: border-box;">-多年的市场经验和市场关系。</span></span></span></span>
-                                        </p><span style="color:#ffffff;"><span
+                                        <span style="color:#ffffff;"><span
                                                     style="font-family:微软雅黑;"></span></span><br>
 
 

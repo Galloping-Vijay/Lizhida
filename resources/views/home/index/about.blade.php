@@ -1226,7 +1226,7 @@
 
                                         <a href="javascript:void(0);">
 
-                                            <img src="http://image.fast.126net.cn/group1/M00/02/33/wKgBS1rgyTaAVrm5AAAQ31QNfKI474.png"
+                                            <img src="/home/static/picture/wKgBS1rgyTaAVrm5AAAQ31QNfKI474.png"
                                                  id="111253preImg1" height="100" width="100">
 
 
@@ -1251,7 +1251,7 @@
                                                    id="attrImageInitialHeight">
 
                                             <input type="hidden" name="attr_imageUrl"
-                                                   value="http://image.fast.126net.cn/group1/M00/02/33/wKgBS1rgyTaAVrm5AAAQ31QNfKI474.png"
+                                                   value="/home/static/picture/wKgBS1rgyTaAVrm5AAAQ31QNfKI474.png"
                                                    id="uploadImgPath111253">
                                             <input type="hidden" name="attr_hoverEffect" value="0">
                                         </form>
@@ -1375,7 +1375,7 @@
                                                             style="font-family: 微软雅黑;"><span data-v-3c4f858a=""
                                                                                              data-group="0"
                                                                                              style="box-sizing: border-box;"><span
-                                                                    style="font-size: 24px;">专注</span></span></span></span></span><span
+                                                                    style="font-size: 24px;">{{ $focus->title }}</span></span></span></span></span><span
                                                     style="color:#3939a0;"><span style="font-family: 微软雅黑;"><span
                                                             data-v-3c4f858a="" data-group="0"
                                                             style="box-sizing: border-box;"></span></span></span></p>
@@ -1383,16 +1383,8 @@
                                            style="font-variant-numeric: normal; font-variant-east-asian: normal; box-sizing: border-box; margin: 0px; padding: 0px; font-size: 14px; line-height: 26px; font-family: Arial, &quot;Microsoft YaHei&quot;, &quot;\\5FAE软雅黑&quot;, &quot;\\5B8B体&quot;, &quot;Malgun Gothic&quot;, Meiryo, sans-serif; text-align: center;">
                                             <span style="color:#3939a0;"><span style="font-family: 微软雅黑;"><span
                                                             data-v-3c4f858a="" data-group="0"
-                                                            style="box-sizing: border-box;">-重点关注德国高端车型的热系统产品。</span></span></span>
+                                                            style="box-sizing: border-box;">{{ $focus->description }}</span></span></span>
                                         </p>
-                                        <p data-v-3c4f858a="" class="_tgt"
-                                           style="font-variant-numeric: normal; font-variant-east-asian: normal; box-sizing: border-box; margin: 0px; padding: 0px; font-size: 14px; line-height: 26px; font-family: Arial, &quot;Microsoft YaHei&quot;, &quot;\\5FAE软雅黑&quot;, &quot;\\5B8B体&quot;, &quot;Malgun Gothic&quot;, Meiryo, sans-serif; text-align: center;">
-                                            <span style="color:#3939a0;"><span style="font-family: 微软雅黑;"><span
-                                                            data-v-3c4f858a="" data-group="1"
-                                                            style="box-sizing: border-box;">-专注于提供优质的产品和专业的服务。</span></span></span>
-                                        </p>
-
-
                                     </div>
                                 </div>
                             </div>
@@ -1426,7 +1418,7 @@
 
                                         <a href="javascript:void(0);">
 
-                                            <img src="http://image.fast.126net.cn/group2/M00/00/21/wKgBTFrgyO-AGHX4AAAITSvs7xg414.png"
+                                            <img src="/home/static/picture/wKgBTFrgyO-AGHX4AAAITSvs7xg414.png"
                                                  id="111256preImg1" height="100" width="100">
 
 
@@ -1451,7 +1443,7 @@
                                                    id="attrImageInitialHeight">
 
                                             <input type="hidden" name="attr_imageUrl"
-                                                   value="http://image.fast.126net.cn/group2/M00/00/21/wKgBTFrgyO-AGHX4AAAITSvs7xg414.png"
+                                                   value="/home/static/picture/wKgBTFrgyO-AGHX4AAAITSvs7xg414.png"
                                                    id="uploadImgPath111256">
                                             <input type="hidden" name="attr_hoverEffect" value="0">
                                         </form>
@@ -1571,22 +1563,14 @@
                                          ondblclick="Site.editTextStyle($('#111261-moduleLayer .operate-inner'));">
                                         <div style="text-align: center;"><span style="color:#3939a0;"><span
                                                         style="line-height:300%;"><span style="font-family: 微软雅黑;"><span
-                                                                style="font-size: 24px;">经验</span></span></span></span>
+                                                                style="font-size: 24px;">{{ $experience->title }}</span></span></span></span>
                                         </div>
                                         <p data-v-3c4f858a="" class="_tgt"
                                            style="font-variant-numeric: normal; font-variant-east-asian: normal; box-sizing: border-box; margin: 0px; padding: 0px; font-size: 14px; line-height: 26px; font-family: Arial, &quot;Microsoft YaHei&quot;, &quot;\\5FAE软雅黑&quot;, &quot;\\5B8B体&quot;, &quot;Malgun Gothic&quot;, Meiryo, sans-serif; text-align: center;">
                                             <span style="color:#3939a0;"><span style="font-family: 微软雅黑;"><span
                                                             data-v-3c4f858a="" data-group="0"
-                                                            style="box-sizing: border-box;">-在热产品行业从业13年以上。</span></span></span>
+                                                            style="box-sizing: border-box;">{{ $experience->description }}</span></span></span>
                                         </p>
-                                        <p data-v-3c4f858a="" class="_tgt"
-                                           style="font-variant-numeric: normal; font-variant-east-asian: normal; box-sizing: border-box; margin: 0px; padding: 0px; font-size: 14px; line-height: 26px; font-family: Arial, &quot;Microsoft YaHei&quot;, &quot;\\5FAE软雅黑&quot;, &quot;\\5B8B体&quot;, &quot;Malgun Gothic&quot;, Meiryo, sans-serif; text-align: center;">
-                                            <span style="color:#3939a0;"><span style="font-family: 微软雅黑;"><span
-                                                            data-v-3c4f858a="" data-group="1"
-                                                            style="box-sizing: border-box;">-多年的市场经验和市场关系。</span></span></span>
-                                        </p>
-
-
                                     </div>
                                 </div>
                             </div>
@@ -1620,7 +1604,7 @@
 
                                         <a href="javascript:void(0);">
 
-                                            <img src="http://image.fast.126net.cn/group2/M00/00/21/wKgBTFrgyO-ABFX_AAALGQvH7Ss615.png"
+                                            <img src="/home/static/picture/wKgBTFrgyO-ABFX_AAALGQvH7Ss615.png"
                                                  id="111257preImg1" height="100" width="100">
 
 
@@ -1645,7 +1629,7 @@
                                                    id="attrImageInitialHeight">
 
                                             <input type="hidden" name="attr_imageUrl"
-                                                   value="http://image.fast.126net.cn/group2/M00/00/21/wKgBTFrgyO-ABFX_AAALGQvH7Ss615.png"
+                                                   value="/home/static/picture/wKgBTFrgyO-ABFX_AAALGQvH7Ss615.png"
                                                    id="uploadImgPath111257">
                                             <input type="hidden" name="attr_hoverEffect" value="0">
                                         </form>
@@ -1769,7 +1753,7 @@
                                                             style="font-family: 微软雅黑;"><span data-v-3c4f858a=""
                                                                                              data-group="0"
                                                                                              style="box-sizing: border-box;"><span
-                                                                    style="font-size: 24px;">能力</span></span></span></span></span><span
+                                                                    style="font-size: 24px;">{{ $ability->title }}</span></span></span></span></span><span
                                                     style="color:#3939a0;"><span style="font-family: 微软雅黑;"><span
                                                             data-v-3c4f858a="" data-group="0"
                                                             style="box-sizing: border-box;"></span></span></span></p>
@@ -1777,16 +1761,8 @@
                                            style="font-variant-numeric: normal; font-variant-east-asian: normal; box-sizing: border-box; margin: 0px; padding: 0px; font-size: 14px; line-height: 26px; font-family: Arial, &quot;Microsoft YaHei&quot;, &quot;\\5FAE软雅黑&quot;, &quot;\\5B8B体&quot;, &quot;Malgun Gothic&quot;, Meiryo, sans-serif;">
                                             <span style="color:#3939a0;"><span style="font-family: 微软雅黑;"><span
                                                             data-v-3c4f858a="" data-group="0"
-                                                            style="box-sizing: border-box;">-一些OE项目和公司运作的成功经验。</span></span></span>
+                                                            style="box-sizing: border-box;">{{ $ability->description }}</span></span></span>
                                         </p>
-                                        <p data-v-3c4f858a="" class="_tgt"
-                                           style="font-variant-numeric: normal; font-variant-east-asian: normal; box-sizing: border-box; margin: 0px; padding: 0px; font-size: 14px; line-height: 26px; font-family: Arial, &quot;Microsoft YaHei&quot;, &quot;\\5FAE软雅黑&quot;, &quot;\\5B8B体&quot;, &quot;Malgun Gothic&quot;, Meiryo, sans-serif;">
-                                            <span style="color:#3939a0;"><span style="font-family: 微软雅黑;"><span
-                                                            data-v-3c4f858a="" data-group="1"
-                                                            style="box-sizing: border-box;">-可以通过与OE制造公司以及在热产品。</span></span></span>
-                                        </p>
-
-
                                     </div>
                                 </div>
                             </div>
@@ -1820,7 +1796,7 @@
 
                                         <a href="javascript:void(0);">
 
-                                            <img src="http://image.fast.126net.cn/group1/M00/02/33/wKgBS1rgyTaAUEaWAAAH90D9-NU351.png"
+                                            <img src="/home/static/picture/wKgBS1rgyTaAUEaWAAAH90D9-NU351.png"
                                                  id="111259preImg1" height="100" width="100">
 
 
@@ -1845,7 +1821,7 @@
                                                    id="attrImageInitialHeight">
 
                                             <input type="hidden" name="attr_imageUrl"
-                                                   value="http://image.fast.126net.cn/group1/M00/02/33/wKgBS1rgyTaAUEaWAAAH90D9-NU351.png"
+                                                   value="/home/static/picture/wKgBS1rgyTaAUEaWAAAH90D9-NU351.png"
                                                    id="uploadImgPath111259">
                                             <input type="hidden" name="attr_hoverEffect" value="0">
                                         </form>
@@ -1969,7 +1945,7 @@
                                                             style="font-family: 微软雅黑;"><span data-v-3c4f858a=""
                                                                                              data-group="0"
                                                                                              style="box-sizing: border-box;"><span
-                                                                    style="font-size: 24px;">远见</span></span></span></span></span><span
+                                                                    style="font-size: 24px;">{{ $vision->title }}</span></span></span></span></span><span
                                                     style="color:#3939a0;"><span style="font-family: 微软雅黑;"><span
                                                             data-v-3c4f858a="" data-group="0"
                                                             style="box-sizing: border-box;"></span></span></span></p>
@@ -1977,14 +1953,9 @@
                                            style="font-variant-numeric: normal; font-variant-east-asian: normal; box-sizing: border-box; margin: 0px; padding: 0px; font-size: 14px; line-height: 26px; font-family: Arial, &quot;Microsoft YaHei&quot;, &quot;\\5FAE软雅黑&quot;, &quot;\\5B8B体&quot;, &quot;Malgun Gothic&quot;, Meiryo, sans-serif;">
                                             <span style="color:#3939a0;"><span style="font-family: 微软雅黑;"><span
                                                             data-v-3c4f858a="" data-group="0"
-                                                            style="box-sizing: border-box;">-为中国市场提供战略眼光。</span></span></span>
+                                                            style="box-sizing: border-box;">{{ $vision->description }}</span></span></span>
                                         </p>
-                                        <p data-v-3c4f858a="" class="_tgt"
-                                           style="font-variant-numeric: normal; font-variant-east-asian: normal; box-sizing: border-box; margin: 0px; padding: 0px; font-size: 14px; line-height: 26px; font-family: Arial, &quot;Microsoft YaHei&quot;, &quot;\\5FAE软雅黑&quot;, &quot;\\5B8B体&quot;, &quot;Malgun Gothic&quot;, Meiryo, sans-serif;">
-                                            <span style="color:#3939a0;"><span style="font-family: 微软雅黑;"><span
-                                                            data-v-3c4f858a="" data-group="1"
-                                                            style="box-sizing: border-box;">-寻找在中国市场拓展好关系的可能性。</span></span></span>
-                                        </p>
+
 
 
                                     </div>

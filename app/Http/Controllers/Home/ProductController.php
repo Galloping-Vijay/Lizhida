@@ -16,7 +16,6 @@ class ProductController extends Controller
             ->leftJoin('product_imges', 'product_imges.p_id', '=', 'products.id')
             ->groupBy('product_imges.p_id')
             ->orderBy('products.id', 'desc')
-            ->take(6)
             ->select('products.id', 'products.title', 'product_imges.url', 'products.price', 'products.o_price', 'products.total')
             ->get();
         return view('home.product.index', [

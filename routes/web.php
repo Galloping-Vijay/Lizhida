@@ -18,6 +18,8 @@ Route::get('/test', 'Home\IndexController@test');
 
 Route::any('/update', 'Home\UploadController@update');
 
+Route::any('/map', 'Home\IndexController@map');
+
 //首页
 Route::get('/', 'Home\IndexController@index');
 //产品中心

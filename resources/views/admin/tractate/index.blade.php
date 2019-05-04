@@ -2,8 +2,6 @@
 
 @section('styles')
     <style>
-        
-
         .layui-table-cell{
             height: 80px !important;
         }
@@ -16,12 +14,12 @@
         {{ csrf_field() }}
         <script type="text/html" id="toolbarDemo">
             <div class="layui-btn-container">
-                <button class="layui-btn layui-btn-sm" lay-event="add">添加短标签</button>
+                {{--<button class="layui-btn layui-btn-sm" lay-event="add">添加短标签</button>--}}
             </div>
         </script>
         <script type="text/html" id="barDemo">
             <a class="layui-btn layui-btn-xs" lay-event="edit">编辑</a>
-            <a class="layui-btn layui-btn-danger layui-btn-xs" lay-event="del">删除</a>
+            {{--<a class="layui-btn layui-btn-danger layui-btn-xs" lay-event="del">删除</a>--}}
         </script>
 
     </div>
@@ -60,13 +58,6 @@
             table.on('tool(' + filter + ')', function (obj) {
                 var data = obj.data;
                 if (obj.event === 'del') {
-                    if (data.id === 7) {
-                        layer.msg('关于我们只能修改,不能删除');
-                        return false;
-                    } else if (data.id === 8) {
-                        layer.msg('联系我们只能修改,不能删除');
-                        return false;
-                    }
                     layer.confirm('确定删除此文章？', function (index) {
                         $.ajax({
                             url: '/admin/tractate/destroy'

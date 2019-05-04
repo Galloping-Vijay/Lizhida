@@ -626,239 +626,91 @@
                                     </div>
                                 </div>
                                 <ul class="formMiddle formMiddle111239 list_style109">
-                                    <li>
-                                        <div class="formMiddleContent  formMiddleContent111239 contentLine">
-                                            <div class="style03_bot">
-                                                <a href="/news/show/1" class="style03_botl"
-                                                   title="箱体式低噪音发电机参数" target="_blank">
+                                    @foreach ($news_list as $news)
+                                        @if ($loop->iteration%3==0)
+                                            <li>
+                                                <div class="formMiddleContent  formMiddleContent111239 contentLine">
+                                                    <div class="style03_bot">
+                                                        <a href="/news/show/{{ $news->id }}" class="style03_botl"
+                                                           title="{{ $news->title }}" target="_blank">
 
-                                                    <img src="/home/static/images/wKgBTFrgyFqARJPXAABbXyQljEM136.jpg">
-                                                </a>
-                                            </div>
-                                            <div class="c-listcontent">
-                                                <div class="style03_botr">
-
-
-                                                    <!-- 头条推荐 -->
-                                                    <!-- 显示分类 -->
-                                                    <a class="list_title" href="/news/show/1"
-                                                       title="箱体式低噪音发电机参数" target="_blank">
-
-                                                        <!-- 任燕龙修改 2016年12月20日18:22:03  由于 文章列表，常规选项中简短标题设置为不使用  结果：文章列表依旧显示简短标题-->
-                                                        <span style="">
-箱体式低噪音发电机参数	 </span>
-                                                    </a>
-
-                                                    <div class="content_text form_lineheight">
-
-                                                        箱体式低噪音发电机参数 我厂所销售出产品实行联保。应用外接充电器给电池充电，负责为所有的公司用户提供...
+                                                            <img src="{{ $news->image }}">
+                                                        </a>
                                                     </div>
-                                                    <!-- 后面左边显示日期 -->
-
-                                                    <!-- 后面右边显示日期 -->
-
-
-                                                </div>
-                                                <a class="c-more" href="/news/show/1" target="_blank">more
-                                                    <i class="c-arrowleft">&gt;</i></a>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="formMiddleContent  formMiddleContent111239 contentLine">
-                                            <div class="style03_bot">
-                                                <a href="/news/show/1" class="style03_botl"
-                                                   title="体积小20KW汽油发电机使用" target="_blank">
-
-                                                    <img src="/home/static/images/wKgBTFrgyGOAHJGFAABVSJM6IPY222.jpg">
-                                                </a>
-                                            </div>
-                                            <div class="c-listcontent">
-                                                <div class="style03_botr">
+                                                    <div class="c-listcontent">
+                                                        <div class="style03_botr">
 
 
-                                                    <!-- 头条推荐 -->
-                                                    <!-- 显示分类 -->
-                                                    <a class="list_title" href="/news/show/1"
-                                                       title="体积小20KW汽油发电机使用" target="_blank">
+                                                            <!-- 头条推荐 -->
+                                                            <!-- 显示分类 -->
+                                                            <a class="list_title" href="/news/show/{{ $news->id }}"
+                                                               title="{{ $news->title }}" target="_blank">
 
-                                                        <!-- 任燕龙修改 2016年12月20日18:22:03  由于 文章列表，常规选项中简短标题设置为不使用  结果：文章列表依旧显示简短标题-->
-                                                        <span style="">
-体积小20KW汽油发电机使用	 </span>
-                                                    </a>
+                                                                <!-- 任燕龙修改 2016年12月20日18:22:03  由于 文章列表，常规选项中简短标题设置为不使用  结果：文章列表依旧显示简短标题-->
+                                                                <span style="">
+{{ $news->title }}	 </span>
+                                                            </a>
 
-                                                    <div class="content_text form_lineheight">
+                                                            <div class="content_text form_lineheight">
 
-                                                        它的特点是在原机械控制循环喷油量和喷油正时原理的基础上，改进更新机构功能，用线位移或角位移的电磁液压...
+                                                                {{ $news->description }}
+                                                            </div>
+                                                            <!-- 后面左边显示日期 -->
+
+                                                            <!-- 后面右边显示日期 -->
+
+
+                                                        </div>
+                                                        <a class="c-more" href="/news/show/{{ $news->id }}" target="_blank">more
+                                                            <i class="c-arrowleft">&gt;</i></a>
                                                     </div>
-                                                    <!-- 后面左边显示日期 -->
-
-                                                    <!-- 后面右边显示日期 -->
-
-
                                                 </div>
-                                                <a class="c-more" href="/news/show/1" target="_blank">more
-                                                    <i class="c-arrowleft">&gt;</i></a>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="formMiddleContent  formMiddleContent111239 contentLine">
-                                            <div class="style03_bot">
-                                                <a href="/news/show/1" class="style03_botl"
-                                                   title="2018上海国际橡胶工业展览会" target="_blank">
+                                            </li>
+                                        @else
+                                            <li>
+                                                <div class="formMiddleContent  formMiddleContent111239 contentLine">
+                                                    <div class="style03_bot">
+                                                        <a href="/news/show/{{ $news->id }}" class="style03_botl"
+                                                           title="{{ $news->title }}" target="_blank">
 
-                                                    <img src="/home/static/images/wKgBS1rgyKGAIWhnAABhC1q4bcQ765.jpg">
-                                                </a>
-                                            </div>
-                                            <div class="c-listcontent">
-                                                <div class="style03_botr">
-
-
-                                                    <!-- 头条推荐 -->
-                                                    <!-- 显示分类 -->
-                                                    <a class="list_title" href="/news/show/1"
-                                                       title="2018上海国际橡胶工业展览会" target="_blank">
-
-                                                        <!-- 任燕龙修改 2016年12月20日18:22:03  由于 文章列表，常规选项中简短标题设置为不使用  结果：文章列表依旧显示简短标题-->
-                                                        <span style="">
-2018上海国际橡胶工业展览会	 </span>
-                                                    </a>
-
-                                                    <div class="content_text form_lineheight">
-
-                                                        2018上海（国际）塑料橡胶工业展览会 ShanghaiInternationalPlastic&amp;RubberIndustryExhibition2018
-                                                        时间：...
+                                                            <img src="{{ $news->image }}">
+                                                        </a>
                                                     </div>
-                                                    <!-- 后面左边显示日期 -->
-
-                                                    <!-- 后面右边显示日期 -->
-
-
-                                                </div>
-                                                <a class="c-more" href="/news/show/1" target="_blank">more
-                                                    <i class="c-arrowleft">&gt;</i></a>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="formMiddleContent  formMiddleContent111239 contentLine">
-                                            <div class="style03_bot">
-                                                <a href="/news/show/1" class="style03_botl"
-                                                   title="低压开关柜哪个品牌好" target="_blank">
-
-                                                    <img src="/home/static/images/wKgBTFrgyGOAAU_LAAAlcgxuyrM624.jpg">
-                                                </a>
-                                            </div>
-                                            <div class="c-listcontent">
-                                                <div class="style03_botr">
+                                                    <div class="c-listcontent">
+                                                        <div class="style03_botr">
 
 
-                                                    <!-- 头条推荐 -->
-                                                    <!-- 显示分类 -->
-                                                    <a class="list_title" href="/news/show/1"
-                                                       title="低压开关柜哪个品牌好" target="_blank">
+                                                            <!-- 头条推荐 -->
+                                                            <!-- 显示分类 -->
+                                                            <a class="list_title" href="/news/show/{{ $news->id }}"
+                                                               title="{{ $news->title }}" target="_blank">
 
-                                                        <!-- 任燕龙修改 2016年12月20日18:22:03  由于 文章列表，常规选项中简短标题设置为不使用  结果：文章列表依旧显示简短标题-->
-                                                        <span style="">
-低压开关柜哪个品牌好	 </span>
-                                                    </a>
+                                                                <!-- 任燕龙修改 2016年12月20日18:22:03  由于 文章列表，常规选项中简短标题设置为不使用  结果：文章列表依旧显示简短标题-->
+                                                                <span style="">
+{{ $news->title }}	 </span>
+                                                            </a>
 
-                                                    <div class="content_text form_lineheight">
+                                                            <div class="content_text form_lineheight">
 
-                                                        制造业的发展空间正稳步增长，与人们追求高品质的生活有关。清晨，我们驶新能源车去工作，使用智能手机拍照...
+                                                                {{ $news->description }}
+                                                            </div>
+                                                            <!-- 后面左边显示日期 -->
+
+                                                            <!-- 后面右边显示日期 -->
+
+
+                                                        </div>
+                                                        <a class="c-more" href="/news/show/{{ $news->id }}" target="_blank">more
+                                                            <i class="c-arrowleft">&gt;</i></a>
                                                     </div>
-                                                    <!-- 后面左边显示日期 -->
-
-                                                    <!-- 后面右边显示日期 -->
-
-
                                                 </div>
-                                                <a class="c-more" href="/news/show/1" target="_blank">more
-                                                    <i class="c-arrowleft">&gt;</i></a>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="formMiddleContent  formMiddleContent111239 contentLine">
-                                            <div class="style03_bot">
-                                                <a href="/news/show/1" class="style03_botl"
-                                                   title="居然因高压开关柜这一举动，企业损失重大" target="_blank">
-
-                                                    <img src="/home/static/images/wKgBTFrgyGOAJrmcAAAaJsAmCBs643.jpg">
-                                                </a>
-                                            </div>
-                                            <div class="c-listcontent">
-                                                <div class="style03_botr">
-
-
-                                                    <!-- 头条推荐 -->
-                                                    <!-- 显示分类 -->
-                                                    <a class="list_title" href="/news/show/1"
-                                                       title="居然因高压开关柜这一举动，企业损失重大" target="_blank">
-
-                                                        <!-- 任燕龙修改 2016年12月20日18:22:03  由于 文章列表，常规选项中简短标题设置为不使用  结果：文章列表依旧显示简短标题-->
-                                                        <span style="">
-居然因高压开关柜这一举动，企业损失重大	 </span>
-                                                    </a>
-
-                                                    <div class="content_text form_lineheight">
-
-                                                        春季的天气变得忽冷忽热，人们容易流涕，登山的运动相当好，可以远离城市，呼吸到新鲜空气，五个小时的爬行...
-                                                    </div>
-                                                    <!-- 后面左边显示日期 -->
-
-                                                    <!-- 后面右边显示日期 -->
-
-
-                                                </div>
-                                                <a class="c-more" href="/news/show/1" target="_blank">more
-                                                    <i class="c-arrowleft">&gt;</i></a>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="formMiddleContent  formMiddleContent111239 contentLine">
-                                            <div class="style03_bot">
-                                                <a href="/news/show/1" class="style03_botl"
-                                                   title="仿威图机柜的行业定义及特点" target="_blank">
-
-                                                    <img src="/home/static/images/wKgBS1rgyKCAU-xZAAAk2ekceHg599.jpg">
-                                                </a>
-                                            </div>
-                                            <div class="c-listcontent">
-                                                <div class="style03_botr">
-
-
-                                                    <!-- 头条推荐 -->
-                                                    <!-- 显示分类 -->
-                                                    <a class="list_title" href="/news/show/1"
-                                                       title="仿威图机柜的行业定义及特点" target="_blank">
-
-                                                        <!-- 任燕龙修改 2016年12月20日18:22:03  由于 文章列表，常规选项中简短标题设置为不使用  结果：文章列表依旧显示简短标题-->
-                                                        <span style="">
-仿威图机柜的行业定义及特点	 </span>
-                                                    </a>
-
-                                                    <div class="content_text form_lineheight">
-
-                                                        仿威图机柜通俗讲就是仿照德国威图柜做工精美的产品，威图的柜子表面处理要求高，防护等级高，不过现在国内...
-                                                    </div>
-                                                    <!-- 后面左边显示日期 -->
-
-                                                    <!-- 后面右边显示日期 -->
-
-
-                                                </div>
-                                                <a class="c-more" href="/news/show/1" target="_blank">more
-                                                    <i class="c-arrowleft">&gt;</i></a>
-                                            </div>
-                                        </div>
-                                    </li>
+                                            </li>
+                                        @endif
+                                    @endforeach
                                 </ul>
                             </div>
                             <div class="pagebar">
-                                <div class="m_total_list">
+                               {{-- <div class="m_total_list">
                                     <b>共显示<strong>2</strong>页</b>
                                     <i>上一页</i>
 
@@ -871,8 +723,8 @@
                                     <!-- 最后一页 -->
                                     <i><a href="javascript:void(0);" onclick="_goto111239Page('2');">下一页</a></i>
 
-                                </div>
-
+                                </div>--}}
+                                {{ $news_list->links() }}
 
                             </div>
                             <form id="jvForm111239" action="">

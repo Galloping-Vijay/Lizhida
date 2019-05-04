@@ -417,7 +417,7 @@
         }
 
         #module111268 {
-            background: rgba(0, 0, 0, 0) url(http://image.fast.126net.cn/group1/M00/03/9F/wKgBS1s7b3-AO8-tAAANOGrInEg343.png) no-repeat center center;
+            background: rgba(0, 0, 0, 0) url(home/static/images/wkgbs1s7b4camfftaaanogrineg513.png) no-repeat center center;
         }
 
         #module111268 .formMiddleContent111268 {
@@ -475,7 +475,7 @@
 
                                         <a href="javascript:void(0);">
 
-                                            <img src="http://image.fast.126net.cn/group2/M00/00/21/wKgBTFrgyPeAGjrNAAXxmZtPPDQ104.png"
+                                            <img src="/home/static/picture/wKgBTFrgyPeAGjrNAAXxmZtPPDQ104.png"
                                                  id="111266preImg1" height="400" width="1920">
 
 
@@ -501,7 +501,7 @@
                                                    id="attrImageInitialHeight">
 
                                             <input type="hidden" name="attr_imageUrl"
-                                                   value="http://image.fast.126net.cn/group2/M00/00/21/wKgBTFrgyPeAGjrNAAXxmZtPPDQ104.png"
+                                                   value="/home/static/picture/wKgBTFrgyPeAGjrNAAXxmZtPPDQ104.png"
                                                    id="uploadImgPath111266">
                                             <input type="hidden" name="attr_hoverEffect" value="0">
                                         </form>
@@ -756,12 +756,10 @@
                                     <div class="ztextbox"
                                          ondblclick="Site.editTextStyle($('#111276-moduleLayer .operate-inner'));">
                                         <div style="text-align: center;"><span style="line-height:300%;"><span
-                                                        style="font-size:16px;"><span data-v-3c4f858a="" data-group="0"
-                                                                                      style="font-family: Arial, &quot;Microsoft YaHei&quot;, &quot;\\5FAE软雅黑&quot;, &quot;\\5B8B体&quot;, &quot;Malgun Gothic&quot;, Meiryo, sans-serif; box-sizing: border-box;">Pino以汽车零部件技术、品牌和服务为核心竞争力。</span><span
-                                                            data-v-3c4f858a="" data-group="-1"
-                                                            style="font-family: Arial, &quot;Microsoft YaHei&quot;, &quot;\\5FAE软雅黑&quot;, &quot;\\5B8B体&quot;, &quot;Malgun Gothic&quot;, Meiryo, sans-serif; box-sizing: border-box;">自成立以来，Pino致力于以领先的技术开发产品，拓展市场和OEM服务。</span><span
-                                                            data-v-3c4f858a="" data-group="-2"
-                                                            style="font-family: Arial, &quot;Microsoft YaHei&quot;, &quot;\\5FAE软雅黑&quot;, &quot;\\5B8B体&quot;, &quot;Malgun Gothic&quot;, Meiryo, sans-serif; box-sizing: border-box;">目前我们的主要产品有空调系统、发动机冷却系统、汽车电子等，适用于奔驰、宝马、奥迪、路虎、捷豹等欧洲豪华车品牌，并在业内享有盛誉。</span></span></span>
+                                                        style="font-size:16px;"><span data-v-3c4f858a="" data-group="0" style="font-family: Arial, &quot;Microsoft YaHei&quot;, &quot;\\5FAE软雅黑&quot;, &quot;\\5B8B体&quot;, &quot;Malgun Gothic&quot;, Meiryo, sans-serif; box-sizing: border-box;">
+                                                       {!! $info->content !!}
+                                                    </span>
+                                                </span></span>
                                         </div>
 
 
@@ -888,12 +886,12 @@
                                          ondblclick="Site.editTextStyle($('#111271-moduleLayer .operate-inner'));">
                                         <span style="line-height:250%;"><span style="line-height:500%;"><span
                                                         style="color:#3939a0;"><span style="font-size:26px;"><span
-                                                                style="font-family:微软雅黑;">Pino Gmbh</span></span></span></span><span
+                                                                style="font-family:微软雅黑;">励致达科技</span></span></span></span><span
                                                     style="font-size:15px;"><span style="font-family:微软雅黑;"><br><br
                                                             style="font-family: 微软雅黑; font-size: 15px;"><span
-                                                            style="font-family: 微软雅黑; font-size: 15px;">客服：400-888-8888 （Tel）</span><br
+                                                            style="font-family: 微软雅黑; font-size: 15px;">联系：{{ $wechat }} （Wechat）</span><br
                                                             style="font-family: 微软雅黑; font-size: 15px;"><span
-                                                            style="font-family: 微软雅黑; font-size: 15px;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;123456789&nbsp; &nbsp; &nbsp;（QQ）<br></span>电话：138-8888-8888<br>邮箱：Pinohr@126.com<br>传真：020-888-8888<br>地址：北京市海淀区长安路东方大厦</span></span></span>
+                                                            style="font-family: 微软雅黑; font-size: 15px;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;{{ $qq }}&nbsp; &nbsp; &nbsp;（QQ）<br></span>电话：{{ $tel }}<br>邮箱：{{ $email }}<br>地址：{{ $site_address }}</span></span></span>
 
 
                                     </div>
@@ -1010,7 +1008,7 @@
                                 </div>
                                 <div class="formMiddle formMiddle111269 list_main_b">
                                     <iframe width="550" height="300"
-                                            src="http://shebei01.mb.126net.cn/view_design/mapPanel.jspx?mcId=111269"
+                                            src="http://www.lizhidasz.com/map"
                                             scrolling="no" frameborder="0" name="mapframe"></iframe>
                                 </div>
                             </div>
@@ -1174,7 +1172,7 @@
 
                                         <a href="javascript:void(0);">
 
-                                            <img src="http://image.fast.126net.cn/group1/M00/02/34/wKgBS1rgyT2AYh50AAHmf-VofQM654.png"
+                                            <img src="/home/static/picture/wKgBS1rgyT2AYh50AAHmf-VofQM654.png"
                                                  id="111279preImg1" height="200" width="265">
 
 
@@ -1199,7 +1197,7 @@
                                                    id="attrImageInitialHeight">
 
                                             <input type="hidden" name="attr_imageUrl"
-                                                   value="http://image.fast.126net.cn/group1/M00/02/34/wKgBS1rgyT2AYh50AAHmf-VofQM654.png"
+                                                   value="/home/static/picture/wKgBS1rgyT2AYh50AAHmf-VofQM654.png"
                                                    id="uploadImgPath111279">
                                             <input type="hidden" name="attr_hoverEffect" value="0">
                                         </form>
@@ -1239,7 +1237,7 @@
 
                                         <a href="javascript:void(0);">
 
-                                            <img src="http://image.fast.126net.cn/group1/M00/02/33/wKgBS1rgyTaAE4r5AAFdNpLyjlU303.png"
+                                            <img src="/home/static/picture/wKgBS1rgyTaAE4r5AAFdNpLyjlU303.png"
                                                  id="111280preImg1" width="100%" height="100%">
 
 
@@ -1264,7 +1262,7 @@
                                                    id="attrImageInitialHeight">
 
                                             <input type="hidden" name="attr_imageUrl"
-                                                   value="http://image.fast.126net.cn/group1/M00/02/33/wKgBS1rgyTaAE4r5AAFdNpLyjlU303.png"
+                                                   value="/home/static/picture/wKgBS1rgyTaAE4r5AAFdNpLyjlU303.png"
                                                    id="uploadImgPath111280">
                                             <input type="hidden" name="attr_hoverEffect" value="0">
                                         </form>
@@ -1302,7 +1300,7 @@
 
                                         <a href="javascript:void(0);">
 
-                                            <img src="http://image.fast.126net.cn/group2/M00/00/24/wKgBTFrgyTeAZh-7AAGak4-nGsI961.png"
+                                            <img src="/home/static/picture/wKgBTFrgyTeAZh-7AAGak4-nGsI961.png"
                                                  id="111281preImg1" height="200" width="265">
 
 
@@ -1327,7 +1325,7 @@
                                                    id="attrImageInitialHeight">
 
                                             <input type="hidden" name="attr_imageUrl"
-                                                   value="http://image.fast.126net.cn/group2/M00/00/24/wKgBTFrgyTeAZh-7AAGak4-nGsI961.png"
+                                                   value="/home/static/picture/wKgBTFrgyTeAZh-7AAGak4-nGsI961.png"
                                                    id="uploadImgPath111281">
                                             <input type="hidden" name="attr_hoverEffect" value="0">
                                         </form>
@@ -1365,7 +1363,7 @@
 
                                         <a href="javascript:void(0);">
 
-                                            <img src="http://image.fast.126net.cn/group2/M00/00/24/wKgBTFrgyTaAW3_aAAEj_arRyyg165.png"
+                                            <img src="/home/static/picture/wKgBTFrgyTaAW3_aAAEj_arRyyg165.png"
                                                  id="111282preImg1" height="200" width="265">
 
 
@@ -1390,7 +1388,7 @@
                                                    id="attrImageInitialHeight">
 
                                             <input type="hidden" name="attr_imageUrl"
-                                                   value="http://image.fast.126net.cn/group2/M00/00/24/wKgBTFrgyTaAW3_aAAEj_arRyyg165.png"
+                                                   value="/home/static/picture/wKgBTFrgyTaAW3_aAAEj_arRyyg165.png"
                                                    id="uploadImgPath111282">
                                             <input type="hidden" name="attr_hoverEffect" value="0">
                                         </form>
