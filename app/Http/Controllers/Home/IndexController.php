@@ -19,9 +19,22 @@ class IndexController extends Controller
             ->groupBy('product_imges.p_id')
             ->orderBy('products.id', 'desc')
             ->take(6)
-            ->select('products.id','products.title','product_imges.url')
+            ->select('products.id', 'products.title', 'product_imges.url','products.price','products.o_price','products.total')
             ->get();
-        return view('home.index.index');
+        $news_list = DB::table('news')
+            ->where('type', '=', 0)
+            ->select('id', 'title', 'description')
+            ->orderBy('id', 'desc')
+            ->take(6)
+            ->get();
+        $about = DB::table('news')->find(7);
+        $contact = DB::table('news')->find(8);
+        return view('home.index.index', [
+            'product_list' => $product_list,
+            'news_list' => $news_list,
+            'about' => $about,
+            'contact' => $contact
+        ]);
     }
 
     public function about()

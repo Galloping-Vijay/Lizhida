@@ -496,126 +496,51 @@
                                     </div>
                                 </div>
                                 <ul class="formMiddle formMiddle110976 c-prolist27">
-                                    <li class="formMiddleContent formMiddleContent110976 contentLine ">
-                                        <a href="">
-                                            <div class="c-img">
-                                                <img alt="厂家直销EDI高纯水设备"
-                                                     src="home/static/picture/wkgbs1rgyxmaf0heaaci79zn6nq539.jpg"
-                                                     title="厂家直销EDI高纯水设备">
-                                            </div>
-                                            <div class="c-probottom">
-                                                <p class="propDiv price">
-                                                    <!-- <span class="propName">价格：</span> -->
-                                                    <span class="propValue"><b>¥</b>350,000.00</span>
-                                                </p>
-                                                <p class="porduct_title"><span>厂家直销EDI高纯水设备</span></p>
-                                            </div>
-                                        </a>
-                                        <!-- <p class="propDiv inventoryNum">
-                                <span class="propName">库存：</span>
-                                <span class="propValue">5</span>
-                            </p> -->
-                                    </li>
-                                    <li class="formMiddleContent formMiddleContent110976 contentLine ">
-                                        <a href="/">
-                                            <div class="c-img">
-                                                <img alt="电脑全自动数控弹簧机"
-                                                     src="home/static/picture/wkgbs1rgyxmafq5aaabajdcdha4321.jpg"
-                                                     title="电脑全自动数控弹簧机">
-                                            </div>
-                                            <div class="c-probottom">
-                                                <p class="propDiv price">
-                                                    <!-- <span class="propName">价格：</span> -->
-                                                    <span class="propValue"><b>¥</b>98,000.00</span>
-                                                </p>
-                                                <p class="porduct_title"><span>电脑全自动数控弹簧机</span></p>
-                                            </div>
-                                        </a>
-                                        <!-- <p class="propDiv inventoryNum">
-                                <span class="propName">库存：</span>
-                                <span class="propValue">5</span>
-                            </p> -->
-                                    </li>
-                                    <li class="formMiddleContent formMiddleContent110976 contentLine c-lastpro ">
-                                        <a href="/">
-                                            <div class="c-img">
-                                                <img alt="化工原料水包装机肥料水包装机，液包机"
-                                                     src="home/static/picture/wkgbs1rgyxiadtuiaaaysorsar0766.jpg"
-                                                     title="化工原料水包装机肥料水包装机，液包机">
-                                            </div>
-                                            <div class="c-probottom">
-                                                <p class="propDiv price">
-                                                    <!-- <span class="propName">价格：</span> -->
-                                                    <span class="propValue"><b>¥</b>23,800.00</span>
-                                                </p>
-                                                <p class="porduct_title"><span>化工原料水包装机肥料水包装机，液包机</span></p>
-                                            </div>
-                                        </a>
-                                        <!-- <p class="propDiv inventoryNum">
-                                <span class="propName">库存：</span>
-                                <span class="propValue">12</span>
-                            </p> -->
-                                    </li>
-                                    <li class="formMiddleContent formMiddleContent110976 contentLine ">
-                                        <a href="/">
-                                            <div class="c-img">
-                                                <img alt="金属导体行业反渗透设备、去离子水设备"
-                                                     src="home/static/picture/wkgbs1rgyxmagvalaaa0jer4lzy993.jpg"
-                                                     title="金属导体行业反渗透设备、去离子水设备">
-                                            </div>
-                                            <div class="c-probottom">
-                                                <p class="propDiv price">
-                                                    <!-- <span class="propName">价格：</span> -->
-                                                    <span class="propValue"><b>¥</b>23,000.00</span>
-                                                </p>
-                                                <p class="porduct_title"><span>金属导体行业反渗透设备、去离子水设备</span></p>
-                                            </div>
-                                        </a>
-                                        <!-- <p class="propDiv inventoryNum">
-                                <span class="propName">库存：</span>
-                                <span class="propValue">1000</span>
-                            </p> -->
-                                    </li>
-                                    <li class="formMiddleContent formMiddleContent110976 contentLine ">
-                                        <a href="/">
-                                            <div class="c-img">
-                                                <img alt="木屑颗粒包装机饲料包装秤"
-                                                     src="home/static/picture/wkgbs1rgyxiaeihtaabx6lg0cru686.jpg"
-                                                     title="木屑颗粒包装机饲料包装秤">
-                                            </div>
-                                            <div class="c-probottom">
-                                                <p class="propDiv price">
-                                                    <!-- <span class="propName">价格：</span> -->
-                                                    <span class="propValue"><b>¥</b>19,800.00</span>
-                                                </p>
-                                                <p class="porduct_title"><span>木屑颗粒包装机饲料包装秤</span></p>
-                                            </div>
-                                        </a>
-                                        <!-- <p class="propDiv inventoryNum">
-                                <span class="propName">库存：</span>
-                                <span class="propValue">15</span>
-                            </p> -->
-                                    </li>
-                                    <li class="formMiddleContent formMiddleContent110976 contentLine c-lastpro ">
-                                        <a href="/">
-                                            <div class="c-img">
-                                                <img alt="全自动颗粒包装机、灌装机"
-                                                     src="home/static/picture/wkgbs1rgyxiap7wxaabxzuexef8842.jpg"
-                                                     title="全自动颗粒包装机、灌装机">
-                                            </div>
-                                            <div class="c-probottom">
-                                                <p class="propDiv price">
-                                                    <!-- <span class="propName">价格：</span> -->
-                                                    <span class="propValue"><b>¥</b>18,000.00</span>
-                                                </p>
-                                                <p class="porduct_title"><span>全自动颗粒包装机、灌装机</span></p>
-                                            </div>
-                                        </a>
-                                        <!-- <p class="propDiv inventoryNum">
-                                <span class="propName">库存：</span>
-                                <span class="propValue">10</span>
-                            </p> -->
-                                    </li>
+                                    @foreach ($product_list as $product)
+                                        @if ($loop->iteration%3 ==0)
+                                            <li class="formMiddleContent formMiddleContent110976 contentLine c-lastpro ">
+                                                <a href="/product/show/{{ $product->id }}">
+                                                    <div class="c-img">
+                                                        <img alt="{{ $product->title }}"
+                                                             src=" {{ $product->url}}"
+                                                             title="{{ $loop->iteration%3 }}">
+                                                    </div>
+                                                    <div class="c-probottom">
+                                                        <p class="propDiv price">
+                                                            <!-- <span class="propName">价格：{{ $product->o_price }}</span> -->
+                                                            <span class="propValue"><b>¥</b>{{ $product->price }}</span>
+                                                        </p>
+                                                        <p class="porduct_title"><span>{{ $product->title }}</span></p>
+                                                    </div>
+                                                </a>
+                                                <!-- <p class="propDiv inventoryNum">
+                                        <span class="propName">库存：</span>
+                                        <span class="propValue">{{ $product->total }}</span>
+                                    </p> -->
+                                            </li>
+                                        @else
+                                            <li class="formMiddleContent formMiddleContent110976 contentLine ">
+                                                <a href="/product/show/{{ $product->id }}">
+                                                    <div class="c-img">
+                                                        <img alt="{{ $product->title }}"
+                                                             src="{{ $product->url }}"
+                                                             title="{{ $loop->iteration%3 }}">
+                                                    </div>
+                                                    <div class="c-probottom">
+                                                        <p class="propDiv price">
+                                                        <!-- <span class="propName">价格：{{ $product->o_price }}</span> -->
+                                                            <span class="propValue"><b>¥</b>{{ $product->price }}</span>
+                                                        </p>
+                                                        <p class="porduct_title"><span>{{ $product->title }}</span></p>
+                                                    </div>
+                                                </a>
+                                            <!-- <p class="propDiv inventoryNum">
+                                        <span class="propName">库存：</span>
+                                        <span class="propValue">{{ $product->total }}</span>
+                                    </p> -->
+                                            </li>
+                                        @endif
+                                    @endforeach
                                 </ul>
                                 <div class="clearfloat"></div>
                             </div>

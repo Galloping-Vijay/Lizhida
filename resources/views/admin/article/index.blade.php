@@ -49,7 +49,14 @@
             table.on('tool(' + filter + ')', function (obj) {
                 var data = obj.data;
                 if (obj.event === 'del') {
-                    layer.confirm('确定删除此包厢？', function (index) {
+                    if(data.id ===7){
+                        layer.msg('关于我们只能修改,不能删除');
+                        return false;
+                    }else if(data.id ===8){
+                        layer.msg('联系我们只能修改,不能删除');
+                        return false;
+                    }
+                    layer.confirm('确定删除此文章？', function (index) {
                         $.ajax({
                             url: '/admin/article/destroy'
                             , data:{id:data.id,_token: tag_token}

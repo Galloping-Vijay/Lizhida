@@ -78,12 +78,17 @@ class ProductController extends Controller
         if ($res == true) {
             if (!empty($parem['image'])) {
                 $imgData = [];
-                foreach ($parem['image'] as $ksy => $val) {
+                foreach ($parem['image'] as $key => $val) {
+                    if (strpos($val, 'http') !== false) {
+                        $url = $val;
+                    } else {
+                        $url = empty($_SERVER['HTTPS']) ? 'http://' . $_SERVER["HTTP_HOST"] . $val : 'https://' . $_SERVER["HTTP_HOST"] . $val;
+                    }
                     $imgData[] = [
                         'p_id' => $model->id,
                         'title' => $parem['title'],
-                        'url' => empty($_SERVER['HTTPS']) ? 'http://' . $_SERVER["HTTP_HOST"] . $val : 'https://' . $_SERVER["HTTP_HOST"] . $val
-                        , 'created_at' => date('Y-m-d H:i:s', time())
+                        'url' => $url,
+                        'created_at' => date('Y-m-d H:i:s', time())
                     ];
                 }
                 if (!empty($imgData)) {
@@ -151,18 +156,23 @@ class ProductController extends Controller
         $info->status = empty($parem['status']) ? 1 : 0;
         $info->description = $parem['description'];
         $info->content = $parem['content'];
-        $info->status = $parem['status']??$info->status;
+        $info->status = $parem['status'] ?? $info->status;
         $info->updated_at = date('Y-m-d H:i:s', time());
         $res = $info->save();
         if ($res == true) {
             if (!empty($parem['image'])) {
                 $imgData = [];
                 DB::table('product_imges')->where('p_id', $parem['id'])->delete();
-                foreach ($parem['image'] as $ksy => $val) {
+                foreach ($parem['image'] as $key => $val) {
+                    if (strpos($val, 'http') !== false) {
+                        $url = $val;
+                    } else {
+                        $url = empty($_SERVER['HTTPS']) ? 'http://' . $_SERVER["HTTP_HOST"] . $val : 'https://' . $_SERVER["HTTP_HOST"] . $val;
+                    }
                     $imgData[] = [
                         'p_id' => $parem['id'],
                         'title' => $parem['title'],
-                        'url' => empty($_SERVER['HTTPS']) ? 'http://' . $_SERVER["HTTP_HOST"] . $val : 'https://' . $_SERVER["HTTP_HOST"] . $val
+                        'url' => $url
                         , 'created_at' => date('Y-m-d H:i:s', time())
                     ];
                 }
