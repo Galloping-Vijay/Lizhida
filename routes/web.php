@@ -61,6 +61,14 @@ Route::middleware('auth')->namespace('Admin')->group(function () {
     Route::any('/admin/article/edit', 'ArticleController@edit');
     Route::any('/admin/article/update', 'ArticleController@update');
 
+    Route::any('/admin/tractate', 'TractateController@index');
+    Route::any('/admin/tractate/index', 'TractateController@index');
+    Route::any('/admin/tractate/create', 'TractateController@create');
+    Route::post('/admin/tractate/store', 'TractateController@store');
+    Route::any('/admin/tractate/destroy', 'TractateController@destroy');
+    Route::any('/admin/tractate/edit', 'TractateController@edit');
+    Route::any('/admin/tractate/update', 'TractateController@update');
+
     Route::any('/admin/product', 'ProductController@index');
     Route::any('/admin/product/index', 'ProductController@index');
     Route::any('/admin/product/create', 'ProductController@create');

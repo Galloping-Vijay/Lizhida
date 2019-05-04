@@ -23,7 +23,7 @@ class IndexController extends Controller
             ->get();
         $news_list = DB::table('news')
             ->where('type', '=', 0)
-            ->select('id', 'title', 'description')
+            ->select('id', 'title', 'description','image')
             ->orderBy('id', 'desc')
             ->take(6)
             ->get();
@@ -39,12 +39,19 @@ class IndexController extends Controller
 
     public function about()
     {
-        return view('home.index.about');
+        $about = DB::table('news')->find(7);
+        return view('home.index.about',[
+            'info' => $about,
+        ]);
     }
 
     public function contact()
     {
-        return view('home.index.contact');
+        $contact = DB::table('news')->find(8);
+        return view('home.index.contact',
+            [
+                'info' => $contact
+            ]);
     }
 
     public function test(Request $request)

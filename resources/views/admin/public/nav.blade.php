@@ -7,6 +7,9 @@
         <li @if (Request::is('admin/news*')) class="nav-item active" @else class="nav-item" @endif>
             <a class="nav-link" href="/admin/news">文章设置</a>
         </li>
+        <li @if (Request::is('admin/news*')) class="nav-item active" @else class="nav-item" @endif>
+            <a class="nav-link" href="/admin/tractate">短标签设置</a>
+        </li>
         <li @if (Request::is('admin/article*')) class="nav-item active" @else class="nav-item" @endif>
             <a class="nav-link" href="/admin/article">系统文章</a>
         </li>

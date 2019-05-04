@@ -8,231 +8,909 @@
 
 @section('style')
     <style id="stylemodule" type="text/css">
-        #module111221 {width:200px ;}
-        #module111221 {z-index:502;}
-        #module111221 .formBanner111221{display:none;}
-        #module111215 {z-index:501;}
-        #modulenav228a00001 .itemSelected .itemName0{color:rgba(57,57,160,1);}
-        #modulenav228a00001 .itemHover .itemName0{color:rgba(57,57,160,1);}
-        #modulenav228a00001 .itemName0{font-size:16px;}
-        #modulenav228a00001 .mainnav{height:80px;}
-        #modulenav228a00001 .navCenterContent{height:80px;}
-        #modulenav228a00001 .navCenter{height:80px;}
-        #modulenav228a00001 .itemContainer{height:80px;}
-        #modulenav228a00001 {height:px;}
-        #modulenav228a00001 .navCenter a{line-height:80px;}
-        #webBannerbk{height:80px;}
-        #logo_picture img{width:100%;}
-        #logo_picture img{height:100%;}
-        #logo_picture{width:115.26829268292683px;}
-        #logo_picture{height:34px;}
-        #navigationBox1181{width:1000px;}
-        #modulenav228a00001 {width:0px;}
-        #modulenav228a00001 .navContent{width:0px;}
-        #modulenav228a00001 .navCenter{width:0;}
-        #logo_picture{left:0px;}
-        #logo_picture{position:absolute;}
-        #webFooterbk{background:rgba(57,57,160,1);}
-        #webFooterbk #design_foot{font-family:微软雅黑;}
-        #webFooterbk #design_foot{font-size:14px;}
-        #webFooterbk #design_foot{color:rgba(255, 255, 255,1);}
-        #webFooterbk #design_foot a{font-family:微软雅黑;}
-        #webFooterbk #design_foot a{font-size:14px;}
-        #webFooterbk #design_foot a{color:rgba(255, 255, 255,1);}
-        #webFooterbk #design_foot a:hover{color:rgba(255, 255, 255,1);}
-        #webFooterbk #design_foot{padding-top:200px;}
-        #webFooterbk #design_foot{padding-bottom:0px;}
-        #webFooterbk #design_foot{padding-left:0px;}
-        #webFooterbk #design_foot{padding-right:0px;}
-        #module111215 .formBanner111215{display:none;}
-        #module111215 {width:233px ;}
-        #module111215 .formMiddle111215{background:none;}
-        #module111215 .formMiddle111215 .formMiddleCenter111215{background:none;}
-        #module111215 .formMiddleContent111215{background:none;}
-        #modulenav228a00001 {left:430px;}
-        #modulenav228a00001 {top:-79px;}
-        #multilanguage{left:984px;}
-        #multilanguage{position:absolute;}
-        #multilanguage{top:22px;}
-        #undefined {height:300px;}
-        #module111201 .formMiddle111201{padding-bottom:30px;}
-        #module111201 .formMiddle111201{padding-top:20px;}
-        #module111201 .formMiddle111201{padding-left:0px;}
-        #module111201 .formMiddle111201{padding-right:0px;}
-        #module111201 {padding-bottom:0px;}
-        #module111201 {padding-top:0px;}
-        #module111201 {padding-left:0px;}
-        #module111201 {padding-right:0px;}
-        #module111201 {margin-bottom:0px;}
-        #module111201 {margin-top:0px;}
-        #module111201 {margin-left:0px;}
-        #module111201 {margin-right:0px;}
-        #module111201 {height:100%;}
-        #module111201 .formBanner111201{display:none;}
-        #module111200 .formMiddle111200{padding-bottom:10px;}
-        #module111200 .formMiddle111200{padding-top:50px;}
-        #module111200 .formMiddle111200{padding-left:0px;}
-        #module111200 .formMiddle111200{padding-right:0px;}
-        #module111200 {background:rgba(0, 0, 0,0) url(home/static/images/wkgbs1s7b4cawutdaaakhnkqsw4079.png)  no-repeat center center ;}
-        #module111200 .formMiddleContent111200{background:none;}
-        #module111200 .formMiddle111200 .formMiddleCenter111200{background:none;}
-        #module111200 .formMiddle111200{background:none;}
-        #module111200 {width:1098px ;}
-        #module111200 .formBanner111200{display:none;}
-        #module111188 {z-index:509;}
-        #module111093 .formMiddle111093{padding-bottom:10px;}
-        #module111093 .formMiddle111093{padding-top:50px;}
-        #module111093 .formMiddle111093{padding-left:0px;}
-        #module111093 .formMiddle111093{padding-right:0px;}
-        #module111093 {background:rgba(0, 0, 0,0) url(home/static/images/wkgbs1s7b2yaaellaaanrjrcbim495.png)  no-repeat center center ;}
-        #module111093 .formMiddleContent111093{background:none;}
-        #module111093 .formMiddle111093 .formMiddleCenter111093{background:none;}
-        #module111093 .formMiddle111093{background:none;}
-        #module111093 .formBanner111093{display:none;}
-        #module110887 .formBanner110887{display:none;}
-        #module110887 .formMiddle110887{padding-right:0px;}
-        #module110887 .formMiddle110887{padding-left:0px;}
-        #module110887 .formMiddle110887{padding-top:50px;}
-        #module110887 .formMiddle110887{padding-bottom:10px;}
-        #module110976 .formBanner110976{display:none;}
-        #module110976 {margin-right:0px;}
-        #module110976 {margin-left:0px;}
-        #module110976 {margin-top:0px;}
-        #module110976 {margin-bottom:0px;}
-        #module110976 {padding-right:0px;}
-        #module110976 {padding-left:0px;}
-        #module110976 {padding-top:0px;}
-        #module110976 {padding-bottom:0px;}
-        #module110976 .formMiddle110976{padding-right:0px;}
-        #module110976 .formMiddle110976{padding-left:0px;}
-        #module110976 .formMiddle110976{padding-top:30px;}#module110976 .formMiddle110976{padding-bottom:0px;}
-        #module111101 .formBanner111101{display:none;}
-        #module111101 {width:1901px ;}
-        #module111101 {z-index:501;}
-        #module111102 .formBanner111102{display:none;}
-        #module111102 {width:1901px ;}
-        #module111102 {z-index:502;}
-        #module111103 .formBanner111103{display:none;}
-        #module111103 {width:1901px ;}
-        #module111103 {z-index:503;}
-        #module111104 .formBanner111104{display:none;}
-        #module111104 {width:1901px ;}
-        #module111104 {z-index:504;}
-        #module111105 .formBanner111105{display:none;}
-        #module111105 {width:1901px ;}
-        #module111105 {z-index:505;}
-        #module111106 .formBanner111106{display:none;}
-        #module111106 {width:1901px ;}
-        #module111106 {z-index:506;}
-        #module111093 {width:1098px ;}
-        #module111108 .formBanner111108{display:none;}
-        #module111108 {width:1098px ;}
-        #module111108 .formMiddle111108{background:none;}
-        #module111108 .formMiddle111108 .formMiddleCenter111108{background:none;}
-        #module111108 .formMiddleContent111108{background:none;}
-        #module111108 {background:#fff url(home/static/images/wkgbs1s7b4camfftaaanogrineg513.png)  no-repeat center center ;}
-        #module111108 .formMiddle111108{padding-right:0px;}
-        #module111108 .formMiddle111108{padding-left:0px;}
-        #module111108 .formMiddle111108{padding-top:50px;}
-        #module111108 .formMiddle111108{padding-bottom:10px;}
-        #module111113 .formBanner111113{display:none;}
-        #module111113 {border-right-width:5px;}
-        #module111113 {border-left-width:5px;}
-        #module111113 {border-top-width:5px;}
-        #module111113 {border-bottom-width:5px;}
-        #module111113 {border-color:rgba(57,57,160,1);}
-        #module111113 {border-style:solid;}
-        #module111113 {height:384px;}
-        #module111113 {width:190px ;}
-        #module111115 .formBanner111115{display:none;}
-        #module111115 {height:394px;}
-        #module111115 .formMiddle111115{background:none;}
-        #module111115 .formMiddle111115 .formMiddleCenter111115{background:none;}
-        #module111115 .formMiddleContent111115{background:none;}
-        #module111115 {background:rgba(57,57,160,1);}
-        #module111115 {width:350px ;}
-        #module111113 {z-index:100;}
-        #module111115 {z-index:501;}
-        #module111116 .formBanner111116{display:none;}
-        #module111116 {width:548px ;}
-        #module111116 {z-index:502;}
-        #module111120 .formBanner111120{display:none;}
-        #module111120 {width:570px ;}
-        #module111121 {width:160px ;}
-        #module111121 {z-index:503;}
-        #module111126 .formBanner111126{display:none;}
-        #module111126 {width:1901px ;}
-        #module111126 .formMiddle111126{background:none;}
-        #module111126 .formMiddle111126 .formMiddleCenter111126{background:none;}
-        #module111126 .formMiddleContent111126{background:none;}
-        #module111126 {background:rgba(0, 0, 0,0) url(home/static/images/wkgbs1s7b2yaaw-qaaanrmfkibs925.png)  no-repeat center center ;}
-        #module111126 .formMiddle111126{padding-right:0px;}
-        #module111126 .formMiddle111126{padding-left:0px;}
-        #module111126 .formMiddle111126{padding-top:50px;}
-        #module111126 .formMiddle111126{padding-bottom:10px;}
-        #module111185 .formBanner111185{display:none;}
-        #module111185 {z-index:501;}
-        #module111186 .formBanner111186{display:none;}
-        #module111186 {z-index:502;}
-        #module111187 .formBanner111187{display:none;}
-        #module111187 {z-index:503;}
-        #module111188 .formBanner111188{display:none;}
-        #module111185 {width:100px ;}
-        #module111186 {width:100px ;}
-        #module111187 {width:100px ;}
-        #module111188 {width:100px ;}
-        #module111190 .formBanner111190{display:none;}
-        #module111190 {z-index:505;}
-        #module111190 {width:257px ;}
-        #module111194 .formBanner111194{display:none;}
-        #module111194 {width:1901px ;}
-        #module111194 {z-index:506;}
-        #module111195 .formBanner111195{display:none;}
-        #module111195 {width:1901px ;}
-        #module111195 {z-index:507;}
-        #module111196 .formBanner111196{display:none;}
-        #module111196 {width:1901px ;}
-        #module111196 {z-index:508;}
-        #module110887 {width:1098px ;}
-        #module111104 .formMiddle111104{background:none;}
-        #module111104 .formMiddle111104 .formMiddleCenter111104{background:none;}
-        #module111104 .formMiddleContent111104{background:none;}
-        #module111106 .formMiddle111106{background:none;}
-        #module111106 .formMiddle111106 .formMiddleCenter111106{background:none;}
-        #module111106 .formMiddleContent111106{background:none;}
-        #module111105 .formMiddle111105{background:none;}
-        #module111105 .formMiddle111105 .formMiddleCenter111105{background:none;}
-        #module111105 .formMiddleContent111105{background:none;}
-        #module111113 .formMiddle111113{background:none;}
-        #module111113 .formMiddle111113 .formMiddleCenter111113{background:none;}
-        #module111113 .formMiddleContent111113{background:none;}
-        #module111190 .formMiddle111190{background:none;}
-        #module111190 .formMiddle111190 .formMiddleCenter111190{background:none;}
-        #module111190 .formMiddleContent111190{background:none;}
-        #module111195 .formMiddle111195{background:none;}
-        #module111195 .formMiddle111195 .formMiddleCenter111195{background:none;}
-        #module111195 .formMiddleContent111195{background:none;}
-        #module111196 .formMiddle111196{background:none;}
-        #module111196 .formMiddle111196 .formMiddleCenter111196{background:none;}
-        #module111196 .formMiddleContent111196{background:none;}
-        #module111194 .formMiddle111194{background:none;}
-        #module111194 .formMiddle111194 .formMiddleCenter111194{background:none;}
-        #module111194 .formMiddleContent111194{background:none;}
-        #row7801 {background-image:url(home/static/images/wkgbs1s7b22avtwiaaopfnxnujm766.jpg);}
-        #row7801 {background-position:center center;}
-        #row7801 {background-repeat:no-repeat;}
-        #row32613 {height:300px;}
-        #row76590 {background-repeat:no-repeat;}
-        #row76590 {background-position:center center;}
-        #row76590 {background-image:url(home/static/images/wkgbs1s7b22alskxaaalp8mgg-0853.png);}
-        #row7801 {height:402px;}
-        #row92 >div[class^='span']:nth-child(1){width:52%;}
-        #row92 >div[class^='span']:nth-child(2){width:48%;}
-        #row92 {height:471px;}
-        #row44085 {background-repeat:no-repeat;}
-        #row44085 {background-position:center center;}
-        #row44085 {background-image:url(home/static/images/wkgbs1s7b22afxbeaaiqszs2qfw225.jpg);}
-        #row44085 {height:561px;}
+        #module111221 {
+            width: 200px;
+        }
+
+        #module111221 {
+            z-index: 502;
+        }
+
+        #module111221 .formBanner111221 {
+            display: none;
+        }
+
+        #module111215 {
+            z-index: 501;
+        }
+
+        #modulenav228a00001 .itemSelected .itemName0 {
+            color: rgba(57, 57, 160, 1);
+        }
+
+        #modulenav228a00001 .itemHover .itemName0 {
+            color: rgba(57, 57, 160, 1);
+        }
+
+        #modulenav228a00001 .itemName0 {
+            font-size: 16px;
+        }
+
+        #modulenav228a00001 .mainnav {
+            height: 80px;
+        }
+
+        #modulenav228a00001 .navCenterContent {
+            height: 80px;
+        }
+
+        #modulenav228a00001 .navCenter {
+            height: 80px;
+        }
+
+        #modulenav228a00001 .itemContainer {
+            height: 80px;
+        }
+
+        #modulenav228a00001 {
+            height: px;
+        }
+
+        #modulenav228a00001 .navCenter a {
+            line-height: 80px;
+        }
+
+        #webBannerbk {
+            height: 80px;
+        }
+
+        #logo_picture img {
+            width: 100%;
+        }
+
+        #logo_picture img {
+            height: 100%;
+        }
+
+        #logo_picture {
+            width: 115.26829268292683px;
+        }
+
+        #logo_picture {
+            height: 34px;
+        }
+
+        #navigationBox1181 {
+            width: 1000px;
+        }
+
+        #modulenav228a00001 {
+            width: 0px;
+        }
+
+        #modulenav228a00001 .navContent {
+            width: 0px;
+        }
+
+        #modulenav228a00001 .navCenter {
+            width: 0;
+        }
+
+        #logo_picture {
+            left: 0px;
+        }
+
+        #logo_picture {
+            position: absolute;
+        }
+
+        #webFooterbk {
+            background: rgba(57, 57, 160, 1);
+        }
+
+        #webFooterbk #design_foot {
+            font-family: 微软雅黑;
+        }
+
+        #webFooterbk #design_foot {
+            font-size: 14px;
+        }
+
+        #webFooterbk #design_foot {
+            color: rgba(255, 255, 255, 1);
+        }
+
+        #webFooterbk #design_foot a {
+            font-family: 微软雅黑;
+        }
+
+        #webFooterbk #design_foot a {
+            font-size: 14px;
+        }
+
+        #webFooterbk #design_foot a {
+            color: rgba(255, 255, 255, 1);
+        }
+
+        #webFooterbk #design_foot a:hover {
+            color: rgba(255, 255, 255, 1);
+        }
+
+        #webFooterbk #design_foot {
+            padding-top: 200px;
+        }
+
+        #webFooterbk #design_foot {
+            padding-bottom: 0px;
+        }
+
+        #webFooterbk #design_foot {
+            padding-left: 0px;
+        }
+
+        #webFooterbk #design_foot {
+            padding-right: 0px;
+        }
+
+        #module111215 .formBanner111215 {
+            display: none;
+        }
+
+        #module111215 {
+            width: 233px;
+        }
+
+        #module111215 .formMiddle111215 {
+            background: none;
+        }
+
+        #module111215 .formMiddle111215 .formMiddleCenter111215 {
+            background: none;
+        }
+
+        #module111215 .formMiddleContent111215 {
+            background: none;
+        }
+
+        #modulenav228a00001 {
+            left: 430px;
+        }
+
+        #modulenav228a00001 {
+            top: -79px;
+        }
+
+        #multilanguage {
+            left: 984px;
+        }
+
+        #multilanguage {
+            position: absolute;
+        }
+
+        #multilanguage {
+            top: 22px;
+        }
+
+        #undefined {
+            height: 300px;
+        }
+
+        #module111201 .formMiddle111201 {
+            padding-bottom: 30px;
+        }
+
+        #module111201 .formMiddle111201 {
+            padding-top: 20px;
+        }
+
+        #module111201 .formMiddle111201 {
+            padding-left: 0px;
+        }
+
+        #module111201 .formMiddle111201 {
+            padding-right: 0px;
+        }
+
+        #module111201 {
+            padding-bottom: 0px;
+        }
+
+        #module111201 {
+            padding-top: 0px;
+        }
+
+        #module111201 {
+            padding-left: 0px;
+        }
+
+        #module111201 {
+            padding-right: 0px;
+        }
+
+        #module111201 {
+            margin-bottom: 0px;
+        }
+
+        #module111201 {
+            margin-top: 0px;
+        }
+
+        #module111201 {
+            margin-left: 0px;
+        }
+
+        #module111201 {
+            margin-right: 0px;
+        }
+
+        #module111201 {
+            height: 100%;
+        }
+
+        #module111201 .formBanner111201 {
+            display: none;
+        }
+
+        #module111200 .formMiddle111200 {
+            padding-bottom: 10px;
+        }
+
+        #module111200 .formMiddle111200 {
+            padding-top: 50px;
+        }
+
+        #module111200 .formMiddle111200 {
+            padding-left: 0px;
+        }
+
+        #module111200 .formMiddle111200 {
+            padding-right: 0px;
+        }
+
+        #module111200 {
+            background: rgba(0, 0, 0, 0) url(home/static/images/wkgbs1s7b4cawutdaaakhnkqsw4079.png) no-repeat center center;
+        }
+
+        #module111200 .formMiddleContent111200 {
+            background: none;
+        }
+
+        #module111200 .formMiddle111200 .formMiddleCenter111200 {
+            background: none;
+        }
+
+        #module111200 .formMiddle111200 {
+            background: none;
+        }
+
+        #module111200 {
+            width: 1098px;
+        }
+
+        #module111200 .formBanner111200 {
+            display: none;
+        }
+
+        #module111188 {
+            z-index: 509;
+        }
+
+        #module111093 .formMiddle111093 {
+            padding-bottom: 10px;
+        }
+
+        #module111093 .formMiddle111093 {
+            padding-top: 50px;
+        }
+
+        #module111093 .formMiddle111093 {
+            padding-left: 0px;
+        }
+
+        #module111093 .formMiddle111093 {
+            padding-right: 0px;
+        }
+
+        #module111093 {
+            background: rgba(0, 0, 0, 0) url(home/static/images/wkgbs1s7b2yaaellaaanrjrcbim495.png) no-repeat center center;
+        }
+
+        #module111093 .formMiddleContent111093 {
+            background: none;
+        }
+
+        #module111093 .formMiddle111093 .formMiddleCenter111093 {
+            background: none;
+        }
+
+        #module111093 .formMiddle111093 {
+            background: none;
+        }
+
+        #module111093 .formBanner111093 {
+            display: none;
+        }
+
+        #module110887 .formBanner110887 {
+            display: none;
+        }
+
+        #module110887 .formMiddle110887 {
+            padding-right: 0px;
+        }
+
+        #module110887 .formMiddle110887 {
+            padding-left: 0px;
+        }
+
+        #module110887 .formMiddle110887 {
+            padding-top: 50px;
+        }
+
+        #module110887 .formMiddle110887 {
+            padding-bottom: 10px;
+        }
+
+        #module110976 .formBanner110976 {
+            display: none;
+        }
+
+        #module110976 {
+            margin-right: 0px;
+        }
+
+        #module110976 {
+            margin-left: 0px;
+        }
+
+        #module110976 {
+            margin-top: 0px;
+        }
+
+        #module110976 {
+            margin-bottom: 0px;
+        }
+
+        #module110976 {
+            padding-right: 0px;
+        }
+
+        #module110976 {
+            padding-left: 0px;
+        }
+
+        #module110976 {
+            padding-top: 0px;
+        }
+
+        #module110976 {
+            padding-bottom: 0px;
+        }
+
+        #module110976 .formMiddle110976 {
+            padding-right: 0px;
+        }
+
+        #module110976 .formMiddle110976 {
+            padding-left: 0px;
+        }
+
+        #module110976 .formMiddle110976 {
+            padding-top: 30px;
+        }
+
+        #module110976 .formMiddle110976 {
+            padding-bottom: 0px;
+        }
+
+        #module111101 .formBanner111101 {
+            display: none;
+        }
+
+        #module111101 {
+            width: 1901px;
+        }
+
+        #module111101 {
+            z-index: 501;
+        }
+
+        #module111102 .formBanner111102 {
+            display: none;
+        }
+
+        #module111102 {
+            width: 1901px;
+        }
+
+        #module111102 {
+            z-index: 502;
+        }
+
+        #module111103 .formBanner111103 {
+            display: none;
+        }
+
+        #module111103 {
+            width: 1901px;
+        }
+
+        #module111103 {
+            z-index: 503;
+        }
+
+        #module111104 .formBanner111104 {
+            display: none;
+        }
+
+        #module111104 {
+            width: 1901px;
+        }
+
+        #module111104 {
+            z-index: 504;
+        }
+
+        #module111105 .formBanner111105 {
+            display: none;
+        }
+
+        #module111105 {
+            width: 1901px;
+        }
+
+        #module111105 {
+            z-index: 505;
+        }
+
+        #module111106 .formBanner111106 {
+            display: none;
+        }
+
+        #module111106 {
+            width: 1901px;
+        }
+
+        #module111106 {
+            z-index: 506;
+        }
+
+        #module111093 {
+            width: 1098px;
+        }
+
+        #module111108 .formBanner111108 {
+            display: none;
+        }
+
+        #module111108 {
+            width: 1098px;
+        }
+
+        #module111108 .formMiddle111108 {
+            background: none;
+        }
+
+        #module111108 .formMiddle111108 .formMiddleCenter111108 {
+            background: none;
+        }
+
+        #module111108 .formMiddleContent111108 {
+            background: none;
+        }
+
+        #module111108 {
+            background: #fff url(home/static/images/wkgbs1s7b4camfftaaanogrineg513.png) no-repeat center center;
+        }
+
+        #module111108 .formMiddle111108 {
+            padding-right: 0px;
+        }
+
+        #module111108 .formMiddle111108 {
+            padding-left: 0px;
+        }
+
+        #module111108 .formMiddle111108 {
+            padding-top: 50px;
+        }
+
+        #module111108 .formMiddle111108 {
+            padding-bottom: 10px;
+        }
+
+        #module111113 .formBanner111113 {
+            display: none;
+        }
+
+        #module111113 {
+            border-right-width: 5px;
+        }
+
+        #module111113 {
+            border-left-width: 5px;
+        }
+
+        #module111113 {
+            border-top-width: 5px;
+        }
+
+        #module111113 {
+            border-bottom-width: 5px;
+        }
+
+        #module111113 {
+            border-color: rgba(57, 57, 160, 1);
+        }
+
+        #module111113 {
+            border-style: solid;
+        }
+
+        #module111113 {
+            height: 384px;
+        }
+
+        #module111113 {
+            width: 190px;
+        }
+
+        #module111115 .formBanner111115 {
+            display: none;
+        }
+
+        #module111115 {
+            height: 394px;
+        }
+
+        #module111115 .formMiddle111115 {
+            background: none;
+        }
+
+        #module111115 .formMiddle111115 .formMiddleCenter111115 {
+            background: none;
+        }
+
+        #module111115 .formMiddleContent111115 {
+            background: none;
+        }
+
+        #module111115 {
+            background: rgba(57, 57, 160, 1);
+        }
+
+        #module111115 {
+            width: 350px;
+        }
+
+        #module111113 {
+            z-index: 100;
+        }
+
+        #module111115 {
+            z-index: 501;
+        }
+
+        #module111116 .formBanner111116 {
+            display: none;
+        }
+
+        #module111116 {
+            width: 548px;
+        }
+
+        #module111116 {
+            z-index: 502;
+        }
+
+        #module111120 .formBanner111120 {
+            display: none;
+        }
+
+        #module111120 {
+            width: 570px;
+        }
+
+        #module111121 {
+            width: 160px;
+        }
+
+        #module111121 {
+            z-index: 503;
+        }
+
+        #module111126 .formBanner111126 {
+            display: none;
+        }
+
+        #module111126 {
+            width: 1901px;
+        }
+
+        #module111126 .formMiddle111126 {
+            background: none;
+        }
+
+        #module111126 .formMiddle111126 .formMiddleCenter111126 {
+            background: none;
+        }
+
+        #module111126 .formMiddleContent111126 {
+            background: none;
+        }
+
+        #module111126 {
+            background: rgba(0, 0, 0, 0) url(home/static/images/wkgbs1s7b2yaaw-qaaanrmfkibs925.png) no-repeat center center;
+        }
+
+        #module111126 .formMiddle111126 {
+            padding-right: 0px;
+        }
+
+        #module111126 .formMiddle111126 {
+            padding-left: 0px;
+        }
+
+        #module111126 .formMiddle111126 {
+            padding-top: 50px;
+        }
+
+        #module111126 .formMiddle111126 {
+            padding-bottom: 10px;
+        }
+
+        #module111185 .formBanner111185 {
+            display: none;
+        }
+
+        #module111185 {
+            z-index: 501;
+        }
+
+        #module111186 .formBanner111186 {
+            display: none;
+        }
+
+        #module111186 {
+            z-index: 502;
+        }
+
+        #module111187 .formBanner111187 {
+            display: none;
+        }
+
+        #module111187 {
+            z-index: 503;
+        }
+
+        #module111188 .formBanner111188 {
+            display: none;
+        }
+
+        #module111185 {
+            width: 100px;
+        }
+
+        #module111186 {
+            width: 100px;
+        }
+
+        #module111187 {
+            width: 100px;
+        }
+
+        #module111188 {
+            width: 100px;
+        }
+
+        #module111190 .formBanner111190 {
+            display: none;
+        }
+
+        #module111190 {
+            z-index: 505;
+        }
+
+        #module111190 {
+            width: 257px;
+        }
+
+        #module111194 .formBanner111194 {
+            display: none;
+        }
+
+        #module111194 {
+            width: 1901px;
+        }
+
+        #module111194 {
+            z-index: 506;
+        }
+
+        #module111195 .formBanner111195 {
+            display: none;
+        }
+
+        #module111195 {
+            width: 1901px;
+        }
+
+        #module111195 {
+            z-index: 507;
+        }
+
+        #module111196 .formBanner111196 {
+            display: none;
+        }
+
+        #module111196 {
+            width: 1901px;
+        }
+
+        #module111196 {
+            z-index: 508;
+        }
+
+        #module110887 {
+            width: 1098px;
+        }
+
+        #module111104 .formMiddle111104 {
+            background: none;
+        }
+
+        #module111104 .formMiddle111104 .formMiddleCenter111104 {
+            background: none;
+        }
+
+        #module111104 .formMiddleContent111104 {
+            background: none;
+        }
+
+        #module111106 .formMiddle111106 {
+            background: none;
+        }
+
+        #module111106 .formMiddle111106 .formMiddleCenter111106 {
+            background: none;
+        }
+
+        #module111106 .formMiddleContent111106 {
+            background: none;
+        }
+
+        #module111105 .formMiddle111105 {
+            background: none;
+        }
+
+        #module111105 .formMiddle111105 .formMiddleCenter111105 {
+            background: none;
+        }
+
+        #module111105 .formMiddleContent111105 {
+            background: none;
+        }
+
+        #module111113 .formMiddle111113 {
+            background: none;
+        }
+
+        #module111113 .formMiddle111113 .formMiddleCenter111113 {
+            background: none;
+        }
+
+        #module111113 .formMiddleContent111113 {
+            background: none;
+        }
+
+        #module111190 .formMiddle111190 {
+            background: none;
+        }
+
+        #module111190 .formMiddle111190 .formMiddleCenter111190 {
+            background: none;
+        }
+
+        #module111190 .formMiddleContent111190 {
+            background: none;
+        }
+
+        #module111195 .formMiddle111195 {
+            background: none;
+        }
+
+        #module111195 .formMiddle111195 .formMiddleCenter111195 {
+            background: none;
+        }
+
+        #module111195 .formMiddleContent111195 {
+            background: none;
+        }
+
+        #module111196 .formMiddle111196 {
+            background: none;
+        }
+
+        #module111196 .formMiddle111196 .formMiddleCenter111196 {
+            background: none;
+        }
+
+        #module111196 .formMiddleContent111196 {
+            background: none;
+        }
+
+        #module111194 .formMiddle111194 {
+            background: none;
+        }
+
+        #module111194 .formMiddle111194 .formMiddleCenter111194 {
+            background: none;
+        }
+
+        #module111194 .formMiddleContent111194 {
+            background: none;
+        }
+
+        #row7801 {
+            background-image: url(home/static/images/wkgbs1s7b22avtwiaaopfnxnujm766.jpg);
+        }
+
+        #row7801 {
+            background-position: center center;
+        }
+
+        #row7801 {
+            background-repeat: no-repeat;
+        }
+
+        #row32613 {
+            height: 300px;
+        }
+
+        #row76590 {
+            background-repeat: no-repeat;
+        }
+
+        #row76590 {
+            background-position: center center;
+        }
+
+        #row76590 {
+            background-image: url(home/static/images/wkgbs1s7b22alskxaaalp8mgg-0853.png);
+        }
+
+        #row7801 {
+            height: 402px;
+        }
+
+        #row92 > div[class^='span']:nth-child(1) {
+            width: 52%;
+        }
+
+        #row92 > div[class^='span']:nth-child(2) {
+            width: 48%;
+        }
+
+        #row92 {
+            height: 471px;
+        }
+
+        #row44085 {
+            background-repeat: no-repeat;
+        }
+
+        #row44085 {
+            background-position: center center;
+        }
+
+        #row44085 {
+            background-image: url(home/static/images/wkgbs1s7b22afxbeaaiqszs2qfw225.jpg);
+        }
+
+        #row44085 {
+            height: 561px;
+        }
     </style>
 @endsection
 
@@ -507,13 +1185,13 @@
                                                     </div>
                                                     <div class="c-probottom">
                                                         <p class="propDiv price">
-                                                            <!-- <span class="propName">价格：{{ $product->o_price }}</span> -->
+                                                        <!-- <span class="propName">价格：{{ $product->o_price }}</span> -->
                                                             <span class="propValue"><b>¥</b>{{ $product->price }}</span>
                                                         </p>
                                                         <p class="porduct_title"><span>{{ $product->title }}</span></p>
                                                     </div>
                                                 </a>
-                                                <!-- <p class="propDiv inventoryNum">
+                                            <!-- <p class="propDiv inventoryNum">
                                         <span class="propName">库存：</span>
                                         <span class="propValue">{{ $product->total }}</span>
                                     </p> -->
@@ -1502,33 +2180,27 @@
                                 <div class="formMiddle formMiddle111120" style="">
                                     <div class="ztextbox"
                                          ondblclick="Site.editTextStyle($(&#39;#111120-moduleLayer .operate-inner&#39;));">
-                                        <span style="color:#3939a0;"><strong><span style="font-size:30px;"><span
-                                                            style="font-family:微软雅黑;"><span
-                                                                style="line-height:300%;">PINO</span><br><span
-                                                                style="line-height:200%;"></span></span></span></strong></span>
+                                        <span style="color:#3939a0;">
+                                            <strong>
+                                                <span style="font-size:30px;">
+                                                    <span style="font-family:微软雅黑;">
+                                                        <span style="line-height:300%;">LiZhiDa</span><br><span style="line-height:200%;"> </span>
+                                                    </span>
+                                                </span>
+                                            </strong>
+                                        </span>
                                         <p data-v-3c4f858a="" class="_tgt"
                                            style="box-sizing: border-box; margin: 0px; padding: 0px; font-size: 14px; line-height: 26px; font-family: Arial, &quot;Microsoft YaHei&quot;, &quot;\\5FAE软雅黑&quot;, &quot;\\5B8B体&quot;, &quot;Malgun Gothic&quot;, Meiryo, sans-serif; font-variant-numeric: normal; font-variant-east-asian: normal;">
-                                            <span style="line-height:250%;"><span style="font-size:15px;"><span
-                                                            data-v-3c4f858a="" data-group="0" style="box-sizing: border-box;">Pino以汽车零部件技术、品牌和服务为核心竞争力。</span><span
-                                                            data-v-3c4f858a="" data-group="-1" style="box-sizing: border-box;">自成立以来，<span
-                                                                style="font-family: Arial, &quot;Microsoft YaHei&quot;, &quot;\\5FAE软雅黑&quot;, &quot;\\5B8B体&quot;, &quot;Malgun Gothic&quot;, Meiryo, sans-serif;"><span
-                                                                    style="font-family: Arial, &quot;Microsoft YaHei&quot;, &quot;\\5FAE软雅黑&quot;, &quot;\\5B8B体&quot;, &quot;Malgun Gothic&quot;, Meiryo, sans-serif;">Pino</span></span>致力于以领先的技术开发产品，拓展市场和OEM服务。</span><span
-                                                            data-v-3c4f858a="" data-group="-2" style="box-sizing: border-box;">目前我们的主要产品有空调系统、发动机冷却系统、汽车电子等，适用于奔驰、宝马、奥迪、路虎、捷豹等欧洲豪华车品牌，并在业内享有盛誉。</span></span></span>
+                                            <span style="line-height:250%;">
+                                                <span style="font-size:15px;">
+                                                    <span data-v-3c4f858a="" data-group="0"
+                                                            style="box-sizing: border-box;">
+                                                        {{$about->description}}
+                                                    </span>
+                                                    </span>
+                                            </span>
                                         </p>
-                                        <p data-v-3c4f858a="" class="_tgt"
-                                           style="box-sizing: border-box; margin: 0px; padding: 0px; font-size: 14px; line-height: 26px; font-family: Arial, &quot;Microsoft YaHei&quot;, &quot;\\5FAE软雅黑&quot;, &quot;\\5B8B体&quot;, &quot;Malgun Gothic&quot;, Meiryo, sans-serif; font-variant-numeric: normal; font-variant-east-asian: normal;">
-                                            <span style="line-height:250%;"><span style="font-size:15px;"><span
-                                                            data-v-3c4f858a="" data-group="1"
-                                                            style="box-sizing: border-box;"></span></span></span></p>
-                                        <p data-v-3c4f858a="" class="_tgt"
-                                           style="box-sizing: border-box; margin: 0px; padding: 0px; font-size: 14px; line-height: 26px; font-family: Arial, &quot;Microsoft YaHei&quot;, &quot;\\5FAE软雅黑&quot;, &quot;\\5B8B体&quot;, &quot;Malgun Gothic&quot;, Meiryo, sans-serif; font-variant-numeric: normal; font-variant-east-asian: normal;">
-                                            <span style="line-height:250%;"><span style="font-size:15px;"><span
-                                                            data-v-3c4f858a="" data-group="2"
-                                                            style="box-sizing: border-box;"><span
-                                                                style="font-family: Arial, &quot;Microsoft YaHei&quot;, &quot;\\5FAE软雅黑&quot;, &quot;\\5B8B体&quot;, &quot;Malgun Gothic&quot;, Meiryo, sans-serif;">Pino</span>总部位于德国法兰克福，自2016年起进入中国市场。</span><span
-                                                            data-v-3c4f858a="" data-group="1" style="box-sizing: border-box;">我们为中国市场提供世界领先的技术，中国主要汽车制造商，tier1 OEM供应商和售后市场。</span></span></span>
-                                        </p><span style="color:#3939a0;"><strong><span style="font-size:30px;"><span
-                                                            style="font-family:微软雅黑;"></span></span></strong></span>
+                                        <span style="color:#3939a0;"><strong><span style="font-size:30px;"><span style="font-family:微软雅黑;"></span></span></strong></span>
 
 
                                     </div>
@@ -1559,7 +2231,7 @@
 ">
                             <div style="height: 100%;">
                                 <div class="buttonStyle1111121 buttonstyle_02" style="width: 100%;height: 100%;">
-                                    <a href="javascript:void(0);" style="
+                                    <a href="/about" style="
 
                     width: 100%;height: 100%;line-height: 40px;
                     background-color:rgb(222, 44, 46);                        background-color:rgba(57,57,160,1);
@@ -1651,7 +2323,7 @@
 
                                         <a href="javascript:void(0);">
 
-                                            <img src="home/static/picture/wkgbs1rgys-asvzaaab9eep2d4w119.jpg"
+                                            <img src="{{ $about->image }}"
                                                  id="111116preImg1" width="100%" height="100%">
 
 
@@ -2240,17 +2912,20 @@
                                             <span style="color:#ffffff;"><span style="font-family:微软雅黑;"><span
                                                             data-v-3c4f858a="" data-group="0"
                                                             style="box-sizing: border-box;"><span
-                                                                style="font-size:24px;">专注</span><br></span></span></span></p>
+                                                                style="font-size:24px;">专注</span><br></span></span></span>
+                                        </p>
                                         <p data-v-3c4f858a="" class="_tgt"
                                            style="box-sizing: border-box; margin: 0px; padding: 0px; font-size: 14px; line-height: 26px; font-family: Arial, &quot;Microsoft YaHei&quot;, &quot;\\5FAE软雅黑&quot;, &quot;\\5B8B体&quot;, &quot;Malgun Gothic&quot;, Meiryo, sans-serif; font-variant-numeric: normal; font-variant-east-asian: normal;">
                                             <span style="color:#ffffff;"><span style="font-family:微软雅黑;"><span
                                                             data-v-3c4f858a="" data-group="0"
-                                                            style="box-sizing: border-box;"><span style="font-size:14px;"><br>-重点关注德国高端车型的热系统产品。</span></span></span></span>
+                                                            style="box-sizing: border-box;"><span
+                                                                style="font-size:14px;"><br>-重点关注德国高端车型的热系统产品。</span></span></span></span>
                                         </p>
                                         <p data-v-3c4f858a="" class="_tgt"
                                            style="box-sizing: border-box; margin: 0px; padding: 0px; font-size: 14px; line-height: 26px; font-family: Arial, &quot;Microsoft YaHei&quot;, &quot;\\5FAE软雅黑&quot;, &quot;\\5B8B体&quot;, &quot;Malgun Gothic&quot;, Meiryo, sans-serif; font-variant-numeric: normal; font-variant-east-asian: normal;">
                                             <span style="color:#ffffff;"><span style="font-size:14px;"><span
-                                                            style="font-family:微软雅黑;"><span data-v-3c4f858a="" data-group="1"
+                                                            style="font-family:微软雅黑;"><span data-v-3c4f858a=""
+                                                                                            data-group="1"
                                                                                             style="box-sizing: border-box;">-专注于提供优质的产品和专业的服务。</span></span></span></span>
                                         </p>
 
@@ -2574,7 +3249,8 @@
                                            style="box-sizing: border-box; margin: 0px; padding: 0px; font-size: 14px; line-height: 26px; font-family: Arial, &quot;Microsoft YaHei&quot;, &quot;\\5FAE软雅黑&quot;, &quot;\\5B8B体&quot;, &quot;Malgun Gothic&quot;, Meiryo, sans-serif; font-variant-numeric: normal; font-variant-east-asian: normal; text-align: center;">
                                             <span style="color:#ffffff;"><span style="font-family:微软雅黑;"><span
                                                             data-v-3c4f858a="" data-group="0"
-                                                            style="box-sizing: border-box;"><span style="font-size:24px;">能力<br></span></span></span></span>
+                                                            style="box-sizing: border-box;"><span
+                                                                style="font-size:24px;">能力<br></span></span></span></span>
                                         </p>
                                         <p data-v-3c4f858a="" class="_tgt"
                                            style="box-sizing: border-box; margin: 0px; padding: 0px; font-size: 14px; line-height: 26px; font-family: Arial, &quot;Microsoft YaHei&quot;, &quot;\\5FAE软雅黑&quot;, &quot;\\5B8B体&quot;, &quot;Malgun Gothic&quot;, Meiryo, sans-serif; font-variant-numeric: normal; font-variant-east-asian: normal;">
@@ -2585,7 +3261,8 @@
                                         <p data-v-3c4f858a="" class="_tgt"
                                            style="box-sizing: border-box; margin: 0px; padding: 0px; font-size: 14px; line-height: 26px; font-family: Arial, &quot;Microsoft YaHei&quot;, &quot;\\5FAE软雅黑&quot;, &quot;\\5B8B体&quot;, &quot;Malgun Gothic&quot;, Meiryo, sans-serif; font-variant-numeric: normal; font-variant-east-asian: normal;">
                                             <span style="color:#ffffff;"><span style="font-family:微软雅黑;"><span
-                                                            data-v-3c4f858a="" data-group="1" style="box-sizing: border-box;">-可以通过与OE制造公司以及在热产品行业的售后市场参与者建立良好的联系来实现这个目标。</span></span></span>
+                                                            data-v-3c4f858a="" data-group="1"
+                                                            style="box-sizing: border-box;">-可以通过与OE制造公司以及在热产品行业的售后市场参与者建立良好的联系来实现这个目标。</span></span></span>
                                         </p>
 
 
@@ -2710,7 +3387,8 @@
                                            style="box-sizing: border-box; margin: 0px; padding: 0px; font-size: 14px; line-height: 26px; font-family: Arial, &quot;Microsoft YaHei&quot;, &quot;\\5FAE软雅黑&quot;, &quot;\\5B8B体&quot;, &quot;Malgun Gothic&quot;, Meiryo, sans-serif; font-variant-numeric: normal; font-variant-east-asian: normal; text-align: center;">
                                             <span style="color:#ffffff;"><span style="font-family:微软雅黑;"><span
                                                             data-v-3c4f858a="" data-group="0"
-                                                            style="box-sizing: border-box;"><span style="font-size:24px;">远见<br></span></span></span></span>
+                                                            style="box-sizing: border-box;"><span
+                                                                style="font-size:24px;">远见<br></span></span></span></span>
                                         </p>
                                         <p data-v-3c4f858a="" class="_tgt"
                                            style="box-sizing: border-box; margin: 0px; padding: 0px; font-size: 14px; line-height: 26px; font-family: Arial, &quot;Microsoft YaHei&quot;, &quot;\\5FAE软雅黑&quot;, &quot;\\5B8B体&quot;, &quot;Malgun Gothic&quot;, Meiryo, sans-serif; font-variant-numeric: normal; font-variant-east-asian: normal;">
@@ -2722,7 +3400,8 @@
                                         <p data-v-3c4f858a="" class="_tgt"
                                            style="box-sizing: border-box; margin: 0px; padding: 0px; font-size: 14px; line-height: 26px; font-family: Arial, &quot;Microsoft YaHei&quot;, &quot;\\5FAE软雅黑&quot;, &quot;\\5B8B体&quot;, &quot;Malgun Gothic&quot;, Meiryo, sans-serif; font-variant-numeric: normal; font-variant-east-asian: normal;">
                                             <span style="color:#ffffff;"><span style="font-family:微软雅黑;"><span
-                                                            data-v-3c4f858a="" data-group="1" style="box-sizing: border-box;">-寻找在中国市场拓展良好关系甚至组织的可能性。</span></span></span>
+                                                            data-v-3c4f858a="" data-group="1"
+                                                            style="box-sizing: border-box;">-寻找在中国市场拓展良好关系甚至组织的可能性。</span></span></span>
                                         </p>
 
 
@@ -2845,17 +3524,20 @@
 
                                         <div style="text-align: center;"><span style="color:#ffffff;"><span
                                                         style="font-family:微软雅黑;"><span
-                                                            style="font-size:24px;">经验<br></span><br></span></span></div>
+                                                            style="font-size:24px;">经验<br></span><br></span></span>
+                                        </div>
                                         <p data-v-3c4f858a="" class="_tgt"
                                            style="box-sizing: border-box; margin: 0px; padding: 0px; font-size: 14px; line-height: 26px; font-family: Arial, &quot;Microsoft YaHei&quot;, &quot;\\5FAE软雅黑&quot;, &quot;\\5B8B体&quot;, &quot;Malgun Gothic&quot;, Meiryo, sans-serif; font-variant-numeric: normal; font-variant-east-asian: normal;">
                                             <span style="color:#ffffff;"><span style="font-size:14px;"><span
-                                                            style="font-family:微软雅黑;"><span data-v-3c4f858a="" data-group="0"
+                                                            style="font-family:微软雅黑;"><span data-v-3c4f858a=""
+                                                                                            data-group="0"
                                                                                             style="box-sizing: border-box;">-在热产品行业从业13年以上。</span></span></span></span>
                                         </p>
                                         <p data-v-3c4f858a="" class="_tgt"
                                            style="box-sizing: border-box; margin: 0px; padding: 0px; font-size: 14px; line-height: 26px; font-family: Arial, &quot;Microsoft YaHei&quot;, &quot;\\5FAE软雅黑&quot;, &quot;\\5B8B体&quot;, &quot;Malgun Gothic&quot;, Meiryo, sans-serif; font-variant-numeric: normal; font-variant-east-asian: normal;">
                                             <span style="color:#ffffff;"><span style="font-size:14px;"><span
-                                                            style="font-family:微软雅黑;"><span data-v-3c4f858a="" data-group="1"
+                                                            style="font-family:微软雅黑;"><span data-v-3c4f858a=""
+                                                                                            data-group="1"
                                                                                             style="box-sizing: border-box;">-多年的市场经验和市场关系。</span></span></span></span>
                                         </p><span style="color:#ffffff;"><span
                                                     style="font-family:微软雅黑;"></span></span><br>
@@ -3109,247 +3791,93 @@
                                     </div>
                                 </div>
                                 <ul class="formMiddle formMiddle111201 list_style109">
-                                    <li>
-                                        <div class="formMiddleContent  formMiddleContent111201 contentLine">
-                                            <div class="style03_bot">
-                                                <a href="/"
-                                                   class="style03_botl" title="箱体式低噪音发电机参数" target="_blank">
+                                    @foreach ($news_list as $news)
+                                        @if ($loop->iteration%3==0)
+                                            <li>
+                                                <div class="formMiddleContent  formMiddleContent111201 contentLine">
+                                                    <div class="style03_bot">
+                                                        <a href="/news/show/{{ $news->id }}"
+                                                           class="style03_botl" title="{{ $news->title }}" target="_blank">
 
-                                                    <img src="home/static/picture/wkgbtfrgyfqarjpxaabbxyqljem136.jpg">
-                                                </a>
-                                            </div>
-                                            <div class="c-listcontent">
-                                                <div class="style03_botr">
-
-
-                                                    <!-- 头条推荐 -->
-                                                    <!-- 显示分类 -->
-                                                    <a class="list_title"
-                                                       href="/"
-                                                       title="箱体式低噪音发电机参数" target="_blank">
-
-                                                        <!-- 任燕龙修改 2016年12月20日18:22:03  由于 文章列表，常规选项中简短标题设置为不使用  结果：文章列表依旧显示简短标题-->
-                                                        <span style="">
-箱体式低噪音发电机参数	 </span>
-                                                    </a>
-
-                                                    <div class="content_text form_lineheight">
-
-                                                        箱体式低噪音发电机参数 我厂所销售出产品实行联保。应用外接充电器给电池充电，负责为所有的公司用户提供...
+                                                            <img src="{{ $news->image }}">
+                                                        </a>
                                                     </div>
-                                                    <!-- 后面左边显示日期 -->
-
-                                                    <!-- 后面右边显示日期 -->
-
-
-                                                </div>
-                                                <a class="c-more"
-                                                   href="/"
-                                                   target="_blank">more <i class="c-arrowleft">&gt;</i></a>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="formMiddleContent  formMiddleContent111201 contentLine">
-                                            <div class="style03_bot">
-                                                <a href="/"
-                                                   class="style03_botl" title="体积小20KW汽油发电机使用" target="_blank">
-
-                                                    <img src="home/static/picture/wkgbtfrgygoahjgfaabvsjm6ipy222.jpg">
-                                                </a>
-                                            </div>
-                                            <div class="c-listcontent">
-                                                <div class="style03_botr">
+                                                    <div class="c-listcontent">
+                                                        <div class="style03_botr">
 
 
-                                                    <!-- 头条推荐 -->
-                                                    <!-- 显示分类 -->
-                                                    <a class="list_title"
-                                                       href="/"
-                                                       title="体积小20KW汽油发电机使用" target="_blank">
+                                                            <!-- 头条推荐 -->
+                                                            <!-- 显示分类 -->
+                                                            <a class="list_title"
+                                                               href="/news/show/{{ $news->id }}"
+                                                               title="{{ $news->title }}" target="_blank">
 
-                                                        <!-- 任燕龙修改 2016年12月20日18:22:03  由于 文章列表，常规选项中简短标题设置为不使用  结果：文章列表依旧显示简短标题-->
-                                                        <span style="">
-体积小20KW汽油发电机使用	 </span>
-                                                    </a>
+                                                                <!-- 任燕龙修改 2016年12月20日18:22:03  由于 文章列表，常规选项中简短标题设置为不使用  结果：文章列表依旧显示简短标题-->
+                                                                <span style="">
+{{ $news->title }}	 </span>
+                                                            </a>
 
-                                                    <div class="content_text form_lineheight">
+                                                            <div class="content_text form_lineheight">
 
-                                                        它的特点是在原机械控制循环喷油量和喷油正时原理的基础上，改进更新机构功能，用线位移或角位移的电磁液压...
+                                                                {{ $news->description }}
+                                                            </div>
+                                                            <!-- 后面左边显示日期 -->
+
+                                                            <!-- 后面右边显示日期 -->
+
+
+                                                        </div>
+                                                        <a class="c-more"
+                                                           href="/news/show/{{ $news->id }}"
+                                                           target="_blank">more <i class="c-arrowleft">&gt;</i></a>
                                                     </div>
-                                                    <!-- 后面左边显示日期 -->
-
-                                                    <!-- 后面右边显示日期 -->
-
-
                                                 </div>
-                                                <a class="c-more"
-                                                   href="/"
-                                                   target="_blank">more <i class="c-arrowleft">&gt;</i></a>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="formMiddleContent  formMiddleContent111201 contentLine">
-                                            <div class="style03_bot">
-                                                <a href="/"
-                                                   class="style03_botl" title="2018上海国际橡胶工业展览会" target="_blank">
+                                            </li>
+                                       @else
+                                            <li>
+                                                <div class="formMiddleContent  formMiddleContent111201 contentLine">
+                                                    <div class="style03_bot">
+                                                        <a href="/news/show/{{ $news->id }}"
+                                                           class="style03_botl" title="{{ $news->title }}" target="_blank">
 
-                                                    <img src="home/static/picture/wkgbs1rgykgaiwhnaabhc1q4bcq765.jpg">
-                                                </a>
-                                            </div>
-                                            <div class="c-listcontent">
-                                                <div class="style03_botr">
-
-
-                                                    <!-- 头条推荐 -->
-                                                    <!-- 显示分类 -->
-                                                    <a class="list_title"
-                                                       href="/"
-                                                       title="2018上海国际橡胶工业展览会" target="_blank">
-
-                                                        <!-- 任燕龙修改 2016年12月20日18:22:03  由于 文章列表，常规选项中简短标题设置为不使用  结果：文章列表依旧显示简短标题-->
-                                                        <span style="">
-2018上海国际橡胶工业展览会	 </span>
-                                                    </a>
-
-                                                    <div class="content_text form_lineheight">
-
-                                                        2018上海（国际）塑料橡胶工业展览会 ShanghaiInternationalPlastic&amp;RubberIndustryExhibition2018
-                                                        时间：...
+                                                            <img src="{{ $news->image }}">
+                                                        </a>
                                                     </div>
-                                                    <!-- 后面左边显示日期 -->
-
-                                                    <!-- 后面右边显示日期 -->
-
-
-                                                </div>
-                                                <a class="c-more"
-                                                   href="/"
-                                                   target="_blank">more <i class="c-arrowleft">&gt;</i></a>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="formMiddleContent  formMiddleContent111201 contentLine">
-                                            <div class="style03_bot">
-                                                <a href="/"
-                                                   class="style03_botl" title="低压开关柜哪个品牌好" target="_blank">
-
-                                                    <img src="home/static/picture/wkgbtfrgygoaau_laaalcgxuyrm624.jpg">
-                                                </a>
-                                            </div>
-                                            <div class="c-listcontent">
-                                                <div class="style03_botr">
+                                                    <div class="c-listcontent">
+                                                        <div class="style03_botr">
 
 
-                                                    <!-- 头条推荐 -->
-                                                    <!-- 显示分类 -->
-                                                    <a class="list_title"
-                                                       href="/"
-                                                       title="低压开关柜哪个品牌好" target="_blank">
+                                                            <!-- 头条推荐 -->
+                                                            <!-- 显示分类 -->
+                                                            <a class="list_title"
+                                                               href="/news/show/{{ $news->id }}"
+                                                               title="{{ $news->title }}" target="_blank">
 
-                                                        <!-- 任燕龙修改 2016年12月20日18:22:03  由于 文章列表，常规选项中简短标题设置为不使用  结果：文章列表依旧显示简短标题-->
-                                                        <span style="">
-低压开关柜哪个品牌好	 </span>
-                                                    </a>
+                                                                <!-- 任燕龙修改 2016年12月20日18:22:03  由于 文章列表，常规选项中简短标题设置为不使用  结果：文章列表依旧显示简短标题-->
+                                                                <span style="">
+{{ $news->title }}	 </span>
+                                                            </a>
 
-                                                    <div class="content_text form_lineheight">
+                                                            <div class="content_text form_lineheight">
 
-                                                        制造业的发展空间正稳步增长，与人们追求高品质的生活有关。清晨，我们驶新能源车去工作，使用智能手机拍照...
+                                                                {{ $news->description }}
+                                                            </div>
+                                                            <!-- 后面左边显示日期 -->
+
+                                                            <!-- 后面右边显示日期 -->
+
+
+                                                        </div>
+                                                        <a class="c-more"
+                                                           href="/news/show/{{ $news->id }}"
+                                                           target="_blank">more <i class="c-arrowleft">&gt;</i></a>
                                                     </div>
-                                                    <!-- 后面左边显示日期 -->
-
-                                                    <!-- 后面右边显示日期 -->
-
-
                                                 </div>
-                                                <a class="c-more"
-                                                   href="/"
-                                                   target="_blank">more <i class="c-arrowleft">&gt;</i></a>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="formMiddleContent  formMiddleContent111201 contentLine">
-                                            <div class="style03_bot">
-                                                <a href="/"
-                                                   class="style03_botl" title="居然因高压开关柜这一举动，企业损失重大" target="_blank">
-
-                                                    <img src="home/static/picture/wkgbtfrgygoajrmcaaaajsamcbs643.jpg">
-                                                </a>
-                                            </div>
-                                            <div class="c-listcontent">
-                                                <div class="style03_botr">
+                                            </li>
+                                        @endif
+                                    @endforeach
 
 
-                                                    <!-- 头条推荐 -->
-                                                    <!-- 显示分类 -->
-                                                    <a class="list_title"
-                                                       href="/news"
-                                                       title="居然因高压开关柜这一举动，企业损失重大" target="_blank">
-
-                                                        <!-- 任燕龙修改 2016年12月20日18:22:03  由于 文章列表，常规选项中简短标题设置为不使用  结果：文章列表依旧显示简短标题-->
-                                                        <span style="">
-居然因高压开关柜这一举动，企业损失重大	 </span>
-                                                    </a>
-
-                                                    <div class="content_text form_lineheight">
-
-                                                        春季的天气变得忽冷忽热，人们容易流涕，登山的运动相当好，可以远离城市，呼吸到新鲜空气，五个小时的爬行...
-                                                    </div>
-                                                    <!-- 后面左边显示日期 -->
-
-                                                    <!-- 后面右边显示日期 -->
-
-
-                                                </div>
-                                                <a class="c-more"
-                                                   href=""
-                                                   target="_blank">more <i class="c-arrowleft">&gt;</i></a>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="formMiddleContent  formMiddleContent111201 contentLine">
-                                            <div class="style03_bot">
-                                                <a href=""
-                                                   class="style03_botl" title="仿威图机柜的行业定义及特点" target="_blank">
-
-                                                    <img src="home/static/picture/wkgbs1rgykcau-xzaaak2ekcehg599.jpg">
-                                                </a>
-                                            </div>
-                                            <div class="c-listcontent">
-                                                <div class="style03_botr">
-
-
-                                                    <!-- 头条推荐 -->
-                                                    <!-- 显示分类 -->
-                                                    <a class="list_title"
-                                                       href=""
-                                                       title="仿威图机柜的行业定义及特点" target="_blank">
-
-                                                        <!-- 任燕龙修改 2016年12月20日18:22:03  由于 文章列表，常规选项中简短标题设置为不使用  结果：文章列表依旧显示简短标题-->
-                                                        <span style="">
-仿威图机柜的行业定义及特点	 </span>
-                                                    </a>
-
-                                                    <div class="content_text form_lineheight">
-
-                                                        仿威图机柜通俗讲就是仿照德国威图柜做工精美的产品，威图的柜子表面处理要求高，防护等级高，不过现在国内...
-                                                    </div>
-                                                    <!-- 后面左边显示日期 -->
-
-                                                    <!-- 后面右边显示日期 -->
-
-
-                                                </div>
-                                                <a class="c-more"
-                                                   href=""
-                                                   target="_blank">more <i class="c-arrowleft">&gt;</i></a>
-                                            </div>
-                                        </div>
-                                    </li>
                                 </ul>
                             </div>
                             <form id="jvForm111201"

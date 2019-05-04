@@ -95,7 +95,7 @@
                                             <div id="preview">
                                                 <div class="big_pro_img jqzoom" id="spec-n1">
                                                     <img width="400" height="400"
-                                                         src="/home/static/picture/wkgbs1rgyxmagvalaaa0jer4lzy993.jpg"
+                                                         src="{{ $info->images[0] }}"
                                                          jqimg="/">
                                                 </div>
                                                 <div id="spec-n5" class="thumb_img">
@@ -104,26 +104,13 @@
                                                     </div>
                                                     <div id="spec-list" style="height: 76px;">
                                                         <ul class="list-h">
-                                                            <li onclick="showThumb(this);" class=""><img
-                                                                        alt="生活污水处理设备"
-                                                                        src="/home/static/picture/wKgBS1rgyXmAWlfPAAA5BuiZaz0565.jpg">
-                                                            </li>
-                                                            <li onclick="showThumb(this);" class=""><img
-                                                                        alt="生活污水处理设备"
-                                                                        src="/home/static/picture/wkgbs1rgyxmaf0heaaci79zn6nq539.jpg">
-                                                            </li>
-                                                            <li onclick="showThumb(this);" class=""><img
-                                                                        alt="生活污水处理设备"
-                                                                        src="/home/static/picture/wkgbs1rgyxmafq5aaabajdcdha4321.jpg">
-                                                            </li>
-                                                            <li onclick="showThumb(this);" class=""><img
-                                                                        alt="生活污水处理设备"
-                                                                        src="/home/static/picture/wKgBS1rgyXmAGQHzAABfzq3Uf5Y303.jpg">
-                                                            </li>
-                                                            <li onclick="showThumb(this);" class="current"><img
-                                                                        alt="生活污水处理设备"
-                                                                        src="/home/static/picture/wkgbs1rgyxmagvalaaa0jer4lzy993.jpg">
-                                                            </li>
+
+                                                            @foreach ($info->images as $img)
+                                                                <li onclick="showThumb(this);" class=""><img
+                                                                            alt="{{$info->title}}"
+                                                                            src="{{$img}}">
+                                                                </li>
+                                                            @endforeach
                                                         </ul>
                                                     </div>
                                                     <div class="control control_right" id="spec-right">
@@ -134,18 +121,18 @@
                                         </div>
                                         <div class="pro_introduce">
                                             <div class="c-g_minor">
-                                                <span>生活污水处理设备</span>
+                                                <span>{{$info->title}}</span>
                                             </div>
                                             <div class="pdLine"></div>
 
                                             <div class="ovh">
                                                 <div class="popvalue_list">
                                                     <div class="propName fl">库存：</div>
-                                                    <div class="propValue fl" id="inventory_num">99</div>
+                                                    <div class="propValue fl" id="inventory_num">{{$info->total}}</div>
                                                 </div>
                                                 <div class="popvalue_list">
                                                     <div class="propName fl">销量：</div>
-                                                    <div class="propValue fl" id="sales_num">2</div>
+                                                    <div class="propValue fl" id="sales_num">{{$info->sales}}</div>
                                                 </div>
                                                 <div class="popvalue_spec">
                                                     <div class="propName fl">规格：</div>
@@ -159,9 +146,9 @@
                                             <div class="popvalue_list price_list">
                                                 <div class="propName fl">价格：</div>
                                                 <div class="propValue fl"><b>￥</b><span class="c-nowprice"
-                                                                                        id="product_price">35000.00</span>
+                                                                                        id="product_price">￥{{$info->price}}</span>
                                                 </div>
-                                                <span class="c-marketprice">￥48000.00</span>
+                                                <span class="c-marketprice">￥{{$info->o_price}}</span>
                                             </div>
                                         </div>
                                     </div>
@@ -176,26 +163,7 @@
                                                 <div class="product_parameter">
                                                 </div>
                                                 <div class="detailInfo">
-                                                    <div>MBR一体化污水处理设备特点：<br>
-                                                        <br>
-                                                        MBR一体化污水处理设备是一种将高效膜分离技术与传统活性污泥法相结合的新型高效污水处理设备。它用膜组件代替传统活性污泥法(CAS)中的二沉池，大大提高了系统固液分离的能力，从而使系统出水水质和容积负荷都得到大幅度提高，出水可以作为中水回用。由于膜的过滤作用。微生物被完全截留在生物反应器中，实现了水力停留时间与活性污泥泥龄的彻底分离，消除了传统活性污泥法中污泥膨胀问题。出水能稳定达到或优于《城市污水再生利用·城市杂用水水质》GB/T18920—2002标准。<br>
-                                                        <br>
-                                                        设备特点：<br>
-                                                        <br>
-                                                        &nbsp; &nbsp;
-                                                        （1）采用高效菌种、高浓度活性污泥的CSBR，SBR工艺，系统内生物量是传统活性污泥法的3倍，污染物去除率高，脱氮效果好，出水完全可达一级A标准。<br>
-                                                        <br>
-                                                        &nbsp; &nbsp; （2）采用污泥零排放工艺，系统只需每年排渣一次。<br>
-                                                        <br>
-                                                        &nbsp; &nbsp;
-                                                        （3）安装方便，只需将提升泵放入调节池，循环泵放入沉淀池，出水管放至排水渠，接通电源，投加活性污泥和高效菌种即可运行，调试两周内即可达标，生化反应系统终生免维护。<br>
-                                                        <br>
-                                                        &nbsp; （4）采用全自动远程控制方式，运行操作简单，无需专业人员管理，实现真正意义上的无人值守。<br>
-                                                        <br>
-                                                        应用领域：&nbsp;<br>
-                                                        <br>
-                                                        包括住宅小区、乡镇农村、风景名胜区、高速公路服务区、机场、码头、工矿企业、其他污水难以收集的场所及尚未建设市政排污管网的区域的污水。处理后出水达到生活杂用水标准。
-                                                    </div>
+                                                    {!! $info->content !!}
                                                 </div>
                                             </div>
                                             <!--评论-->
@@ -279,7 +247,7 @@
         function ajaxAppraise(pageNo){
             var pn = pageNo;
             var product_id = "14018";
-            var baseUrl = "http://shebei01.mb.126net.cn";
+            var baseUrl = "http://www.lizhidasz.com";
             $.ajax({
                 url:baseUrl+'/ajaxAppraise.jspx',
                 type:'get',

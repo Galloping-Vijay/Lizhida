@@ -473,7 +473,7 @@
         }
 
         #module111242 {
-            background: rgba(0, 0, 0, 0) url(http://image.fast.126net.cn/group1/M00/03/9F/wKgBS1s7b3-AABUvAAANOGrInEg076.png) no-repeat center center;
+            background: rgba(0, 0, 0, 0) url(home/static/images/wkgbs1s7b4camfftaaanogrineg513.png) no-repeat center center;
         }
 
         #module111242 .formMiddle111242 {
@@ -900,7 +900,7 @@
 
                                         <a href="javascript:void(0);">
 
-                                            <img src="http://image.fast.126net.cn/group1/M00/02/33/wKgBS1rgyS-ASVZaAAB9EEp2D4w119.jpg"
+                                            <img src="{{ $info->image }}"
                                                  id="111251preImg1" width="100%" height="100%">
 
 
@@ -925,7 +925,7 @@
                                                    id="attrImageInitialHeight">
 
                                             <input type="hidden" name="attr_imageUrl"
-                                                   value="http://image.fast.126net.cn/group1/M00/02/33/wKgBS1rgyS-ASVZaAAB9EEp2D4w119.jpg"
+                                                   value="{{ $info->image }}"
                                                    id="uploadImgPath111251">
                                             <input type="hidden" name="attr_hoverEffect" value="0">
                                         </form>
@@ -1052,54 +1052,15 @@
                                                style="font-variant-numeric: normal; font-variant-east-asian: normal; box-sizing: border-box; margin: 0px; padding: 0px; font-size: 14px; line-height: 26px; font-family: Arial, &quot;Microsoft YaHei&quot;, &quot;\\5FAE软雅黑&quot;, &quot;\\5B8B体&quot;, &quot;Malgun Gothic&quot;, Meiryo, sans-serif; text-align: left;">
                                                 <span style="line-height: 35px;"><span style="font-size: 15px;"><span
                                                                 data-v-3c4f858a="" data-group="0"
-                                                                style="box-sizing: border-box;">&nbsp; &nbsp; &nbsp; </span></span><span
-                                                            style="font-size:15px;"><span data-v-3c4f858a=""
-                                                                                          data-group="0"
-                                                                                          style="box-sizing: border-box;">&nbsp; Pino以汽车零部件技术、品牌和服务为核心竞争力。</span><span
-                                                                data-v-3c4f858a="" data-group="-1"
-                                                                style="box-sizing: border-box;">自成立以来，Pino致力于以领先的技术开发产品，拓展市场和OEM服务。</span><span
-                                                                data-v-3c4f858a="" data-group="-2"
-                                                                style="box-sizing: border-box;">目前我们的主要产品有空调系统、发动机冷却系统、汽车电子等，适用于奔驰、宝马、奥迪、路虎、捷豹等欧洲豪华车品牌，并在业内享有盛誉。</span></span></span>
+                                                                style="box-sizing: border-box;">&nbsp; &nbsp; &nbsp; </span></span>
+                                                    <span style="font-size:15px;">
+                                                        <span data-v-3c4f858a="" data-group="0" style="box-sizing: border-box;">&nbsp;
+                                                            {!! $info->content !!}
+                                                        </span>
+                                         </span></span>
                                             </p>
-                                            <p data-v-3c4f858a="" class="_tgt"
-                                               style="font-variant-numeric: normal; font-variant-east-asian: normal; box-sizing: border-box; margin: 0px; padding: 0px; font-size: 14px; line-height: 26px; font-family: Arial, &quot;Microsoft YaHei&quot;, &quot;\\5FAE软雅黑&quot;, &quot;\\5B8B体&quot;, &quot;Malgun Gothic&quot;, Meiryo, sans-serif; text-align: left;">
-                                                <span style="font-size:15px;"><span style="line-height: 35px;"><span
-                                                                data-v-3c4f858a="" data-group="0"
-                                                                style="box-sizing: border-box;">&nbsp; &nbsp; &nbsp; &nbsp; Pino以汽车零部件技术、品牌和服务为核心竞争力。</span><span
-                                                                data-v-3c4f858a="" data-group="-1"
-                                                                style="box-sizing: border-box;">自成立以来，Pino致力于以领先的技术开发产品，拓展市场和OEM服务。</span><span
-                                                                data-v-3c4f858a="" data-group="-2"
-                                                                style="box-sizing: border-box;">目前我们的主要产品有空调系统、发动机冷却系统、汽车电子等，适用于奔驰、宝马、奥迪、路虎、捷豹等欧洲豪华车品牌，并在业内享有盛誉。</span></span></span>
-                                            </p>
-                                            <p data-v-3c4f858a="" class="_tgt"
-                                               style="font-variant-numeric: normal; font-variant-east-asian: normal; box-sizing: border-box; margin: 0px; padding: 0px; font-size: 14px; line-height: 26px; font-family: Arial, &quot;Microsoft YaHei&quot;, &quot;\\5FAE软雅黑&quot;, &quot;\\5B8B体&quot;, &quot;Malgun Gothic&quot;, Meiryo, sans-serif; text-align: left;">
-                                                <span style="font-size:15px;"><span style="line-height: 35px;"><span
-                                                                data-v-3c4f858a="" data-group="1"
-                                                                style="box-sizing: border-box;"></span></span></span>
-                                            </p>
-                                            <p data-v-3c4f858a="" class="_tgt"
-                                               style="font-variant-numeric: normal; font-variant-east-asian: normal; box-sizing: border-box; margin: 0px; padding: 0px; font-size: 14px; line-height: 26px; font-family: Arial, &quot;Microsoft YaHei&quot;, &quot;\\5FAE软雅黑&quot;, &quot;\\5B8B体&quot;, &quot;Malgun Gothic&quot;, Meiryo, sans-serif; text-align: left;">
-                                                <span style="font-size:15px;"><span style="line-height: 35px;"><span
-                                                                data-v-3c4f858a="" data-group="2"
-                                                                style="box-sizing: border-box;">&nbsp; &nbsp; &nbsp; &nbsp; Pino总部位于德国法兰克福，自2016年起进入中国市场。</span><span
-                                                                data-v-3c4f858a="" data-group="1"
-                                                                style="box-sizing: border-box;">我们为中国市场提供世界领先的技术，中国主要汽车制造商，tier1 OEM供应商和售后市场。</span></span></span>
-                                            </p>
-                                            <p data-v-3c4f858a="" class="_tgt"
-                                               style="font-variant-numeric: normal; font-variant-east-asian: normal; box-sizing: border-box; margin: 0px; padding: 0px; font-size: 14px; line-height: 26px; font-family: Arial, &quot;Microsoft YaHei&quot;, &quot;\\5FAE软雅黑&quot;, &quot;\\5B8B体&quot;, &quot;Malgun Gothic&quot;, Meiryo, sans-serif; text-align: left;">
-                                                <span style="font-size:15px;"><span style="line-height: 35px;"><span
-                                                                data-v-3c4f858a="" data-group="0"
-                                                                style="box-sizing: border-box;">&nbsp; &nbsp; &nbsp; &nbsp;Pino以汽车零部件技术、品牌和服务为核心竞争力。</span><span
-                                                                data-v-3c4f858a="" data-group="-1"
-                                                                style="box-sizing: border-box;">自成立以来，Pino致力于以领先的技术开发产品，拓展市场和OEM服务。</span><span
-                                                                data-v-3c4f858a="" data-group="-2"
-                                                                style="box-sizing: border-box;">目前我们的主要产品有空调系统、发动机冷却系统、汽车电子等，适用于奔驰、宝马、奥迪、路虎、捷豹等欧洲豪华车品牌，并在业内享有盛誉。</span></span></span><span
-                                                        style="font-size:14px;"><span style="line-height: 35px;"><span
-                                                                data-v-3c4f858a="" data-group="1"
-                                                                style="box-sizing: border-box;"></span></span></span>
-                                            </p><span style="color:#3939a0;"><span
-                                                        style="font-size:18px;"></span></span></div>
-
+                                            <span style="color:#3939a0;"><span style="font-size:18px;"></span></span>
+                                        </div>
 
                                     </div>
                                 </div>

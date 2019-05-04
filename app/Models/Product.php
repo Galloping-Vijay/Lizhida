@@ -12,4 +12,12 @@ class Product extends Model
     {
         return 'LZD' . time();
     }
+
+    /**
+     * 获取博客文章的评论
+     */
+    public function imge()
+    {
+        return $this->hasMany('App\Models\ProductImge', 'p_id', 'id');
+    }
 }
