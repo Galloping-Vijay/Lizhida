@@ -62,7 +62,11 @@ class ArticleController extends Controller
         $model->subtitle = $parem['subtitle'];
         $model->description = $parem['description'];
         $model->content = $parem['content'];
-        $model->image = empty($_SERVER['HTTPS']) ? 'http://' : 'https://' . $_SERVER["HTTP_HOST"] . $parem['image'];
+        if (strpos($parem['image'], 'http') !== false) {
+            $model->image = $parem['image'];
+        } else {
+            $model->image = empty($_SERVER['HTTPS']) ? 'http://' : 'https://' . $_SERVER["HTTP_HOST"] . $parem['image'];
+        }
         $model->type = $parem['type'] ?? 1;
 
         $res = $model->save();

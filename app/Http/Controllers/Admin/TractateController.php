@@ -60,7 +60,11 @@ class TractateController extends Controller
         $model = new News();
         $model->title = $parem['title'];
         $model->description = $parem['description'];
-        $model->image = empty($_SERVER['HTTPS']) ? 'http://' : 'https://' . $_SERVER["HTTP_HOST"] . $parem['image'];
+        if (strpos($parem['image'], 'http') !== false) {
+            $model->image = $parem['image'];
+        } else {
+            $model->image = empty($_SERVER['HTTPS']) ? 'http://' : 'https://' . $_SERVER["HTTP_HOST"] . $parem['image'];
+        }
         $model->type = $parem['type'] ?? 2;
 
         $res = $model->save();

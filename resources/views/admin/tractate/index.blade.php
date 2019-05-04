@@ -1,5 +1,15 @@
 @extends('admin.public.layout')
 
+@section('styles')
+    <style>
+        
+
+        .layui-table-cell{
+            height: 80px !important;
+        }
+    </style>
+@endsection
+
 @section('content')
     <div id="apps" class="container">
         <table class="layui-hide" id="tractate" lay-filter="tractate"></table>
@@ -23,7 +33,7 @@
             var table = layui.table;
             var tag_token = $("input[name='_token']").val();
             var filter = 'tractate';
-            var layer =  layui.layer;
+            var layer = layui.layer;
             table.render({
                 elem: '#' + filter
                 , url: '/admin/tractate'
@@ -33,9 +43,11 @@
                 , cols: [[
                     {field: 'id', width: '10%', title: 'ID'}
                     , {field: 'title', width: '20%', title: '标题'}
-                     ,{field:'image', title:'略缩图', width:150,  templet: function(res){
-                             return '<img src="'+res.image+'" height="100" width="100">'
-                         }}
+                    , {
+                        field: 'image', title: '略缩图', width: '10%', style: "height:100px;", templet: function (res) {
+                            return '<img  class="icon" src="' + res.image + '" height="80" width="80">'
+                        }
+                    }
                     , {field: 'description', width: '20%', title: '内容'}
                     , {field: 'created_at', width: '20%', title: '创建时间'}
                     , {title: '操作', width: '20%', toolbar: '#barDemo'}
@@ -48,17 +60,17 @@
             table.on('tool(' + filter + ')', function (obj) {
                 var data = obj.data;
                 if (obj.event === 'del') {
-                    if(data.id ===7){
+                    if (data.id === 7) {
                         layer.msg('关于我们只能修改,不能删除');
                         return false;
-                    }else if(data.id ===8){
+                    } else if (data.id === 8) {
                         layer.msg('联系我们只能修改,不能删除');
                         return false;
                     }
                     layer.confirm('确定删除此文章？', function (index) {
                         $.ajax({
                             url: '/admin/tractate/destroy'
-                            , data:{id:data.id,_token: tag_token}
+                            , data: {id: data.id, _token: tag_token}
                             , method: 'POST'
                             , success: function (res) {
                                 if (res.code == 0) {
@@ -76,7 +88,7 @@
 
                     });
                 } else if (obj.event === 'edit') {
-                    location.href = '/admin/tractate/edit?id='+data.id;
+                    location.href = '/admin/tractate/edit?id=' + data.id;
                 }
             });
 
