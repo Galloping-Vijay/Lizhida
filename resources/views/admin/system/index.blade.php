@@ -91,6 +91,7 @@
                         if (res.code == 0) {
                             //登入成功的提示与跳转
                             layer.msg('操作成功');
+                            location.href = '/admin';
                         } else {
                             layer.msg('操作失败');
                         }

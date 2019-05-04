@@ -366,7 +366,7 @@
 
 
                                 </div>
-                                <div class="c-copyright"><span style="color:#ffffff;">Copyright © 深圳励致达科技有限公司</span><br>
+                                <div class="c-copyright"><span style="color:#ffffff;">Copyright © {{ $site_icp }}</span><br>
                                 </div>
                                 <div class="support"><span class="yanshi_stip" style="color: rgb(255, 255, 255);"></span>
 
@@ -538,9 +538,9 @@
                                         <div style="text-align: center;"><span style="line-height:300%;"><span
                                                         style="color:#ffffff;"><span style="font-family:微软雅黑;"><span
                                                                 style="font-size:26px;"><span style="white-space: pre-wrap;"><span
-                                                                        style="white-space: pre-wrap;">深圳励致达</span></span></span><span
+                                                                        style="white-space: pre-wrap;">{{$site_name}}</span></span></span><span
                                                                 style="font-size: 12px; white-space: pre-wrap;"></span><br><span
-                                                                style="font-size:14px;"><span style="white-space: pre-wrap;"> http://www.lizhidasz.com </span></span></span></span></span>
+                                                                style="font-size:14px;"><span style="white-space: pre-wrap;">—— {{$site_host}} ——</span></span></span></span></span>
                                         </div>
 
 

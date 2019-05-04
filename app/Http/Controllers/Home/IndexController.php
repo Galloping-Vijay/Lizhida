@@ -12,6 +12,15 @@ class IndexController extends Controller
 {
     public function index()
     {
+        //获取产品6个
+        $product_list = DB::table('products')
+            ->where('products.status', '=', '1')
+            ->leftJoin('product_imges', 'product_imges.p_id', '=', 'products.id')
+            ->groupBy('product_imges.p_id')
+            ->orderBy('products.id', 'desc')
+            ->take(6)
+            ->select('products.id','products.title','product_imges.url')
+            ->get();
         return view('home.index.index');
     }
 
@@ -28,6 +37,6 @@ class IndexController extends Controller
     public function test(Request $request)
     {
         url()->current();
-        dd( url()->previous(false));
+        dd(url()->previous(false));
     }
 }
