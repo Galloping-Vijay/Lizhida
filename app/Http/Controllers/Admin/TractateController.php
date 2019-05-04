@@ -59,9 +59,7 @@ class TractateController extends Controller
         $parem = $request->input();
         $model = new News();
         $model->title = $parem['title'];
-        $model->subtitle = $parem['subtitle'];
         $model->description = $parem['description'];
-        $model->content = $parem['content'];
         $model->image = empty($_SERVER['HTTPS']) ? 'http://' : 'https://' . $_SERVER["HTTP_HOST"] . $parem['image'];
         $model->type = $parem['type'] ?? 2;
 
@@ -110,9 +108,7 @@ class TractateController extends Controller
         $parem = $request->input();
         $info = News::find($parem['id']);
         $info->title = $parem['title'];
-        $info->subtitle = $parem['subtitle'];
         $info->description = $parem['description'];
-        $info->content = $parem['content'];
         if (strpos($parem['image'], 'http') !== false) {
             $info->image = $parem['image'];
         } else {
